@@ -1,0 +1,2673 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 220, 181)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "d2fb7f4b-cd9a-4f23-97f9-9293615ffc9a",
+                    "e2b139cc-dbfc-4330-9e1a-68981471bd40",
+                    "1fe77c4d-53a9-4186-89e9-907db93de2a0",
+                    "0881f29c-8e9f-4d98-bcda-41f340ad5033",
+                    "79d74d67-a108-41db-b8f3-4ef11671a8a6",
+                    "6cb78583-1a64-4e57-9b5b-38120e12feeb",
+                    "df3f013d-df53-477d-941a-e716732fe9bf",
+                    "e481d299-4262-4477-bdfc-f94e426fcf65",
+                    "59cd1c3d-ab8c-42cf-ab7b-9ae63b40ce94",
+                    "8a240a33-c230-47fd-8fb2-07275ca2629f",
+                    "d24739fd-6661-44c3-949f-5cd587b46d15",
+                    "b2acdd49-480a-4e29-ba72-dfddb41bc2a9",
+                    "73e498c5-91dd-4fd9-9a42-f20f6ab23ce6",
+                    "60b7e6d4-8e74-4458-85b3-5fc8b2557a3b",
+                    "0e0a33a5-76bc-4676-9961-a296584c7534",
+                    "6629625e-9612-45e1-a9aa-bf241d2c1ffc",
+                    "d00ee075-1986-4ae4-b421-c35d3045b744",
+                    "71d857b5-9afc-4570-8893-2f3092b88b28",
+                    "bb40abb5-e34d-40c0-a050-d7bb8556eab1",
+                    "22afe0a0-b72f-4384-bd31-97b94f1fb2d3",
+                    "a6d42f7e-2333-48f8-825a-514d98b13b25",
+                    "d890a0d2-4059-4119-bbbd-5f0344e4890b",
+                    "d3201eee-0af9-47ef-846f-b26c7ba5d91c",
+                    "90e31d4e-159f-4355-b50d-55fc6631b763",
+                    "fdb9daa4-9ab2-4d3c-96fa-6ccb4168d93c",
+                    "8653390d-379b-4b7d-8559-e19fffa103f1"
+                ],
+                "parent": null
+            },
+            "d2fb7f4b-cd9a-4f23-97f9-9293615ffc9a": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(102, 58, 34)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -15.797788309636644,
+                        "y": -9.78515007898892,
+                        "width": 891.7535545023696,
+                        "height": 1038.135860979463
+                    },
+                    "position": {
+                        "x": -52.76447325377395,
+                        "y": -24.29536625373551
+                    },
+                    "roundedCorners": 0
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "e2b139cc-dbfc-4330-9e1a-68981471bd40": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/CFJ0AJ3.jpg",
+                        "thumb": "https://i.imgur.com/CFJ0AJ3m.jpg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 1157.523098281392,
+                            "height": 1736.2846474220885
+                        },
+                        "position": {
+                            "x": -335.0704061604536,
+                            "y": -593.0325598572044
+                        }
+                    },
+                    "scale": 0.6934154818325435,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 41.037914691943115,
+                        "y": 593.7172195892574,
+                        "width": 346.70774091627175,
+                        "height": 346.70774091627175
+                    },
+                    "clipPath": "path(\"M 500 250.002 c 0 138.065 -111.931 249.996 -250 249.996 c -138.071 0 -250 -111.931 -250 -249.996 C 0 111.93 111.929 0 250 0 s 250 111.93 250 250.002 Z\")",
+                    "position": {
+                        "x": 41.037914691943115,
+                        "y": 565.2180094786729
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "1fe77c4d-53a9-4186-89e9-907db93de2a0": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Alata;font-size: 36px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">Drink &amp; Refreshment</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Alata",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Alata/Alata-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 60.84834123222761,
+                        "y": 184.00315955766192,
+                        "width": 472.3783570300159,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 49.18957345971576,
+                        "y": 248.77409162717217
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "0881f29c-8e9f-4d98-bcda-41f340ad5033": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Alatsi;font-size: 80px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">LIQUID COFFEE</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Alatsi",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Alatsi/Alatsi-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "effect": {
+                        "name": "lift",
+                        "settings": {
+                            "intensity": 50
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 51.34755134281203,
+                        "y": 65.71406003159557,
+                        "width": 643.3605845181668,
+                        "height": 112
+                    },
+                    "position": {
+                        "x": 48.75671406003162,
+                        "y": 144.73459715639808
+                    },
+                    "fontSizes": [
+                        80
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "79d74d67-a108-41db-b8f3-4ef11671a8a6": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Alata;font-size: 36px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">+123456789997</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Alata",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Alata/Alata-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 52.712480252764735,
+                        "y": 423.2922590837282,
+                        "width": 346.5410742496051,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 52.712480252764735,
+                        "y": 423.2922590837282
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "6cb78583-1a64-4e57-9b5b-38120e12feeb": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aleo;font-size: 36px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(102, 58, 34);\">SHAKE</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Aleo",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 928.052132701422,
+                        "y": 117.21011058451812,
+                        "width": 331.5410742496051,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 928.052132701422,
+                        "y": 117.21011058451812
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "df3f013d-df53-477d-941a-e716732fe9bf": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Strawberry</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 930.2796208530808,
+                        "y": 184.20853080568716,
+                        "width": 427.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 930.2796208530808,
+                        "y": 184.20853080568716
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "e481d299-4262-4477-bdfc-f94e426fcf65": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1362.586097946288,
+                        "y": 185.1406003159557
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "59cd1c3d-ab8c-42cf-ab7b-9ae63b40ce94": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Peach</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 934.7345971563982,
+                        "y": 241.7756714060031
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "8a240a33-c230-47fd-8fb2-07275ca2629f": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1363.1548183254347,
+                        "y": 242.7077409162717
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "d24739fd-6661-44c3-949f-5cd587b46d15": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Peach</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 936.5987361769354,
+                        "y": 309.70616113744074
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "b2acdd49-480a-4e29-ba72-dfddb41bc2a9": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1359.8372827804112,
+                        "y": 309.3428120063191
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "73e498c5-91dd-4fd9-9a42-f20f6ab23ce6": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Mango</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 933.2812006319116,
+                        "y": 373.7503949447077
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "60b7e6d4-8e74-4458-85b3-5fc8b2557a3b": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1360.4060031595582,
+                        "y": 374.68246445497624
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "0e0a33a5-76bc-4676-9961-a296584c7534": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Green Tea</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 931.259083728278,
+                        "y": 436.4992101105845
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "6629625e-9612-45e1-a9aa-bf241d2c1ffc": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1359.6793048973143,
+                        "y": 437.431279620853
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "d00ee075-1986-4ae4-b421-c35d3045b744": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aleo;font-size: 36px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(102, 58, 34);\">COFFEE</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Aleo",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 47.53080568720392,
+                        "y": 348.1579778830963,
+                        "width": 341.5410742496051,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 925.09794628752,
+                        "y": 526.1990521327014
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "71d857b5-9afc-4570-8893-2f3092b88b28": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 618.3973143759878,
+                        "height": 34.93206951026866
+                    },
+                    "position": {
+                        "x": 935.09794628752,
+                        "y": 593.1974723538704
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "eefb6d86-a2db-469e-aa3a-50848bbaa16d",
+                    "38fccd21-b25b-4aa6-bb1b-443462837a5e"
+                ],
+                "parent": "ROOT"
+            },
+            "eefb6d86-a2db-469e-aa3a-50848bbaa16d": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aldrich; color: rgb(102, 58, 34); font-size: 28px; text-align: justify\">Espresso</p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 34
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "71d857b5-9afc-4570-8893-2f3092b88b28"
+            },
+            "38fccd21-b25b-4aa6-bb1b-443462837a5e": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aldrich; color: rgb(102, 58, 34); font-size: 28px; text-align: right\">$17</p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 34
+                    },
+                    "position": {
+                        "x": 421.94312796208567,
+                        "y": 0.9320695102686614
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "71d857b5-9afc-4570-8893-2f3092b88b28"
+            },
+            "bb40abb5-e34d-40c0-a050-d7bb8556eab1": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Americano</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 932.1437598736178,
+                        "y": 656.3096366508688
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "22afe0a0-b72f-4384-bd31-97b94f1fb2d3": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Late</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 934.3712480252766,
+                        "y": 720.7172195892575
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "a6d42f7e-2333-48f8-825a-514d98b13b25": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Cortado</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 930.1216429699844,
+                        "y": 783.8293838862559
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "d890a0d2-4059-4119-bbbd-5f0344e4890b": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1360.5639810426544,
+                        "y": 655.9462875197472
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "d3201eee-0af9-47ef-846f-b26c7ba5d91c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1361.496050552923,
+                        "y": 720.3538704581357
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "90e31d4e-159f-4355-b50d-55fc6631b763": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1361.1327014218016,
+                        "y": 783.4660347551342
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "fdb9daa4-9ab2-4d3c-96fa-6ccb4168d93c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">Hussam</span></strong></p>",
+                    "position": {
+                        "x": -95.93237155469426,
+                        "y": 290.0195283714075
+                    },
+                    "boxSize": {
+                        "width": 536.3009995574356,
+                        "height": 95,
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875
+                    },
+                    "scale": 1,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "8653390d-379b-4b7d-8559-e19fffa103f1": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 0.4426329904469636,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 324.2286655024008,
+                        "height": 193.87324981577004,
+                        "x": 453.75,
+                        "y": 243
+                    },
+                    "position": {
+                        "x": 230.99797124621048,
+                        "y": 290.0195283714075
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "9800eed8-bc4c-47e3-9725-bd27c092a1ba",
+                    "2220619c-b766-43a5-8ff3-e6a034fad706"
+                ],
+                "parent": "ROOT"
+            },
+            "9800eed8-bc4c-47e3-9725-bd27c092a1ba": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Libre Franklin; color: rgb(255, 223, 43); font-size: 20px; text-align: center\"><strong>BIG</strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Libre Franklin",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 9.5,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 424,
+                        "y": 257,
+                        "width": 732.5,
+                        "height": 266
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        20
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "8653390d-379b-4b7d-8559-e19fffa103f1"
+            },
+            "2220619c-b766-43a5-8ff3-e6a034fad706": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Libre Franklin; color: rgb(255, 223, 43); font-size: 20px; text-align: center\"><strong>SALE</strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Libre Franklin",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LibreFranklin/LibreFranklin-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 9.5,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "effect": {
+                        "name": "hollow",
+                        "settings": {
+                            "thickness": 50
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 421,
+                        "y": 423,
+                        "width": 732.5,
+                        "height": 266
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 172
+                    },
+                    "fontSizes": [
+                        20
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "8653390d-379b-4b7d-8559-e19fffa103f1"
+            }
+        }
+    },
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 87, 87)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [
+                    "98d0d331-e406-4476-94ca-6b4fcc39ab32",
+                    "111502a2-c117-4a08-a6d4-4871cae2bbf0",
+                    "70a34909-968d-4e96-9ac0-a1f2d8e7113c",
+                    "3645ee2b-07ab-49ad-a56d-dc9497c93499",
+                    "4634aa36-884d-4255-8a22-7e17320e8570",
+                    "83642b12-57d9-4a41-9f6c-80afd7577e87",
+                    "c859f197-4368-4d2d-96c0-d8f09bf3d18c",
+                    "27a0e793-49d3-4219-a9b6-6b2b3bba0061",
+                    "ad7606f1-8ad0-49eb-ba32-26a9803cab90",
+                    "f8fb50e0-d23b-4d8e-a8c7-50f6e9caa006",
+                    "d6f5376a-71ab-4fab-bb84-8d71fcf7355c",
+                    "c8f0580e-9470-4816-bb03-e19bc1a2f576",
+                    "2726361d-aa94-48c2-8a5b-2861495a1cd8",
+                    "a00a47ce-96a2-43e9-9ea0-5827c5d987f2",
+                    "c273500b-fcf2-47a9-be16-503b45e8221d",
+                    "f297cef3-bf7f-4e09-b90e-4f35276cec3a",
+                    "e897bdb6-440b-4de2-8323-40292a4e2f75",
+                    "e97413dc-f275-4f09-ac9c-0b41827404fe",
+                    "2a66c45d-d66a-4003-8150-d188251d30db",
+                    "9fdff895-a2f0-406c-9e78-1a348121b7b4",
+                    "48dc2c79-4713-4077-a62e-673dfe560380",
+                    "70f78baa-c3ec-4dbb-8760-865c2c58cf77",
+                    "b9ce5b2b-e864-4acc-8cd9-11bfda46787f",
+                    "88b3d100-5677-4113-9c0b-421d81ab2ba4"
+                ],
+                "parent": null
+            },
+            "98d0d331-e406-4476-94ca-6b4fcc39ab32": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(102, 58, 34)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -52.76447325377395,
+                        "y": 61.635961680176855,
+                        "width": 875.546862270524,
+                        "height": 1019.1480882626911
+                    },
+                    "position": {
+                        "x": -52.76447325377395,
+                        "y": 30.948854510199148
+                    },
+                    "roundedCorners": 0,
+                    "scale": 0.9818260413429026
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "111502a2-c117-4a08-a6d4-4871cae2bbf0": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/CFJ0AJ3.jpg",
+                        "thumb": "https://i.imgur.com/CFJ0AJ3m.jpg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 1157.523098281392,
+                            "height": 1736.2846474220885
+                        },
+                        "position": {
+                            "x": -335.0704061604536,
+                            "y": -593.0325598572044
+                        }
+                    },
+                    "scale": 0.6934154818325435,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 41.037914691943115,
+                        "y": 593.7172195892574,
+                        "width": 346.70774091627175,
+                        "height": 346.70774091627175
+                    },
+                    "clipPath": "path(\"M 500 250.002 c 0 138.065 -111.931 249.996 -250 249.996 c -138.071 0 -250 -111.931 -250 -249.996 C 0 111.93 111.929 0 250 0 s 250 111.93 250 250.002 Z\")",
+                    "position": {
+                        "x": 41.037914691943115,
+                        "y": 565.2180094786729
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "70a34909-968d-4e96-9ac0-a1f2d8e7113c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Alata;font-size: 36px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">+123456789997</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Alata",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Alata/Alata-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 52.712480252764735,
+                        "y": 423.2922590837282,
+                        "width": 346.5410742496051,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 52.712480252764735,
+                        "y": 423.2922590837282
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "3645ee2b-07ab-49ad-a56d-dc9497c93499": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aleo;font-size: 36px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(102, 58, 34);\">SHAKE</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Aleo",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 928.052132701422,
+                        "y": 117.21011058451812,
+                        "width": 331.5410742496051,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 928.052132701422,
+                        "y": 117.21011058451812
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "4634aa36-884d-4255-8a22-7e17320e8570": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Strawberry</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 930.2796208530808,
+                        "y": 184.20853080568716,
+                        "width": 427.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 930.2796208530808,
+                        "y": 184.20853080568716
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "83642b12-57d9-4a41-9f6c-80afd7577e87": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1362.586097946288,
+                        "y": 185.1406003159557
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c859f197-4368-4d2d-96c0-d8f09bf3d18c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Peach</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 934.7345971563982,
+                        "y": 241.7756714060031
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "27a0e793-49d3-4219-a9b6-6b2b3bba0061": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1363.1548183254347,
+                        "y": 242.7077409162717
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "ad7606f1-8ad0-49eb-ba32-26a9803cab90": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Peach</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 936.5987361769354,
+                        "y": 309.70616113744074
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "f8fb50e0-d23b-4d8e-a8c7-50f6e9caa006": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1359.8372827804112,
+                        "y": 309.3428120063191
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "d6f5376a-71ab-4fab-bb84-8d71fcf7355c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Mango</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 933.2812006319116,
+                        "y": 373.7503949447077
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c8f0580e-9470-4816-bb03-e19bc1a2f576": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1360.4060031595582,
+                        "y": 374.68246445497624
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2726361d-aa94-48c2-8a5b-2861495a1cd8": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Green Tea</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 931.259083728278,
+                        "y": 436.4992101105845
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "a00a47ce-96a2-43e9-9ea0-5827c5d987f2": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1359.6793048973143,
+                        "y": 437.431279620853
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c273500b-fcf2-47a9-be16-503b45e8221d": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aleo;font-size: 36px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(102, 58, 34);\">COFFEE</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Aleo",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aleo/Aleo-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 47.53080568720392,
+                        "y": 348.1579778830963,
+                        "width": 341.5410742496051,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 925.09794628752,
+                        "y": 526.1990521327014
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "f297cef3-bf7f-4e09-b90e-4f35276cec3a": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 618.3973143759878,
+                        "height": 34.93206951026866
+                    },
+                    "position": {
+                        "x": 935.09794628752,
+                        "y": 593.1974723538704
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "46109a2b-6073-4986-8a6f-d4d49b509d07",
+                    "6471cdfe-41ce-4008-9e39-9c3d012a7038"
+                ],
+                "parent": "ROOT"
+            },
+            "46109a2b-6073-4986-8a6f-d4d49b509d07": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aldrich; color: rgb(102, 58, 34); font-size: 28px; text-align: justify\">Espresso</p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 34
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "f297cef3-bf7f-4e09-b90e-4f35276cec3a"
+            },
+            "6471cdfe-41ce-4008-9e39-9c3d012a7038": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Aldrich; color: rgb(102, 58, 34); font-size: 28px; text-align: right\">$17</p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 34
+                    },
+                    "position": {
+                        "x": 421.94312796208567,
+                        "y": 0.9320695102686614
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "f297cef3-bf7f-4e09-b90e-4f35276cec3a"
+            },
+            "e897bdb6-440b-4de2-8323-40292a4e2f75": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Americano</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 932.1437598736178,
+                        "y": 656.3096366508688
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "e97413dc-f275-4f09-ac9c-0b41827404fe": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Late</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 934.3712480252766,
+                        "y": 720.7172195892575
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2a66c45d-d66a-4003-8150-d188251d30db": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: justify;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">Cortado</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 931.575039494471,
+                        "y": 182.91311216429693,
+                        "width": 439.9928909952607,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 930.1216429699844,
+                        "y": 783.8293838862559
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "9fdff895-a2f0-406c-9e78-1a348121b7b4": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1360.5639810426544,
+                        "y": 655.9462875197472
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "48dc2c79-4713-4077-a62e-673dfe560380": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1361.496050552923,
+                        "y": 720.3538704581357
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "70f78baa-c3ec-4dbb-8760-865c2c58cf77": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: right;font-family: Aldrich;font-size: 28px;color: rgb(102, 58, 34);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(102, 58, 34);\">$17</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Aldrich",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Aldrich/Aldrich-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(102, 58, 34)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1350.927330173776,
+                        "y": 182.5497630331753,
+                        "width": 196.45418641390216,
+                        "height": 39
+                    },
+                    "position": {
+                        "x": 1361.1327014218016,
+                        "y": 783.4660347551342
+                    },
+                    "fontSizes": [
+                        28
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "b9ce5b2b-e864-4acc-8cd9-11bfda46787f": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">Hussam</span></strong></p>",
+                    "position": {
+                        "x": -95.93237155469426,
+                        "y": 290.0195283714075
+                    },
+                    "boxSize": {
+                        "width": 536.3009995574356,
+                        "height": 95,
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875
+                    },
+                    "scale": 1,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "88b3d100-5677-4113-9c0b-421d81ab2ba4": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 0.5781522058147932,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 462.7071918236289,
+                        "height": 394.2097503076454,
+                        "x": -101.04466551035898,
+                        "y": 320.4627637112976
+                    },
+                    "position": {
+                        "x": -41.88753883962507,
+                        "y": 151.60128598361806
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "fa0e4146-7cb9-427c-b0a1-46c73902d7aa",
+                    "43198163-4d38-42a2-bfc6-235095da55be"
+                ],
+                "parent": "ROOT"
+            },
+            "fa0e4146-7cb9-427c-b0a1-46c73902d7aa": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Oswald; color: rgb(255, 102, 196); font-size: 42px; text-transform: uppercase; text-align: center\"><strong>Tuning</strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 4.285126560212017,
+                    "colors": [
+                        "rgb(255, 102, 196)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 397,
+                        "y": 97.2526323129432,
+                        "width": 800.3207237989052,
+                        "height": 252.822467052509
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        42
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "88b3d100-5677-4113-9c0b-421d81ab2ba4"
+            },
+            "43198163-4d38-42a2-bfc6-235095da55be": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Ultra; color: rgb(255, 102, 196); font-size: 18px; text-transform: uppercase; text-align: center\">22</p>",
+                    "fonts": [
+                        {
+                            "name": "Ultra",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Ultra/Ultra-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 21.856127538399335,
+                    "colors": [
+                        "rgb(255, 102, 196)"
+                    ],
+                    "effect": {
+                        "name": "hollow",
+                        "settings": {
+                            "thickness": 22
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 401.285126560212,
+                        "y": 234.6936820014305,
+                        "width": 791.5738477987601,
+                        "height": 546.4031884599833
+                    },
+                    "position": {
+                        "x": 4.3734380000726105,
+                        "y": 135.44104968848728
+                    },
+                    "fontSizes": [
+                        18
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "88b3d100-5677-4113-9c0b-421d81ab2ba4"
+            }
+        }
+    }
+]
