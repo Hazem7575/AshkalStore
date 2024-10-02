@@ -11,9 +11,9 @@ class TransformUnit
         if(isset($props['rotate'])) {
             $transform[] = 'rotate(' . $props['rotate'] . 'deg)';
         }
-        if(isset($props['scale'])) {
-            $transform[] = 'scale(' . $props['scale'] . ')';
-        }
+        // if(isset($props['scale'])) {
+        //     $transform[] = 'scale(' . $props['scale'] . ')';
+        // }
 
         if (!empty($transform)) {
             $style .= 'transform: ' . implode(' ', $transform) . '; ';

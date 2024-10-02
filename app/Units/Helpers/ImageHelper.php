@@ -26,6 +26,14 @@ class ImageHelper
     }
 
 
+/*************  ✨ Codeium Command ⭐  *************/
+    /**
+     * render
+     * 
+     * @param array $element
+     * @return string
+     */
+/******  97a3d67a-bdae-4044-a15f-5f84947c3db9  *******/
     public static function render($element)
     {
         $attrs = '';

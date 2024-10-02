@@ -5,6 +5,7 @@ namespace App\Units;
 use App\Units\Helpers\RenderElement;
 use App\Units\Layers\FrameLayer;
 use App\Units\Layers\GroupLayer;
+use App\Units\Layers\LineLayer;
 use App\Units\Layers\RootShape;
 use App\Units\Layers\ShapeLayer;
 use App\Units\Layers\SvgLayer;
@@ -29,10 +30,11 @@ class Json2HtmlUnit
         $html .= '<style>';
 
         foreach (self::$fonts as $fontName => $fontVariants) {
+
             foreach ($fontVariants as $variant) {
                 $html .= '@font-face {';
                 $html .= 'font-family: "' . $fontName . '"; ';
-                $html .= 'src: url("' . $variant['url'] . '"); ';
+                $html .= 'src: url("' . "https://corsproxy.io/?".$variant['url'] . '"); ';
                 if (isset($variant['style'])) {
                     if (strpos($variant['style'], 'Italic') !== false) {
                         $html .= 'font-style: italic; ';
@@ -57,6 +59,8 @@ class Json2HtmlUnit
         $html .= '</style>';
         return $html;
     }
+
+
 
 
     public static function children($child , $index, $collection)
@@ -90,6 +94,7 @@ class Json2HtmlUnit
 
     public static function shaps($type , $props)
     {
+        //get fonts
         if($type == 'TextLayer' AND isset($props['fonts']) AND count($props['fonts']) > 0) {
             foreach ($props['fonts'] as $font) {
                 $fontName = $font['name'];
@@ -120,6 +125,7 @@ class Json2HtmlUnit
              'GroupLayer' =>   GroupLayer::rander($props),
              'SvgLayer'  =>    SvgLayer::rander($props),
              'ImageLayer' =>   FrameLayer::rander($props),
+             'LineLayer' =>   LineLayer::rander($props),
              default => '',
         };
     }
