@@ -9,8 +9,18 @@ class ClipPathUnit
         $style = '';
 
         if (isset($props['clipPath'])) {
-            // لا داعي لحساب العرض والارتفاع في هذه الحالة لأننا نستخدم الـ clipPath كما هو
-            $style .= 'clip-path: path(' . "'".$props['clipPath']."'" . '); ';
+
+            if(strpos($props['clipPath'], 'path') !== 0) {
+                return "clip-path: path('{$props['clipPath']}')";
+            }
+
+
+
+
+            $dimensions = self::extractDimensions($props['clipPath']);
+            $width = $dimensions['width'];
+            $height = $dimensions['width'];
+            $style .= 'clip-path: ' . self::convertToSquare($width, $height) . '; ';
         }
         return $style;
     }

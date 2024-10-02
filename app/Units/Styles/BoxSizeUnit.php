@@ -8,7 +8,6 @@ class BoxSizeUnit
     {
         $style = '';
 
-        // Add width if set
         if (isset($props['width'])) {
             $style .= 'width: ' . $props['width'] . 'px; ';
         }

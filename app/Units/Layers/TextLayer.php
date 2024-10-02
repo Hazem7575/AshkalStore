@@ -21,8 +21,16 @@ class TextLayer
             'children' => []
         ];
 
-        $style .= BoxSizeUnit::rander($element['boxSize']);
-        $style .= PositionUnit::rander($element['position']);
+        if (array_key_exists('position', $element) && array_key_exists('boxSize', $element)) {
+            if (array_search('position', array_keys($element)) < array_search('boxSize', array_keys($element))) {
+                $style .= PositionUnit::rander($element['position']);
+                $style .= BoxSizeUnit::rander($element['boxSize']);
+            }else{
+                $style .= BoxSizeUnit::rander($element['boxSize']);
+                $style .= PositionUnit::rander($element['position']);
+            }
+        }
+
         $style .= FontSizeUnit::rander($element);
         $style .= TransformUnit::rander($element);
 
