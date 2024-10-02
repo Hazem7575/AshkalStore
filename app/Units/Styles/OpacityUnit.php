@@ -8,7 +8,7 @@ class OpacityUnit
     {
         $style = '';
         if (isset($props['transparency'])) {
-            $style .= 'opacity: ' . (1 - $props['transparency']) . '; ';
+            $style .= 'opacity: ' . $props['transparency'] . '; ';
         }
         return $style;
     }

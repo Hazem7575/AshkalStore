@@ -1,0 +1,479 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 255, 255)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "2cfd2d0b-d458-400c-b67d-1e363d8e8c10",
+                    "52608098-0ffb-4e13-a0e9-fc63e401a87b",
+                    "82217e40-7ee1-434b-83c1-381ded03bb8e",
+                    "e07ef4b6-4e00-4f07-ac78-804a6247ce59",
+                    "6260dfa1-9bb5-4ead-bdad-6955953a0464",
+                    "12977f85-b9ba-4e20-8a7e-3634a3ad9e15",
+                    "f82b56bc-85b6-4252-8724-96662ce459e3",
+                    "c98c5d31-7f63-485c-9519-ae0f78e20b39",
+                    "5e7232df-ac5d-46a8-8315-2ef38919a95f",
+                    "4bfab0fb-95d3-4863-8050-e0e69cc1d38a"
+                ],
+                "parent": null
+            },
+            "2cfd2d0b-d458-400c-b67d-1e363d8e8c10": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(252, 191, 1)",
+                    "shape": "rectangle",
+                    "rotate": 50.61800892926624,
+                    "boxSize": {
+                        "x": 735.6649925410832,
+                        "y": 410.2049023395328,
+                        "width": 895.8202501148279,
+                        "height": 104.652156812699
+                    },
+                    "position": {
+                        "x": 802.7328654484733,
+                        "y": 412.03914957572647
+                    },
+                    "roundedCorners": 100
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "52608098-0ffb-4e13-a0e9-fc63e401a87b": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(252, 191, 1)",
+                    "shape": "rectangle",
+                    "rotate": 50.61800892926624,
+                    "boxSize": {
+                        "x": 752.3569645187401,
+                        "y": 480.4849835370161,
+                        "width": 725.6499178542341,
+                        "height": 104.652156812699
+                    },
+                    "position": {
+                        "x": 773.3781341199224,
+                        "y": 491.3998299664781
+                    },
+                    "roundedCorners": 100
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "82217e40-7ee1-434b-83c1-381ded03bb8e": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(252, 191, 1)",
+                    "shape": "rectangle",
+                    "rotate": 50.61800892926624,
+                    "boxSize": {
+                        "x": 957.6402702331276,
+                        "y": 329.85307200463063,
+                        "width": 720.7931524242068,
+                        "height": 104.652156812699
+                    },
+                    "position": {
+                        "x": 1012.750139157596,
+                        "y": 341.72641748454055
+                    },
+                    "roundedCorners": 100
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "e07ef4b6-4e00-4f07-ac78-804a6247ce59": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/uSa1yQV.jpeg",
+                        "thumb": "/images/uSa1yQV.jpeg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 500,
+                            "height": 668.6244204018548
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "scale": 1.1545845181674568,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 888.2417061611374,
+                        "y": 120.88941548183264,
+                        "width": 577.2922590837284,
+                        "height": 577.2922590837284
+                    },
+                    "clipPath": "M 500 250.002 c 0 138.065 -111.931 249.996 -250 249.996 c -138.071 0 -250 -111.931 -250 -249.996 C 0 111.93 111.929 0 250 0 s 250 111.93 250 250.002 Z",
+                    "position": {
+                        "x": 953.0126382306476,
+                        "y": 170.11532385466023
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "6260dfa1-9bb5-4ead-bdad-6955953a0464": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 145, 77)",
+                    "shape": "rectangle",
+                    "rotate": 60.88543301633808,
+                    "boxSize": {
+                        "x": -331.66416060648993,
+                        "y": 476.2357833412124,
+                        "width": 982.230864942439,
+                        "height": 498.5238023828933
+                    },
+                    "position": {
+                        "x": -360.5248703642174,
+                        "y": 459.27436951488346
+                    },
+                    "roundedCorners": 0
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "12977f85-b9ba-4e20-8a7e-3634a3ad9e15": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(252, 191, 1)",
+                    "shape": "rectangle",
+                    "rotate": 64.0442490257555,
+                    "boxSize": {
+                        "x": -231.47576949079837,
+                        "y": 253.22447187503784,
+                        "width": 1327.6580527675085,
+                        "height": 536.4080410683518
+                    },
+                    "position": {
+                        "x": -221.0109403106412,
+                        "y": 248.27503490456564
+                    },
+                    "roundedCorners": 0
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "f82b56bc-85b6-4252-8724-96662ce459e3": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 557.8759873617694,
+                        "height": 322.92733017377566
+                    },
+                    "position": {
+                        "x": 186.50394944707745,
+                        "y": 88.14218009478674
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "dc99ee2e-1749-4c32-bc51-28a634bff168",
+                    "c01e3db0-8e53-47a1-8ed8-8b2e96463da5"
+                ],
+                "parent": "ROOT"
+            },
+            "dc99ee2e-1749-4c32-bc51-28a634bff168": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Oswald;font-size: 42px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(0, 0, 0);\">GROW ONLINE BUSINESS</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "/fonts/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 2.1892325643885435,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 231.84360189573465,
+                        "y": 27.25750394944709,
+                        "width": 557.8759873617694,
+                        "height": 258.32944259784813
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        42
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "f82b56bc-85b6-4252-8724-96662ce459e3"
+            },
+            "c01e3db0-8e53-47a1-8ed8-8b2e96463da5": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Armata;font-size: 36px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(0, 0, 0);\">With Liquid editor</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Armata",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Armata-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 193.8436018957346,
+                        "y": 357.1832543443918,
+                        "width": 389.45853080568656,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 7.339652448657148,
+                        "y": 272.92733017377566
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "f82b56bc-85b6-4252-8724-96662ce459e3"
+            },
+            "c98c5d31-7f63-485c-9519-ae0f78e20b39": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Armata;font-size: 36px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(0, 0, 0);\">Boost your online store business endeavors SEO and online advertising</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Armata",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Armata-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 192.1848341232227,
+                        "y": 538.1785150078988,
+                        "width": 642.0651658767766,
+                        "height": 151
+                    },
+                    "position": {
+                        "x": 189.59399684044232,
+                        "y": 468.2259083728276
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "5e7232df-ac5d-46a8-8315-2ef38919a95f": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 324.36018957345965,
+                        "height": 69.16271721958924
+                    },
+                    "position": {
+                        "x": 188.87835703001585,
+                        "y": 701.3996840442338
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "93f2b718-6ff4-4583-b944-83be9c046f77",
+                    "da5a18d3-278b-402a-8553-f96dd9ca215c"
+                ],
+                "parent": "ROOT"
+            },
+            "93f2b718-6ff4-4583-b944-83be9c046f77": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 255, 255)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 445.3712480252765,
+                        "y": 542.0631911532386,
+                        "width": 324.3601895734597,
+                        "height": 69.16271721958924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "roundedCorners": 63
+                },
+                "locked": false,
+                "child": [],
+                "parent": "5e7232df-ac5d-46a8-8315-2ef38919a95f"
+            },
+            "da5a18d3-278b-402a-8553-f96dd9ca215c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Alfa Slab One;font-size: 36px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(0, 0, 0);\">Learn More</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Alfa Slab One",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/AlfaSlabOne-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 191.8214849921011,
+                        "y": 699.7424960505527,
+                        "width": 246.96248025276407,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 34.0331753554502,
+                        "y": 11.29699842022103
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "5e7232df-ac5d-46a8-8315-2ef38919a95f"
+            },
+            "4bfab0fb-95d3-4863-8050-e0e69cc1d38a": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Acme;font-size: 36px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(0, 0, 0);\">www.website.com</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Acme",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Acme-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 193.1169036334913,
+                        "y": 844.8293838862556,
+                        "width": 345.4142969984196,
+                        "height": 50
+                    },
+                    "position": {
+                        "x": 194.4123222748815,
+                        "y": 802.0805687203789
+                    },
+                    "fontSizes": [
+                        36
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]

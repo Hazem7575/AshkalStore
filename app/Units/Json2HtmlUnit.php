@@ -18,9 +18,12 @@ class Json2HtmlUnit
         $html = '';
 
         foreach ($json as $key => $value) {
-            $html .= '<div style="position: relative;">';
+
             $first = $value['layers'];
             $root = $first['ROOT'];
+            $width = $root['props']['boxSize']['width'];
+            $height = $root['props']['boxSize']['height'];
+            $html .= '<div style="position: relative;width: '. $width .'px; height: '. $height .'px;">';
             $html .= self::children($root , 'ROOT' , $first);
             $html .= '</div>';
         }

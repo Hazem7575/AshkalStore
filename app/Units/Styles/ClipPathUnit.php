@@ -9,6 +9,14 @@ class ClipPathUnit
         $style = '';
 
         if (isset($props['clipPath'])) {
+
+            if(strpos($props['clipPath'], 'path') !== 0) {
+                return "clip-path: path('{$props['clipPath']}')";
+            }
+
+
+
+
             $dimensions = self::extractDimensions($props['clipPath']);
             $width = $dimensions['width'];
             $height = $dimensions['width'];

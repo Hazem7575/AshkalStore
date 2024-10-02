@@ -1,0 +1,354 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 255, 255)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "c7576af3-b585-42db-a67c-456c95672680",
+                    "0ba595a2-b181-42e6-aff7-a489e1102ac5",
+                    "789cd083-9813-429a-b521-601941805380",
+                    "1e1263ad-e6fc-4ba2-897c-5abcf2ebc29f",
+                    "befb0d4c-414b-419c-8732-3be30eb58841",
+                    "558d199a-52c8-400f-b2ce-02585015bb75",
+                    "e3fce7fe-a698-43a9-b549-278a3c3068ee",
+                    "a14f185c-1088-45f4-be14-6386f12366fc",
+                    "f5b8b3b5-006e-4fa2-a4d5-632b9a672e01",
+                    "0e5ad6f1-0473-463c-805d-01fd575edfb2"
+                ],
+                "parent": null
+            },
+            "0ba595a2-b181-42e6-aff7-a489e1102ac5": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(229, 107, 18)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 635.7151702786377,
+                        "y": 765.1455108359132,
+                        "width": 277.17647058823525,
+                        "height": 81.1888544891641
+                    },
+                    "position": {
+                        "x": 317.96284829721355,
+                        "y": 522.4829721362229
+                    },
+                    "roundedCorners": 100
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "789cd083-9813-429a-b521-601941805380": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Bebas Neue;text-transform: uppercase;font-size: 40px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">ORDER NOW</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Bebas Neue",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/BebasNeue-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.2148130507263637,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 651.0216718266255,
+                        "y": 575.6130030959752,
+                        "width": 247.60560305896217,
+                        "height": 68.02953084067636
+                    },
+                    "position": {
+                        "x": 332.7482820618501,
+                        "y": 529.0626339604668
+                    },
+                    "fontSizes": [
+                        40
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "1e1263ad-e6fc-4ba2-897c-5abcf2ebc29f": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(229, 107, 18)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -65,
+                        "y": -80,
+                        "width": 1781,
+                        "height": 200
+                    },
+                    "position": {
+                        "x": -56,
+                        "y": -136
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "befb0d4c-414b-419c-8732-3be30eb58841": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(229, 107, 18)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -65,
+                        "y": -80,
+                        "width": 1781,
+                        "height": 200
+                    },
+                    "position": {
+                        "x": -25,
+                        "y": 870
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "558d199a-52c8-400f-b2ce-02585015bb75": {
+                "type": {
+                    "resolvedName": "ImageLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/6L0yer5_d.webp",
+                        "thumb": "/images/6L0yer5_d.webp",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 805.2287581699347,
+                            "height": 739.2
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 805.2287581699347,
+                        "height": 739.2
+                    },
+                    "position": {
+                        "x": 855.3856209150326,
+                        "y": 85.39999999999998
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "e3fce7fe-a698-43a9-b549-278a3c3068ee": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 120px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">Special Food</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -65,
+                        "y": 155.23836126629425,
+                        "width": 794.5,
+                        "height": 168
+                    },
+                    "position": {
+                        "x": 69,
+                        "y": 307.23836126629425
+                    },
+                    "fontSizes": [
+                        120
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "a14f185c-1088-45f4-be14-6386f12366fc": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Oswald;text-transform: uppercase;font-size: 18px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(0, 0, 0);\">+123-456-789</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "/fonts/Oswald-Bold.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0.5251966021647263,
+                    "boxSize": {
+                        "x": 41,
+                        "y": 275,
+                        "width": 259.91666666666606,
+                        "height": 25
+                    },
+                    "position": {
+                        "x": 25.995416859199334,
+                        "y": 798.9999789943791
+                    },
+                    "fontSizes": [
+                        18
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "f5b8b3b5-006e-4fa2-a4d5-632b9a672e01": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Ultra;font-size: 22px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">More Info:</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Ultra",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Ultra-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 41,
+                        "y": 275,
+                        "width": 259.91666666666606,
+                        "height": 31
+                    },
+                    "position": {
+                        "x": 27.00000000000003,
+                        "y": 759
+                    },
+                    "fontSizes": [
+                        22
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "0e5ad6f1-0473-463c-805d-01fd575edfb2": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Lilita One;font-size: 18px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(0, 0, 0);\">www.food.com</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lilita One",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/LilitaOne-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0.5251966021647263,
+                    "boxSize": {
+                        "x": 41,
+                        "y": 275,
+                        "width": 259.91666666666606,
+                        "height": 25
+                    },
+                    "position": {
+                        "x": 24.995416859293783,
+                        "y": 832.9999789943801
+                    },
+                    "fontSizes": [
+                        18
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]
