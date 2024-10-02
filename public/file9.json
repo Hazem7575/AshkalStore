@@ -1,0 +1,401 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 255, 255)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "7cbb99f8-7317-4f2b-9bc4-9529a81e2f64",
+                    "0e591b7e-defb-49e4-9bb5-87d2791de24d",
+                    "db79598a-244b-49f6-a544-88a36ec3a88b",
+                    "2a7a657b-999f-4f0c-9678-273786c53a1d",
+                    "0c9c068d-dd53-4746-b8e7-57b2eb0f6924",
+                    "b1a80b7f-b7a7-4dce-a5d5-c7e227e8ab5c",
+                    "2b4e5af8-fc52-4fc9-b743-041d35f9e1c7",
+                    "bd0ae89c-2ff2-43fa-b40e-c2582827aef5",
+                    "02b2ebbc-f1a4-4625-9709-1cbc9564aa94",
+                    "42347c89-f48d-4a60-9498-d39fafff595f"
+                ],
+                "parent": null
+            },
+            "7cbb99f8-7317-4f2b-9bc4-9529a81e2f64": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 180.6px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">SALE</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.9013035381750465,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "effect": {
+                        "name": "hollow",
+                        "settings": {
+                            "thickness": 50
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 71,
+                        "y": 206,
+                        "width": 510.5,
+                        "height": 252.8733705772812
+                    },
+                    "position": {
+                        "x": 218,
+                        "y": 127.23836126629423
+                    },
+                    "fontSizes": [
+                        95
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "0e591b7e-defb-49e4-9bb5-87d2791de24d": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(229, 107, 18)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 635.7151702786377,
+                        "y": 765.1455108359132,
+                        "width": 277.17647058823525,
+                        "height": 81.1888544891641
+                    },
+                    "position": {
+                        "x": 317.96284829721355,
+                        "y": 522.4829721362229
+                    },
+                    "roundedCorners": 100
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "db79598a-244b-49f6-a544-88a36ec3a88b": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Bebas Neue;text-transform: uppercase;font-size: 40px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">ORDER NOW</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Bebas Neue",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/BebasNeue/BebasNeue-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.2148130507263637,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 651.0216718266255,
+                        "y": 575.6130030959752,
+                        "width": 247.60560305896217,
+                        "height": 68.02953084067636
+                    },
+                    "position": {
+                        "x": 332.7482820618501,
+                        "y": 529.0626339604668
+                    },
+                    "fontSizes": [
+                        40
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2a7a657b-999f-4f0c-9678-273786c53a1d": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(229, 107, 18)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -65,
+                        "y": -80,
+                        "width": 1781,
+                        "height": 200
+                    },
+                    "position": {
+                        "x": -56,
+                        "y": -136
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "0c9c068d-dd53-4746-b8e7-57b2eb0f6924": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(229, 107, 18)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -65,
+                        "y": -80,
+                        "width": 1781,
+                        "height": 200
+                    },
+                    "position": {
+                        "x": -25,
+                        "y": 870
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "b1a80b7f-b7a7-4dce-a5d5-c7e227e8ab5c": {
+                "type": {
+                    "resolvedName": "ImageLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/6L0yer5.png",
+                        "thumb": "https://i.imgur.com/6L0yer5m.png",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 805.2287581699347,
+                            "height": 739.2
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 805.2287581699347,
+                        "height": 739.2
+                    },
+                    "position": {
+                        "x": 855.3856209150326,
+                        "y": 85.39999999999998
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2b4e5af8-fc52-4fc9-b743-041d35f9e1c7": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 120px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">Special Food</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -65,
+                        "y": 155.23836126629425,
+                        "width": 794.5,
+                        "height": 168
+                    },
+                    "position": {
+                        "x": 69,
+                        "y": 307.23836126629425
+                    },
+                    "fontSizes": [
+                        120
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "bd0ae89c-2ff2-43fa-b40e-c2582827aef5": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Oswald;text-transform: uppercase;font-size: 18px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(0, 0, 0);\">+123-456-789</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0.5251966021647263,
+                    "boxSize": {
+                        "x": 41,
+                        "y": 275,
+                        "width": 259.91666666666606,
+                        "height": 25
+                    },
+                    "position": {
+                        "x": 25.995416859199334,
+                        "y": 798.9999789943791
+                    },
+                    "fontSizes": [
+                        18
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "02b2ebbc-f1a4-4625-9709-1cbc9564aa94": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Ultra;font-size: 22px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">More Info:</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Ultra",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Ultra/Ultra-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 41,
+                        "y": 275,
+                        "width": 259.91666666666606,
+                        "height": 31
+                    },
+                    "position": {
+                        "x": 27.00000000000003,
+                        "y": 759
+                    },
+                    "fontSizes": [
+                        22
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "42347c89-f48d-4a60-9498-d39fafff595f": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Lilita One;font-size: 18px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(0, 0, 0);\">www.food.com</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lilita One",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LilitaOne/LilitaOne-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "effect": null,
+                    "rotate": 0.5251966021647263,
+                    "boxSize": {
+                        "x": 41,
+                        "y": 275,
+                        "width": 259.91666666666606,
+                        "height": 25
+                    },
+                    "position": {
+                        "x": 24.995416859293783,
+                        "y": 832.9999789943801
+                    },
+                    "fontSizes": [
+                        18
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]

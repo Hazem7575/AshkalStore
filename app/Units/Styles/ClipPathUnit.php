@@ -11,18 +11,31 @@ class ClipPathUnit
         if (isset($props['clipPath'])) {
 
             if(strpos($props['clipPath'], 'path') !== 0) {
-                return "clip-path: path('{$props['clipPath']}')";
+                $style .="clip-path: path('{$props['clipPath']}');";
             }
-
-
-
-
+            
+            
+            // $style .="width:".$props['boxSize']['width']."px;";
+            // $style .="height:".$props['boxSize']['height']."px;";
+            $style .="width:".$props['boxSize']['width']/$props['scale']."px;";
+            $style .="height:".$props['boxSize']['height']/$props['scale']."px;";
+            // $style .=TransformUnit::rander($props,true); 
+            $style .="overflow:hidden;";
             $dimensions = self::extractDimensions($props['clipPath']);
+            return $style;
             $width = $dimensions['width'];
             $height = $dimensions['width'];
             $style .= 'clip-path: ' . self::convertToSquare($width, $height) . '; ';
         }
         return $style;
+    }
+    public static function getClipPathStyle($props){
+        $style = '';
+        if(strpos($props['clipPath'], 'path') !== 0) {
+            $style ="clip-path: path('{$props['clipPath']}');";
+        }
+        return $style;
+        
     }
 
     private static function extractDimensions($clipPath)
@@ -45,4 +58,5 @@ class ClipPathUnit
 
         return ['width' => $width, 'height' => $height];
     }
+
 }
