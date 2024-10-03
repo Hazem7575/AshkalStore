@@ -20,7 +20,7 @@ class SvgHelper
         $style .= PositionUnit::rander($element['position']);
         $style .= OpacityUnit::rander($element);
         $fillColor = $element['colors'][0] ?? 'none';
-
+            
         return [
             'type' => 'svg',
             'attr' => [
@@ -37,20 +37,27 @@ class SvgHelper
 
     public static function render($element)
     {
-        // فك تشفير بيانات SVG من Base64
-        $svgData = $element['image'];
-        $decodedSvg = base64_decode(substr($svgData, strpos($svgData, ",") + 1)); // حذف header data:image/svg+xml;base64,
-    
+        $svgElement ='';
+        if (filter_var($element['image'], FILTER_VALIDATE_URL)) {
+            // إذا كان الرابط هو URL، جلب محتوى SVG
+            $svgElement = file_get_contents($element['image']);
+        }
+        else{
+            
+            // فك تشفير بيانات SVG من Base64
+            $svgData = $element['image'];
+            $svgElement = base64_decode(substr($svgData, strpos($svgData, ",") + 1)); // حذف header data:image/svg+xml;base64,
+        }
         // إعداد السمات
         $attrs = '';
         foreach ($element['attr'] as $key => $value) {
             $attrs .= $key . '="' . htmlspecialchars($value, ENT_QUOTES) . '" ';
         }
-    
+        
         // دمج السمات مع كود SVG
         // نبحث عن بداية عنصر <svg> في كود SVG لفك وتطبيق السمات
-        $svgElementWithAttributes = preg_replace('/<svg(.*?)>/', '<svg$1 ' . trim($attrs) . '>', $decodedSvg);
-    
+        $svgElementWithAttributes = preg_replace('/<svg([^>]*)>/', '<svg$1 ' . trim($attrs) . '>', $svgElement);
+
         // تطبيق لون fill على جميع العناصر الداخلية
         $fillColor = $element['fill']; // افتراض لون fill إذا لم يكن محددًا
         $svgElementWithFillColor = preg_replace('/(<(path|rect|circle|ellipse|polygon|line|polyline)([^>]*?))/', '$1 fill="' . htmlspecialchars($fillColor, ENT_QUOTES) . '"', $svgElementWithAttributes);

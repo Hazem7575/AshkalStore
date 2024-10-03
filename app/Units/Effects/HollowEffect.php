@@ -1,22 +1,25 @@
-<?php 
-namespace App\Units\Effects;
-class HollowEffect{
-    // "effect": {
-    //     "name": "hollow",
-    //     "settings": {
-    //         "thickness": 97,
-    //         "color": "rgb(0, 0, 0)"
-    //     }
-    // }
+<?php
 
-    public static function render($props){
+namespace App\Units\Effects;
+
+class HollowEffect
+{
+
+
+    public static function render($props)
+    {
         $style = '';
-        // -webkit-text-stroke: 3.77996px rgb(0, 0, 0);
-        // -webkit-text-fill-color: transparent;
+
         if (isset($props['effect'])) {
-            // $thickness = 
+            $fontSize = $props['fontSizes'][0];
+            $thickness = $props['effect']['settings']['thickness'];
+            $textStroke = 0.0091666 * $fontSize + 0.0008333 * ($fontSize * $thickness);
+            $color = isset($props['effect']['settings']['color']) ? $props['effect']['settings']['color'] : $props['colors'][0];
+            $style .= "-webkit-text-stroke: {$textStroke}px {$color};";
+            $style .= "-webkit-text-fill-color: transparent;";
         }
 
+        return $style;
     }
 }
 
@@ -27,4 +30,12 @@ class HollowEffect{
 //5.08329px
 // this is how can i calc text-stroke 
 // text-stroke=0.0091666×font-size+0.0008333×(font-size×thickness)
- 
+ // "effect": {
+    //     "name": "hollow",
+    //     "settings": {
+    //         "thickness": 97,
+    //         "color": "rgb(0, 0, 0)"
+    //     }
+    // }
+// -webkit-text-stroke: 3.77996px rgb(0, 0, 0);
+        // -webkit-text-fill-color: transparent;

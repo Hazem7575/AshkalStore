@@ -2,6 +2,11 @@
 
 namespace App\Units\Layers;
 
+use App\Units\Effects\EchoEffect;
+use App\Units\Effects\HollowEffect;
+use App\Units\Effects\LiftEffect;
+use App\Units\Effects\ShadowEffect;
+use App\Units\Effects\SpliceEffect;
 use App\Units\Helpers\ImageHelper;
 use App\Units\Helpers\TextHelper;
 use App\Units\Styles\BoxSizeUnit;
@@ -45,11 +50,42 @@ class TextLayer
                 }
             }
         }
+        
+        if (isset($element['effect'])) {
+            $style .= self::matchTextEffect($element);
+        }
+
 
         $data['style'] = $style;
 
         // إرجاع البيانات
         return $data;
+    }
+    
+    
+    private static function matchTextEffect(array $element): string
+    {
+        $style = '';
+        switch ($element['effect']['name']) {
+            case 'hollow':
+                $style .= HollowEffect::render($element);
+                break;
+                case 'lift':
+                    $style .= LiftEffect::render($element);
+                break;
+            case 'shadow':
+                $style .= ShadowEffect::render($element);
+                break;
+            case 'echo':
+                $style .= EchoEffect::render($element);
+                break;
+            case 'splice':
+                $style .= SpliceEffect::render($element);
+                break;
+            default:
+                break;
+        }
+        return $style;
     }
 
 }

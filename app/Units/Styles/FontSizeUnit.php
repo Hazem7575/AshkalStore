@@ -9,7 +9,7 @@ class FontSizeUnit
         $style = '';
 
         if(isset($props['fontSizes'])) {
-            $style .= 'font-size:'.$props['fontSizes'][0].'px;';
+            $style .= 'font-size:'.($props['fontSizes'][0]*$props['scale']).'px;';
         }
 
         return $style;
