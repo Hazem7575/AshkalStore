@@ -24,9 +24,7 @@ class Json2HtmlUnit
             $root = $first['ROOT'];
             $width = $root['props']['boxSize']['width'];
             $height = $root['props']['boxSize']['height'];
-            $html .= '<div style="position: relative;width: '. $width .'px; height: '. $height .'px;">';
             $html .= self::children($root , 'ROOT' , $first);
-            $html .= '</div>';
         }
 
 
@@ -37,7 +35,7 @@ class Json2HtmlUnit
             foreach ($fontVariants as $variant) {
                 $html .= '@font-face {';
                 $html .= 'font-family: "' . $fontName . '"; ';
-                $html .= 'src: url("' . "https://corsproxy.io/?".$variant['url'] . '"); ';
+                $html .= 'src: url("' . "".$variant['url'] . '"); ';
                 if (isset($variant['style'])) {
                     if (strpos($variant['style'], 'Italic') !== false) {
                         $html .= 'font-style: italic; ';

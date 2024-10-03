@@ -29,9 +29,9 @@ class TextLayer
         if (array_key_exists('position', $element) && array_key_exists('boxSize', $element)) {
             if (array_search('position', array_keys($element)) < array_search('boxSize', array_keys($element))) {
                 $style .= PositionUnit::rander($element['position']);
-                $style .= BoxSizeUnit::rander($element['boxSize']);
+                $style .= BoxSizeUnit::rander($element['boxSize'] , false);
             }else{
-                $style .= BoxSizeUnit::rander($element['boxSize']);
+                $style .= BoxSizeUnit::rander($element['boxSize'] , false);
                 $style .= PositionUnit::rander($element['position']);
             }
         }
@@ -50,7 +50,7 @@ class TextLayer
                 }
             }
         }
-        
+
         if (isset($element['effect'])) {
             $style .= self::matchTextEffect($element);
         }
@@ -61,8 +61,8 @@ class TextLayer
         // إرجاع البيانات
         return $data;
     }
-    
-    
+
+
     private static function matchTextEffect(array $element): string
     {
         $style = '';
