@@ -7,6 +7,8 @@ use App\Units\Styles\BoxSizeUnit;
 use App\Units\Styles\ColorUnit;
 use App\Units\Styles\OpacityUnit;
 use App\Units\Styles\PositionUnit;
+use App\Units\Styles\RoundedCornersUnit;
+use App\Units\Styles\ShapeUnit;
 use App\Units\Styles\TransformUnit;
 
 class ShapeLayer
@@ -25,6 +27,8 @@ class ShapeLayer
         $style .= TransformUnit::rander($element);;
         $style .= ColorUnit::rander($element);
         $style .= OpacityUnit::rander($element);
+        $style .= RoundedCornersUnit::rander($element);
+        $style .= ShapeUnit::rander($element);
         if (isset($element['image']['url'])) {
             $data['children'][] = ImageHelper::getAttr($element['image']);
         }

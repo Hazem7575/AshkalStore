@@ -21,18 +21,18 @@
                 },
                 "locked": false,
                 "child": [
-                    "968dac06-8293-4dcd-b1fc-bbe932f23555",
-                    "eb609e8e-fa61-44eb-9c8f-fc6aca83f10e",
-                    "382370f1-4d7f-4b23-a000-3b28b4d29c90",
-                    "058058ea-a5e7-4329-990f-a18f5a8c3b04",
-                    "5f0cd351-15d6-4157-b372-b0dad7ea43f1",
-                    "a9b09c16-9012-4d52-8521-70d85dd6d249",
-                    "406f2e02-520f-4369-9788-4e71a53e1449",
-                    "f2d3c062-c8a7-4651-99ad-a1a6e98133ab"
+                    "3fc31af6-0073-4f47-9c7c-db40eef62de0",
+                    "9706d9c4-816b-4f10-a5b3-d9b52b739493",
+                    "57f541e3-9a89-4fb1-9101-ecd947ebfdde",
+                    "af28c513-321d-4438-8064-5964beccaf1d",
+                    "969053c1-7d8b-48ab-abfe-6039bc014014",
+                    "8e89af44-f81f-4f27-9db4-e1a9f00fb541",
+                    "efa106c5-0611-4dd4-9937-8c1777699643",
+                    "4d074e28-28e7-428a-b7ca-f6c22247ff0f"
                 ],
                 "parent": null
             },
-            "968dac06-8293-4dcd-b1fc-bbe932f23555": {
+            "3fc31af6-0073-4f47-9c7c-db40eef62de0": {
                 "type": {
                     "resolvedName": "SvgLayer"
                 },
@@ -59,7 +59,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "eb609e8e-fa61-44eb-9c8f-fc6aca83f10e": {
+            "9706d9c4-816b-4f10-a5b3-d9b52b739493": {
                 "type": {
                     "resolvedName": "SvgLayer"
                 },
@@ -86,7 +86,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "382370f1-4d7f-4b23-a000-3b28b4d29c90": {
+            "57f541e3-9a89-4fb1-9101-ecd947ebfdde": {
                 "type": {
                     "resolvedName": "ImageLayer"
                 },
@@ -120,7 +120,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "058058ea-a5e7-4329-990f-a18f5a8c3b04": {
+            "af28c513-321d-4438-8064-5964beccaf1d": {
                 "type": {
                     "resolvedName": "GroupLayer"
                 },
@@ -138,12 +138,12 @@
                 },
                 "locked": false,
                 "child": [
-                    "6b4bba1b-145a-403f-b5d3-5668aa2a3c58",
-                    "60880cfd-ee85-470e-aff1-0f28031588af"
+                    "de7b2405-d65f-4f20-9ff0-6dac188608e4",
+                    "9951f80c-960d-4ce7-8b78-0df18cd4f76a"
                 ],
                 "parent": "ROOT"
             },
-            "6b4bba1b-145a-403f-b5d3-5668aa2a3c58": {
+            "de7b2405-d65f-4f20-9ff0-6dac188608e4": {
                 "type": {
                     "resolvedName": "SvgLayer"
                 },
@@ -168,9 +168,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "058058ea-a5e7-4329-990f-a18f5a8c3b04"
+                "parent": "af28c513-321d-4438-8064-5964beccaf1d"
             },
-            "60880cfd-ee85-470e-aff1-0f28031588af": {
+            "9951f80c-960d-4ce7-8b78-0df18cd4f76a": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -182,18 +182,18 @@
                             "fonts": [
                                 {
                                     "urls": [
-                                        "/fonts/ABeeZee-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/ABeeZee/ABeeZee-Regular.woff2"
                                     ]
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/ABeeZee-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/ABeeZee/ABeeZee-Regular.woff2"
                                     ],
                                     "style": "Italic"
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/ABeeZee-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/ABeeZee/ABeeZee-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -220,27 +220,27 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "058058ea-a5e7-4329-990f-a18f5a8c3b04"
+                "parent": "af28c513-321d-4438-8064-5964beccaf1d"
             },
-            "5f0cd351-15d6-4157-b372-b0dad7ea43f1": {
+            "969053c1-7d8b-48ab-abfe-6039bc014014": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
-                    "text": "<p style=\"font-family: Amiko;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">REAL ESTATE</span></p>",
+                    "text": "<p style=\"font-family: Amiko;font-size: 93.6px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">REAL ESTATE</span></p>",
                     "fonts": [
                         {
                             "name": "Amiko",
                             "fonts": [
                                 {
                                     "urls": [
-                                        "/fonts/Amiko-Bold.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Amiko/Amiko-Bold.woff2"
                                     ],
                                     "style": "Bold"
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/Amiko-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Amiko/Amiko-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -269,25 +269,25 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "a9b09c16-9012-4d52-8521-70d85dd6d249": {
+            "8e89af44-f81f-4f27-9db4-e1a9f00fb541": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
-                    "text": "<p style=\"font-family: Amiko;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">PROJECT</span></strong></p>",
+                    "text": "<p style=\"font-family: Amiko;font-size: 173.3px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">PROJECT</span></strong></p>",
                     "fonts": [
                         {
                             "name": "Amiko",
                             "fonts": [
                                 {
                                     "urls": [
-                                        "/fonts/Amiko-Bold.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Amiko/Amiko-Bold.woff2"
                                     ],
                                     "style": "Bold"
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/Amiko-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Amiko/Amiko-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -316,7 +316,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "406f2e02-520f-4369-9788-4e71a53e1449": {
+            "efa106c5-0611-4dd4-9937-8c1777699643": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -328,13 +328,13 @@
                             "fonts": [
                                 {
                                     "urls": [
-                                        "/fonts/Amiko-Bold.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Amiko/Amiko-Bold.woff2"
                                     ],
                                     "style": "Bold"
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/Amiko-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Amiko/Amiko-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -363,7 +363,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "f2d3c062-c8a7-4651-99ad-a1a6e98133ab": {
+            "4d074e28-28e7-428a-b7ca-f6c22247ff0f": {
                 "type": {
                     "resolvedName": "LineLayer"
                 },

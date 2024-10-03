@@ -19,7 +19,6 @@ class SvgHelper
         $style .= BoxSizeUnit::rander($element['boxSize']);
         $style .= PositionUnit::rander($element['position']);
         $style .= OpacityUnit::rander($element);
-
         $fillColor = $element['colors'][0] ?? 'none';
 
         return [
@@ -38,16 +37,27 @@ class SvgHelper
 
     public static function render($element)
     {
+        // فك تشفير بيانات SVG من Base64
+        $svgData = $element['image'];
+        $decodedSvg = base64_decode(substr($svgData, strpos($svgData, ",") + 1)); // حذف header data:image/svg+xml;base64,
+    
+        // إعداد السمات
         $attrs = '';
         foreach ($element['attr'] as $key => $value) {
             $attrs .= $key . '="' . htmlspecialchars($value, ENT_QUOTES) . '" ';
         }
-
-
-        return '<img src="' . htmlspecialchars($element['image'], ENT_QUOTES) . '" ' . trim($attrs) . '  preserveAspectRatio="xMidYMid slice" style="filter: brightness(0) invert(1);"/>';
-
+    
+        // دمج السمات مع كود SVG
+        // نبحث عن بداية عنصر <svg> في كود SVG لفك وتطبيق السمات
+        $svgElementWithAttributes = preg_replace('/<svg(.*?)>/', '<svg$1 ' . trim($attrs) . '>', $decodedSvg);
+    
+        // تطبيق لون fill على جميع العناصر الداخلية
+        $fillColor = $element['fill']; // افتراض لون fill إذا لم يكن محددًا
+        $svgElementWithFillColor = preg_replace('/(<(path|rect|circle|ellipse|polygon|line|polyline)([^>]*?))/', '$1 fill="' . htmlspecialchars($fillColor, ENT_QUOTES) . '"', $svgElementWithAttributes);
+    
+        // إرجاع الـ SVG مباشرة كـ HTML
+        return $svgElementWithFillColor;
     }
-
 
 
 }

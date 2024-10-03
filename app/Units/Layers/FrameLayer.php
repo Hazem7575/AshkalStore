@@ -25,7 +25,8 @@ class FrameLayer
 
         //$style .= BoxSizeUnit::rander($element['boxSize']);
         $style .= PositionUnit::rander($element['position']);
-        $style .= TransformUnit::rander($element);
+        $style .= TransformUnit::rander($element,true);
+        // $style .= TransformUnit::rander($element,false);
         $style .= ClipPathUnit::rander($element);
         $style .= ColorUnit::rander($element);
         $style .= OpacityUnit::rander($element);
