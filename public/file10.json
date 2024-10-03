@@ -1,0 +1,297 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 255, 255)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "4d1d4074-1692-4f78-9651-8551fe718cb1",
+                    "2c79e1f8-1405-4fd0-a6e2-6b858fa636f6",
+                    "193baf07-40d2-4d3f-ac82-694540cc88fb",
+                    "f8944323-7078-4660-9a18-e169dbf13fa8",
+                    "2cb132e8-c931-4c29-a13c-fcd3ed0a9221",
+                    "85e04e05-99bc-470c-9a71-f224853bae43"
+                ],
+                "parent": null
+            },
+            "4d1d4074-1692-4f78-9651-8551fe718cb1": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 95px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">Lift</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.9013035381750465,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "effect": {
+                        "name": "lift",
+                        "settings": {
+                            "intensity": 50,
+                            "color": "rgb(229, 112, 27)"
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 71,
+                        "y": 206,
+                        "width": 510.5,
+                        "height": 252.87337057728118
+                    },
+                    "position": {
+                        "x": 8.415335463258799,
+                        "y": 69.6025785186904
+                    },
+                    "fontSizes": [
+                        95
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2c79e1f8-1405-4fd0-a6e2-6b858fa636f6": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(229, 107, 18)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -65,
+                        "y": -80,
+                        "width": 1781,
+                        "height": 200
+                    },
+                    "position": {
+                        "x": -56,
+                        "y": -136
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "193baf07-40d2-4d3f-ac82-694540cc88fb": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 95px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">Shadow</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.9013035381750465,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "effect": {
+                        "name": "shadow",
+                        "settings": {
+                            "offset": 100,
+                            "direction": 120,
+                            "blur": 0,
+                            "transparency": 40,
+                            "color": "rgb(229, 112, 27)"
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 456.5510835913312,
+                        "y": 54.36499068901304,
+                        "width": 641.4904153354632,
+                        "height": 252.87337057728118
+                    },
+                    "position": {
+                        "x": 466.24999999999994,
+                        "y": 69.60257851869042
+                    },
+                    "fontSizes": [
+                        95
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "f8944323-7078-4660-9a18-e169dbf13fa8": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 95px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">None</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.9013035381750465,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "effect": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 456.5510835913312,
+                        "y": 54.36499068901304,
+                        "width": 641.4904153354632,
+                        "height": 252.87337057728118
+                    },
+                    "position": {
+                        "x": -6.005591054313044,
+                        "y": 247.3286294425014
+                    },
+                    "fontSizes": [
+                        95
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2cb132e8-c931-4c29-a13c-fcd3ed0a9221": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 95px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">Echo</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.9013035381750465,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                   "effect": {
+                        "name": "echo",
+                        "settings": {
+                            "offset": 50,
+                            "direction": 45,
+                            "color": "rgb(238, 164, 111)"
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 456.5510835913312,
+                        "y": 54.36499068901304,
+                        "width": 641.4904153354632,
+                        "height": 252.87337057728118
+                    },
+                    "position": {
+                        "x": 635.4848242811502,
+                        "y": 270.0681070436278
+                    },
+                    "fontSizes": [
+                        95
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "85e04e05-99bc-470c-9a71-f224853bae43": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;text-transform: uppercase;font-size: 95px;color: rgb(229, 107, 18);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(229, 107, 18);\">Splice</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.9013035381750465,
+                    "colors": [
+                        "rgb(229, 107, 18)"
+                    ],
+                    "effect": {
+                        "name": "splice",
+                        "settings": {
+                            "thickness": 87,
+                            "offset": 69,
+                            "direction": 66,
+                            "color": "rgb(229, 112, 27)"
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 456.5510835913312,
+                        "y": 54.36499068901304,
+                        "width": 641.4904153354632,
+                        "height": 252.87337057728118
+                    },
+                    "position": {
+                        "x": -16.22683706070285,
+                        "y": 475.72305912030504
+                    },
+                    "fontSizes": [
+                        95
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]
