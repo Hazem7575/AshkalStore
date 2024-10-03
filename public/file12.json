@@ -1,0 +1,57 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 241, 238)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [
+                    "3ef03607-3cd1-457e-866a-e689d6cfe835"
+                ],
+                "parent": null
+            },
+            "3ef03607-3cd1-457e-866a-e689d6cfe835": {
+                "type": {
+                    "resolvedName": "SvgLayer"
+                },
+                "props": {
+                    "image": "https://lidojs-graphics.s3.us-east-2.amazonaws.com/pastel/5.svg",
+                    "scale": 2.4749813527185354,
+                    "colors": [
+                        "rgb(191, 190, 232)"
+                    ],
+                    "rotate": 309.37627162273884,
+                    "boxSize": {
+                        "x": 1063.4871512149357,
+                        "y": -557.5711395451344,
+                        "width": 729.2198908213414,
+                        "height": 1143.4413849559633
+                    },
+                    "position": {
+                        "x": 1169.0662522395096,
+                        "y": -477.31358657241555
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+           
+        }
+    }
+]
