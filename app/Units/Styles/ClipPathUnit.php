@@ -12,6 +12,7 @@ class ClipPathUnit
 
             if(strpos($props['clipPath'], 'path') !== 0) {
                 $style .="clip-path: path('{$props['clipPath']}');";
+                return $style;
             }
             
             

@@ -1,0 +1,405 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(35, 31, 32)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "3512c68c-0e29-4857-8d5b-1ccf38bba04b",
+                    "2e979cc6-bbfc-4cc8-9d9d-60f70d059c85",
+                    "f87537e3-7059-4b78-8915-2b2723a2fe40",
+                    "a803a380-5ed6-496b-9fb7-458284f58471",
+                    "47f0e742-ee28-415a-9125-112581813035"
+                ],
+                "parent": null
+            },
+            "3512c68c-0e29-4857-8d5b-1ccf38bba04b": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Anton; color: rgb(255, 223, 43); font-size: 100px; text-align: center; line-height: 1.4; letter-spacing: 0em;\">SPECIAL PROMOTION</p>",
+                    "fonts": [
+                        {
+                            "name": "Anton",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Anton/Anton-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 36,
+                        "y": 102,
+                        "width": 672.5,
+                        "height": 280
+                    },
+                    "position": {
+                        "x": 36,
+                        "y": 102
+                    },
+                    "fontSizes": [
+                        100
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2e979cc6-bbfc-4cc8-9d9d-60f70d059c85": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 284,
+                        "height": 284
+                    },
+                    "position": {
+                        "x": 1196,
+                        "y": 246
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "306ea234-ccc3-4948-9db2-1dbdcc17cc0e",
+                    "def97cb8-75ba-4bd9-8d61-0809c58d45bf",
+                    "8695e60a-f174-4343-b27b-c0c135449b80"
+                ],
+                "parent": "ROOT"
+            },
+            "306ea234-ccc3-4948-9db2-1dbdcc17cc0e": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(168, 65, 54)",
+                    "shape": "circle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 155,
+                        "y": 328,
+                        "width": 284,
+                        "height": 284
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "2e979cc6-bbfc-4cc8-9d9d-60f70d059c85"
+            },
+            "def97cb8-75ba-4bd9-8d61-0809c58d45bf": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Oswald;font-size: 40px;color: rgb(255, 223, 43); line-height: 1.4; letter-spacing: 0em;\"><span style=\"color: rgb(255, 223, 43);\">DISCOUNTS</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1226,
+                        "y": 324.39119496855346,
+                        "width": 223.49999999999997,
+                        "height": 56
+                    },
+                    "position": {
+                        "x": 30,
+                        "y": 78.39119496855346
+                    },
+                    "fontSizes": [
+                        40
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "2e979cc6-bbfc-4cc8-9d9d-60f70d059c85"
+            },
+            "8695e60a-f174-4343-b27b-c0c135449b80": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Anton;font-size: 100px;color: rgb(255, 223, 43);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 223, 43);\">20%</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Anton",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Anton/Anton-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 0.5119496855345911,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1242,
+                        "y": 377.39119496855346,
+                        "width": 190.49999999999997,
+                        "height": 71.67295597484275
+                    },
+                    "position": {
+                        "x": 46,
+                        "y": 131.39119496855346
+                    },
+                    "fontSizes": [
+                        100
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "2e979cc6-bbfc-4cc8-9d9d-60f70d059c85"
+            },
+            "f87537e3-7059-4b78-8915-2b2723a2fe40": {
+                "type": {
+                    "resolvedName": "ImageLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/RqfoZjE.png",
+                        "thumb": "https://i.imgur.com/RqfoZjEm.png",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 1112.4117263843648,
+                            "height": 739.1999999999999
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1112.4117263843648,
+                        "height": 739.1999999999999
+                    },
+                    "position": {
+                        "x": 559.7941368078176,
+                        "y": 351.40000000000003
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "a803a380-5ed6-496b-9fb7-458284f58471": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Lato;font-size: 32px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">Only for this weekend</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lato",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Lato/Lato-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Lato/Lato-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Lato/Lato-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Lato/Lato-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 32,
+                        "y": 859,
+                        "width": 465.5,
+                        "height": 45
+                    },
+                    "position": {
+                        "x": 32,
+                        "y": 859
+                    },
+                    "fontSizes": [
+                        32
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "47f0e742-ee28-415a-9125-112581813035": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 717.5,
+                        "height": 156
+                    },
+                    "position": {
+                        "x": 23,
+                        "y": 528
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "7685188c-fa09-46c7-998a-1be59803ab45",
+                    "d12f53ee-29f0-48e8-9a60-81a828472084"
+                ],
+                "parent": "ROOT"
+            },
+            "7685188c-fa09-46c7-998a-1be59803ab45": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Lilita One;font-size: 80px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">BANH MI</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lilita One",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LilitaOne/LilitaOne-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 36,
+                        "y": 57,
+                        "width": 676.5,
+                        "height": 112
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        80
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "47f0e742-ee28-415a-9125-112581813035"
+            },
+            "d12f53ee-29f0-48e8-9a60-81a828472084": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Lilita One;font-size: 60px;color: rgb(168, 65, 54);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(168, 65, 54);\">DAC BIET</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lilita One",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/LilitaOne/LilitaOne-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(168, 65, 54)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 36,
+                        "y": 57,
+                        "width": 676.5,
+                        "height": 84
+                    },
+                    "position": {
+                        "x": 41,
+                        "y": 72
+                    },
+                    "fontSizes": [
+                        60
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "47f0e742-ee28-415a-9125-112581813035"
+            }
+        }
+    }
+]

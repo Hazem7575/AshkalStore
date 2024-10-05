@@ -15,4 +15,4 @@ class IndexController extends Controller
         $html = Json2HtmlUnit::convert($json);
         return view('welcome', compact('html'));
     }
-}
+}   
