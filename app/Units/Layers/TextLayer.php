@@ -12,6 +12,7 @@ use App\Units\Helpers\TextHelper;
 use App\Units\Styles\BoxSizeUnit;
 use App\Units\Styles\ColorUnit;
 use App\Units\Styles\FontSizeUnit;
+use App\Units\Styles\GridElementUnit;
 use App\Units\Styles\OpacityUnit;
 use App\Units\Styles\PositionUnit;
 use App\Units\Styles\TransformUnit;
@@ -38,6 +39,7 @@ class TextLayer
 
         $style .= FontSizeUnit::rander($element);
         $style .= TransformUnit::rander($element);
+        $style .= GridElementUnit::rander($element);
 
         if (isset($element['text'])) {
             $data['children'][] = TextHelper::getAttr($element);

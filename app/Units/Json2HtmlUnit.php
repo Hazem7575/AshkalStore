@@ -10,6 +10,7 @@ use App\Units\Layers\RootShape;
 use App\Units\Layers\ShapeLayer;
 use App\Units\Layers\SvgLayer;
 use App\Units\Layers\TextLayer;
+use App\Units\Styles\GridUnit;
 
 class Json2HtmlUnit
 {
@@ -17,16 +18,14 @@ class Json2HtmlUnit
     public static function convert($json)
     {
         $html = '';
-
         foreach ($json as $key => $value) {
 
             $first = $value['layers'];
             $root = $first['ROOT'];
             $width = $root['props']['boxSize']['width'];
             $height = $root['props']['boxSize']['height'];
-            $html .= self::children($root , 'ROOT' , $first);
+            $html .= self::children($root, 'ROOT', $first);
         }
-
 
         $html .= '<style>';
 
@@ -35,7 +34,7 @@ class Json2HtmlUnit
             foreach ($fontVariants as $variant) {
                 $html .= '@font-face {';
                 $html .= 'font-family: "' . $fontName . '"; ';
-                $html .= 'src: url("' . "".$variant['url'] . '"); ';
+                $html .= 'src: url("' . "https://corsproxy.io/?" . $variant['url'] . '"); ';
                 if (isset($variant['style'])) {
                     if (strpos($variant['style'], 'Italic') !== false) {
                         $html .= 'font-style: italic; ';
@@ -64,25 +63,24 @@ class Json2HtmlUnit
 
 
 
-    public static function children($child , $index, $collection)
+    public static function children($child, $index, &$collection)
     {
+        $style = self::shaps($child,$collection);
 
-        $style = self::shaps($child['type']['resolvedName'], $child['props']);
+        if (!isset($style['style'])) return '';
+        $html = '<div style="' . $style['style'] ."border: 1px solid;". '">';
 
-        if(!isset($style['style'])) return '';
-        $html = '<div style="'. $style['style'] .'">';
-
-        if(isset($style['children']) AND is_array($style['children']) AND count($style['children']) > 0) {
+        if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
                 $html .= RenderElement::render($child);
             }
         }
 
-        $check_if_have_child = collect($collection)->where('parent' , '=' , $index)->all();
+        $check_if_have_child = collect($collection)->where('parent', '=', $index)->all();
 
-        if($check_if_have_child AND count($check_if_have_child) > 0) {
+        if ($check_if_have_child and count($check_if_have_child) > 0) {
             foreach ($check_if_have_child as $row => $child_sub) {
-                $html .= self::children($child_sub , $row, $collection);
+                $html .= self::children($child_sub, $row, $collection);
             }
         }
         $html .= '</div>';
@@ -93,10 +91,14 @@ class Json2HtmlUnit
         return $html;
     }
 
-    public static function shaps($type , $props)
+
+
+    public static function shaps($childElement,&$collection)
     {
+        $type = $childElement['type']['resolvedName'];
+        $props = $childElement['props'];
         //get fonts
-        if($type == 'TextLayer' AND isset($props['fonts']) AND count($props['fonts']) > 0) {
+        if ($type == 'TextLayer' and isset($props['fonts']) and count($props['fonts']) > 0) {
             foreach ($props['fonts'] as $font) {
                 $fontName = $font['name'];
                 if (!isset(self::$fonts[$fontName])) {
@@ -113,28 +115,27 @@ class Json2HtmlUnit
                     }
                 }
             }
-
         }
 
 
-
-       return match ($type) {
-             'RootLayer'  =>   RootShape::rander($props),
-             'ShapeLayer' =>   ShapeLayer::rander($props),
-             'FrameLayer' =>   FrameLayer::rander($props),
-             'TextLayer'  =>   TextLayer::rander($props),
-             'GroupLayer' =>   GroupLayer::rander($props),
-             'SvgLayer'  =>    SvgLayer::rander($props),
-             'ImageLayer' =>   FrameLayer::rander($props),
-             'LineLayer' =>   LineLayer::rander($props),
-             default => '',
+        
+        $style = match ($type) {
+            'RootLayer'  =>   RootShape::rander($props),
+            'ShapeLayer' =>   ShapeLayer::rander($props),
+            'FrameLayer' =>   FrameLayer::rander($props),
+            'TextLayer'  =>   TextLayer::rander($props),
+            'GroupLayer' =>   GroupLayer::rander($props),
+            'SvgLayer'  =>    SvgLayer::rander($props),
+            'ImageLayer' =>   FrameLayer::rander($props),
+            'LineLayer' =>   LineLayer::rander($props),
+            default => '',
         };
+        if(isset($childElement['child'])){
+            $style['style'] = $style['style'].GridUnit::rander($childElement,$collection);
+        }
+        return $style;
     }
 
 
-    public function fonts()
-    {
-
-    }
-
+    public function fonts() {}
 }

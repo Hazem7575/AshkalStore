@@ -1,0 +1,241 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 255, 255)",
+                    "image": null
+                },
+                "locked": false,
+                "child": [
+                    "5e280f9c-6f00-4c8e-b4e3-e7289fe46fc9",
+                    "10943ea0-18de-4c92-8c1b-2d06460cf70a",
+                    "2b7b7f68-3023-4a0b-8ffb-f38aac93ed03",
+                    "e2652b09-0cf3-418b-b3e8-2c7f21699fc5",
+                    "2415dfa6-afa4-406f-84c2-ce90658e7ff4"
+                ],
+                "parent": null
+            },
+            "5e280f9c-6f00-4c8e-b4e3-e7289fe46fc9": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": -41,
+                        "y": 652
+                    },
+                    "boxSize": {
+                        "width": 1766,
+                        "height": 296,
+                        "x": -41,
+                        "y": 652
+                    },
+                    "rotate": 0,
+                    "color": "rgb(253, 235, 207)"
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "10943ea0-18de-4c92-8c1b-2d06460cf70a": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0em;\"><strong>LIQUID</strong></p><p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>DESIGN EDITOR</strong></p>",
+                    "position": {
+                        "x": 527.1390728476821,
+                        "y": 243.582179409994
+                    },
+                    "boxSize": {
+                        "width": 536.3009995574356,
+                        "height": 196.6429861529199,
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875
+                    },
+                    "scale": 1.6664659843467788,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "fontSizes": [
+                        42
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2b7b7f68-3023-4a0b-8ffb-f38aac93ed03": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Oswald; color: rgb(0, 0, 0); font-size: 18px; text-transform: uppercase; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>DEVELOPED WITH REACTJS</strong></p>",
+                    "position": {
+                        "x": 660.2715231788078,
+                        "y": 440.2251655629139
+                    },
+                    "boxSize": {
+                        "width": 261.91666666666606,
+                        "height": 25,
+                        "x": 660.2715231788078,
+                        "y": 440.2251655629139
+                    },
+                    "scale": 1,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "fontSizes": [
+                        18
+                    ],
+                    "effect": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "e2652b09-0cf3-418b-b3e8-2c7f21699fc5": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Oswald; color: rgb(0, 0, 0); font-size: 18px; text-transform: uppercase; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>DISCORD: https://discord.gg/mBj7fqKpEM</strong></p>",
+                    "position": {
+                        "x": 587.4569536423838,
+                        "y": 839.8609271523178
+                    },
+                    "boxSize": {
+                        "width": 379.3868653421627,
+                        "height": 25,
+                        "x": 587.4569536423838,
+                        "y": 839.8609271523178
+                    },
+                    "scale": 1,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "fontSizes": [
+                        18
+                    ],
+                    "effect": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "2415dfa6-afa4-406f-84c2-ce90658e7ff4": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Oswald; color: rgb(0, 0, 0); font-size: 18px; text-transform: uppercase; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>CONTACT: DUYANH980@GMAIL.COM</strong></p>",
+                    "position": {
+                        "x": 634.1125827814567,
+                        "y": 810.4900662251654
+                    },
+                    "boxSize": {
+                        "width": 293.4994481236197,
+                        "height": 25,
+                        "x": 634.1125827814567,
+                        "y": 810.4900662251654
+                    },
+                    "scale": 1,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "fontSizes": [
+                        18
+                    ],
+                    "effect": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]
