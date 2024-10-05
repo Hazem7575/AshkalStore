@@ -23,13 +23,12 @@ class FrameLayer
         ];
 
 
-        //$style .= BoxSizeUnit::rander($element['boxSize']);
         $style .= PositionUnit::rander($element['position']);
         $style .= TransformUnit::rander($element,true);
-        // $style .= TransformUnit::rander($element,false);
         $style .= ClipPathUnit::rander($element);
         $style .= ColorUnit::rander($element);
         $style .= OpacityUnit::rander($element);
+
         if (isset($element['image']['url'])) {
             $data['children'][] = ImageHelper::getAttr($element['image']);
         }

@@ -4,7 +4,7 @@ namespace App\Units\Styles;
 
 class BoxSizeUnit
 {
-    public static function rander($props)
+    public static function rander($props , $position = true)
     {
         $style = '';
 
@@ -16,17 +16,20 @@ class BoxSizeUnit
             $style .= 'height: ' . $props['height'] . 'px; ';
         }
 
-        if (isset($props['x'])) {
-            $style .= 'left: ' . $props['x'] . 'px; ';
+        if($position) {
+            if (isset($props['x'])) {
+                $style .= 'left: ' . $props['x'] . 'px; ';
+            }
+
+            if (isset($props['y'])) {
+                $style .= 'top: ' . $props['y'] . 'px; ';
+            }
+
+            if (isset($props['x']) || isset($props['y'])) {
+                $style .= 'position: absolute; ';
+            }
         }
 
-        if (isset($props['y'])) {
-            $style .= 'top: ' . $props['y'] . 'px; ';
-        }
-
-        if (isset($props['x']) || isset($props['y'])) {
-            $style .= 'position: absolute; ';
-        }
 
         return $style;
     }
