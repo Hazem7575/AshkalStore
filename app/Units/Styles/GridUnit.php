@@ -87,7 +87,15 @@ class GridUnit
             $value = ($key === 0) ? $child['y'] : $child['y'] - static::$childRows[$key - 1]['y'];
             $rows[] = $value;
             static::$childRows[$key]['row'] = count($rows) + 1;
-            $style .= 'minmax('.$value/16 . "rem,max-content) ";
+            if($value){
+
+                $style .= 'minmax('.(($value/16)) . "rem,max-content) ";
+            }
+            else{
+                
+                $style .= 0 . " ";
+            }
+            // $style .= 'minmax('.(1) . "rem,max-content) ";
             // $style .= $value/16 . "rem ";
             // $style .= $value . "px ";
         }
