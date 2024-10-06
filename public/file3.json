@@ -21,18 +21,19 @@
                 },
                 "locked": false,
                 "child": [
-                    "3fc31af6-0073-4f47-9c7c-db40eef62de0",
-                    "9706d9c4-816b-4f10-a5b3-d9b52b739493",
-                    "57f541e3-9a89-4fb1-9101-ecd947ebfdde",
-                    "af28c513-321d-4438-8064-5964beccaf1d",
-                    "969053c1-7d8b-48ab-abfe-6039bc014014",
-                    "8e89af44-f81f-4f27-9db4-e1a9f00fb541",
-                    "efa106c5-0611-4dd4-9937-8c1777699643",
-                    "4d074e28-28e7-428a-b7ca-f6c22247ff0f"
+                    "a03a7b3f-b031-418a-a513-19b849cfb81f",
+                    "ca96a8c7-d6c5-4aa0-9f9a-5f04cf5c2256",
+                    "bc0b62f5-a4bb-4e80-acb2-769e0bb6b39a",
+                    "1e35da66-46e5-4200-b1d1-42ca098d998a",
+                    "c9999084-81bd-43a2-a10e-7c717e45cdd4",
+                    "ac619ef0-7042-408f-b158-93ce1af4db9e",
+                    "cd13856d-e23e-471b-b463-16c9d0bb7830",
+                    "5b24b9ad-58d5-46a1-8ccf-110d9ef6ce8c",
+                    "ef600032-b959-4b5e-a03c-c3818494d8b7"
                 ],
                 "parent": null
             },
-            "3fc31af6-0073-4f47-9c7c-db40eef62de0": {
+            "a03a7b3f-b031-418a-a513-19b849cfb81f": {
                 "type": {
                     "resolvedName": "SvgLayer"
                 },
@@ -59,7 +60,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "9706d9c4-816b-4f10-a5b3-d9b52b739493": {
+            "ca96a8c7-d6c5-4aa0-9f9a-5f04cf5c2256": {
                 "type": {
                     "resolvedName": "SvgLayer"
                 },
@@ -86,7 +87,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "57f541e3-9a89-4fb1-9101-ecd947ebfdde": {
+            "bc0b62f5-a4bb-4e80-acb2-769e0bb6b39a": {
                 "type": {
                     "resolvedName": "ImageLayer"
                 },
@@ -120,30 +121,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "af28c513-321d-4438-8064-5964beccaf1d": {
-                "type": {
-                    "resolvedName": "GroupLayer"
-                },
-                "props": {
-                    "scale": 1,
-                    "rotate": 0,
-                    "boxSize": {
-                        "width": 245.3182495254606,
-                        "height": 77.50835218600663
-                    },
-                    "position": {
-                        "x": 107.197315851485,
-                        "y": 98.6853617128229
-                    }
-                },
-                "locked": false,
-                "child": [
-                    "de7b2405-d65f-4f20-9ff0-6dac188608e4",
-                    "9951f80c-960d-4ce7-8b78-0df18cd4f76a"
-                ],
-                "parent": "ROOT"
-            },
-            "de7b2405-d65f-4f20-9ff0-6dac188608e4": {
+            "1e35da66-46e5-4200-b1d1-42ca098d998a": {
                 "type": {
                     "resolvedName": "SvgLayer"
                 },
@@ -162,15 +140,15 @@
                         "height": 77.50835218600665
                     },
                     "position": {
-                        "x": 1.4210854715202004e-14,
-                        "y": 1.4210854715202004e-14
+                        "x": 107.19731585148502,
+                        "y": 98.68536171282291
                     }
                 },
                 "locked": false,
                 "child": [],
-                "parent": "af28c513-321d-4438-8064-5964beccaf1d"
+                "parent": "ROOT"
             },
-            "9951f80c-960d-4ce7-8b78-0df18cd4f76a": {
+            "c9999084-81bd-43a2-a10e-7c717e45cdd4": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -211,8 +189,8 @@
                         "height": 74.51194450676725
                     },
                     "position": {
-                        "x": 119.35553126177898,
-                        "y": 2.996407679239354
+                        "x": 226.55284711326397,
+                        "y": 101.68176939206225
                     },
                     "fontSizes": [
                         33.226
@@ -220,14 +198,14 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "af28c513-321d-4438-8064-5964beccaf1d"
+                "parent": "ROOT"
             },
-            "969053c1-7d8b-48ab-abfe-6039bc014014": {
+            "ac619ef0-7042-408f-b158-93ce1af4db9e": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
-                    "text": "<p style=\"font-family: Amiko;font-size: 93.6px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">REAL ESTATE</span></p>",
+                    "text": "<p style=\"font-family: Amiko;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">REAL ESTATE</span></p>",
                     "fonts": [
                         {
                             "name": "Amiko",
@@ -259,7 +237,7 @@
                     },
                     "position": {
                         "x": 125.0005615780421,
-                        "y": 300.1555881069045
+                        "y": 300.15558810690453
                     },
                     "fontSizes": [
                         68
@@ -269,12 +247,12 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "8e89af44-f81f-4f27-9db4-e1a9f00fb541": {
+            "cd13856d-e23e-471b-b463-16c9d0bb7830": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
-                    "text": "<p style=\"font-family: Amiko;font-size: 173.3px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">PROJECT</span></strong></p>",
+                    "text": "<p style=\"font-family: Amiko;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">PROJECT</span></strong></p>",
                     "fonts": [
                         {
                             "name": "Amiko",
@@ -316,7 +294,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "efa106c5-0611-4dd4-9937-8c1777699643": {
+            "5b24b9ad-58d5-46a1-8ccf-110d9ef6ce8c": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -363,7 +341,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "4d074e28-28e7-428a-b7ca-f6c22247ff0f": {
+            "ef600032-b959-4b5e-a03c-c3818494d8b7": {
                 "type": {
                     "resolvedName": "LineLayer"
                 },

@@ -8,10 +8,22 @@ class PositionUnit
     {
         $style = '';
         if(isset($props['x'])) {
-            $style .= 'left: ' . $props['x'] . 'px; ';
+            if($props['x']<0){
+                $style .= 'left: ' . $props['x'] . 'px; ';
+            }
+            else{
+                $style .= 'left: ' . 0 . 'px; ';
+            }
+            // $style .= 'left: ' . $props['x'] . 'px; ';
         }
         if(isset($props['y'])) {
-            $style .= 'top: ' . $props['y'] . 'px; ';
+            if($props['y']<0){
+                $style .= 'top: ' . $props['y'] . 'px; ';
+            }
+            else{
+                $style .= 'top: ' . 0 . 'px; ';
+            }
+            // $style .= 'top: ' . $props['y'] . 'px; ';
         }
         $style .= 'position: absolute;';
         return $style;

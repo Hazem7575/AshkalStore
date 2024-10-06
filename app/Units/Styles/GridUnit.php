@@ -22,6 +22,7 @@ class GridUnit
 
             $style .= self::buildGridColumn();
             $style .= self::buildGridRow();
+            $style .= "display:grid;";
             
             self::applyGridPositionsToChildren($collection, static::$childColumns, 'column');
             self::applyGridPositionsToChildren($collection, static::$childRows, 'row');
@@ -66,7 +67,9 @@ class GridUnit
             $value = ($key === 0) ? $child['x'] : $child['x'] - static::$childColumns[$key - 1]['x'];
             $columns[] = $value;
             static::$childColumns[$key]['column'] = count($columns) + 1;
-            $style .= $value . "px ";
+            $style .= $value/16 . "rem ";
+            // $style .= $value . "px ";
+
         }
 
         return 'grid-template-columns: ' . trim($style) . ';';
@@ -84,7 +87,9 @@ class GridUnit
             $value = ($key === 0) ? $child['y'] : $child['y'] - static::$childRows[$key - 1]['y'];
             $rows[] = $value;
             static::$childRows[$key]['row'] = count($rows) + 1;
-            $style .= $value . "px ";
+            $style .= 'minmax('.$value/16 . "rem,max-content) ";
+            // $style .= $value/16 . "rem ";
+            // $style .= $value . "px ";
         }
 
         return 'grid-template-rows: ' . trim($style) . ';';

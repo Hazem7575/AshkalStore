@@ -24,7 +24,7 @@ class Json2HtmlUnit
             $root = $first['ROOT'];
             $width = $root['props']['boxSize']['width'];
             $height = $root['props']['boxSize']['height'];
-            $html .= self::children($root, 'ROOT', $first);
+            $html .= self::buildRoot($root, 'ROOT', $first);
         }
 
         $html .= '<style>';
@@ -63,12 +63,48 @@ class Json2HtmlUnit
 
 
 
-    public static function children($child, $index, &$collection)
+    public static function buildRoot($child, $index, &$collection)
     {
         $style = self::shaps($child,$collection);
 
         if (!isset($style['style'])) return '';
-        $html = '<div style="' . $style['style'] ."border: 1px solid;". '">';
+        $classes = 'layer-contianer ';
+        $html = '<section class="' . $classes . '">';
+        $html .='<div style="'.$style['style']."    display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;". '">';
+        if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
+            foreach ($style['children'] as $child) {
+                $html .= RenderElement::render($child);
+            }
+        }
+
+        $check_if_have_child = collect($collection)->where('parent', '=', $index)->all();
+
+        if ($check_if_have_child and count($check_if_have_child) > 0) {
+            $zIndex = 1;
+            // $zIndex = count($check_if_have_child);
+            foreach ($check_if_have_child as $row => $child_sub) {
+                $html .= self::children($child_sub, $row, $collection,$zIndex);
+                $zIndex+=1;
+            }
+        }
+        $html .='</div>';
+
+        $html .= '</section>';
+
+
+
+
+        return $html;
+    }
+    public static function children($child, $index, &$collection,$zIndex)
+    {
+        $style = self::shaps($child,$collection);
+
+        if (!isset($style['style'])) return '';
+
+        $styleWithGridDiv = 'position: relative;z-index: '.$zIndex.';';
+        $html = '<div style="' . (isset($style['grid'])? $style['grid']:''). $styleWithGridDiv . '">';
+        $html .= '<div style="' . $style['style'] ."border: 1px solid;". '">';
 
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
@@ -79,10 +115,13 @@ class Json2HtmlUnit
         $check_if_have_child = collect($collection)->where('parent', '=', $index)->all();
 
         if ($check_if_have_child and count($check_if_have_child) > 0) {
+            $zIndex = 1;
             foreach ($check_if_have_child as $row => $child_sub) {
-                $html .= self::children($child_sub, $row, $collection);
+                $html .= self::children($child_sub, $row, $collection,$zIndex);
+                $zIndex+=1;
             }
         }
+        $html .= '</div>';
         $html .= '</div>';
 
 
