@@ -1,0 +1,44 @@
+:root {
+    --inner1Vh: 3.56px;
+    --sbw: 23px;
+
+    --ffsd: 0px;
+    --1vw: calc((100vw - var(--sbw, 0px)) / 100);
+    --1vh: var(--inner1Vh, 1vh);
+  }
+.layer-contianer{
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    /* grid-template-columns: auto 100rem auto; */
+    z-index: 0
+}
+@media (max-width: 375px) {
+    .layer-contianer {
+        min-height: calc(7.98414125 * var(--1vh, 1vh));
+      }
+}
+
+@media (min-width: 375.05px) and (max-width: 480px) {
+    .layer-contianer {
+        min-height: calc(8.62068598 * var(--1vh, 1vh));
+      }
+}
+@media (min-width: 480.05px) and (max-width: 768px) {
+
+    .layer-contianer {
+        min-height: calc(10.87185806 * var(--1vh, 1vh));
+      }
+}
+
+@media (min-width: 768.05px) and (max-width: 1024px) {
+    .layer-contianer {
+        min-height: calc(10.8258754 * var(--1vh, 1vh));
+      }
+}
+@media (min-width: 1024.05px) {
+    .layer-contianer {
+        min-height: calc(11.11111111 * var(--1vh, 1vh));
+      }
+}

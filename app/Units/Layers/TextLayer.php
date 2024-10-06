@@ -39,7 +39,6 @@ class TextLayer
 
         $style .= FontSizeUnit::rander($element);
         $style .= TransformUnit::rander($element);
-        $style .= GridElementUnit::rander($element);
 
         if (isset($element['text'])) {
             $data['children'][] = TextHelper::getAttr($element);
@@ -59,6 +58,7 @@ class TextLayer
 
 
         $data['style'] = $style;
+        $data['grid']= GridElementUnit::rander($element);
 
         // إرجاع البيانات
         return $data;
