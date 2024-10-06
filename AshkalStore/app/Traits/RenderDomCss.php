@@ -121,17 +121,14 @@ trait RenderDomCss
            }
 
            self::$render_css_collection .= '@media '. $html_media .' {';
-           if(is_array(self::$collection_css) AND count(self::$collection_css) > 0) {
-               foreach (self::$collection_css as $key => $collect) {
-                   $prefix = '.';
-                   if (!$collect['is_class']) {
-                       $prefix = '#';
-                   }
-
-                   self::$render_css_collection .= $prefix . $key . '{' . $collect['style'] . '}';
+           foreach (self::$collection_css as $key => $collect) {
+               $prefix = '.';
+               if (!$collect['is_class']) {
+                   $prefix = '#';
                }
-           }
 
+               self::$render_css_collection .= $prefix . $key . '{' . $collect['style'] . '}';
+           }
            self::$render_css_collection .= '}';
 
        }

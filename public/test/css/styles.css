@@ -1,54 +1,42 @@
 @font-face {
-font-family: "A Bee Zee";
-  src: url("/test/fonts/a-bee-zee-normal.ttf");
+font-family: "Chewy";
+  src: url("/test/fonts/chewy-normal.ttf");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-font-family: "A Bee Zee";
-  src: url("/test/fonts/a-bee-zee-italic.ttf");
-  font-style: italic;
-  font-weight: normal;
-}
-@font-face {
-font-family: "A Bee Zee";
-  src: url("/test/fonts/a-bee-zee-normal.ttf");
-  font-style: normal;
-  font-weight: normal;
-}
-@font-face {
-font-family: "Amiko";
-  src: url("/test/fonts/amiko-bold.ttf");
+font-family: "Oswald";
+  src: url("/test/fonts/oswald-bold.ttf");
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
-font-family: "Amiko";
-  src: url("/test/fonts/amiko-normal.ttf");
+font-family: "Oswald";
+  src: url("/test/fonts/oswald-normal.ttf");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-font-family: "Amiko";
-  src: url("/test/fonts/amiko-bold.ttf");
+font-family: "Oswald";
+  src: url("/test/fonts/oswald-bold.ttf");
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
-font-family: "Amiko";
-  src: url("/test/fonts/amiko-normal.ttf");
+font-family: "Oswald";
+  src: url("/test/fonts/oswald-normal.ttf");
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
-font-family: "Amiko";
-  src: url("/test/fonts/amiko-bold.ttf");
+font-family: "Oswald";
+  src: url("/test/fonts/oswald-bold.ttf");
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
-font-family: "Amiko";
-  src: url("/test/fonts/amiko-normal.ttf");
+font-family: "Oswald";
+  src: url("/test/fonts/oswald-normal.ttf");
   font-style: normal;
   font-weight: normal;
 }
@@ -90,371 +78,526 @@ img {
   -webkit-touch-callout: none;
 }
 @media (max-width: 375px) {
-.store_uqWSmjol {
-border: 1px solid;
-}
-.store_dZ8w772x {
-border: 1px solid;
-}
-.store_GFpWxgJZ {
-left: 0px;
-  top: -49.389447002821px;
-  position: absolute;
-  transform: rotate(0deg);
-  border: 1px solid;
-}
-.store_05HuEzYq {
-border: 1px solid;
-}
-.store_QseME8pG {
-width: 125.96271826368px;
-  height: 74.511944506767px;
+.store_xdtjkIoq {
+width: 1640px;
+  height: 924px;
   left: 0px;
   top: 0px;
   position: absolute;
-  font-size:26.620794281525px;
   transform: rotate(0deg);
-  font-family: A Bee Zee;
-  border: 1px solid;
-}
-.store_TQhZHm7Y {
-width: 699.15144718103px;
-  height: 129.40396833841px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:92.625998389597px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_v0WSJhKy {
-width: 867.77659183635px;
-  height: 242.122817949px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:173.30896442665px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_GWlWN0mx {
-width: 564.26521783624px;
-  height: 34px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:24px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_FjcaDNjF {
-width: 287.21628253901px;
-  height: 9px;
-  left: -31.483838493796px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(270.1703644673deg);
   background-color: rgb(255, 255, 255);
-  stroke-dasharray: 0;
+  display:grid;
+  overflow: hidden;
+  position: relative;
+  left:auto;
+  right:auto;
+  grid-template-columns: 0rem 32.94619205298rem 3.7698675496689rem 2.9159768211921rem 1.6349337748344rem 16.369791666667rem 0.33899006622516rem 2.4519867549669rem 6.0372658387857rem 36.03499547468rem;
+  grid-template-rows: minmax(15.223886213125rem,max-content) minmax(12.290186634557rem,max-content) minmax(0rem,max-content) minmax(1.5625rem,max-content) minmax(11.673427152318rem,max-content) minmax(9.9056291390728rem,max-content) minmax(1.5625rem,max-content) minmax(0.27317880794703rem,max-content) minmax(1.5625rem,max-content) minmax(3.6961920529801rem,max-content);
+  display:grid;
+  display: grid;
+  position: relative;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.store_sGyFJyNK {
+grid-area: 6 / 2 / 11 / 11;
+  position: relative;
+  z-index: 1;
+}
+.store_x1IwJoLc {
+width: 1766px;
+  height: 296px;
+  left: -41px;
+  top: 652px;
+  position: absolute;
+  left: -41px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(0deg);
+  background-color: rgb(253, 235, 207);
+  border: 1px solid;
+}
+.store_ddViGVW7 {
+grid-area: 2 / 3 / 3 / 10;
+  position: relative;
+  z-index: 2;
+}
+.store_WinZbmZw {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 536.30099955744px;
+  height: 196.64298615292px;
+  font-size:69.991571342565px;
+  transform: rotate(0deg);
+  font-family: Chewy;
+  border: 1px solid;
+}
+.store_7lyVAgtp {
+grid-area: 4 / 6 / 5 / 7;
+  position: relative;
+  z-index: 3;
+}
+.store_xSKSfp20 {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 261.91666666667px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_XyBb1Dgq {
+grid-area: 9 / 4 / 10 / 9;
+  position: relative;
+  z-index: 4;
+}
+.store_oipdokhl {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 379.38686534216px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_wKeExUQ0 {
+grid-area: 7 / 5 / 8 / 8;
+  position: relative;
+  z-index: 5;
+}
+.store_e4zc2y6d {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 293.49944812362px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
   border: 1px solid;
 }
 
 }
 @media (min-width: 375.05px) and (max-width: 480px) {
-.store_uqWSmjol {
-border: 1px solid;
-}
-.store_dZ8w772x {
-border: 1px solid;
-}
-.store_GFpWxgJZ {
-left: 0px;
-  top: -49.389447002821px;
-  position: absolute;
-  transform: rotate(0deg);
-  border: 1px solid;
-}
-.store_05HuEzYq {
-border: 1px solid;
-}
-.store_QseME8pG {
-width: 125.96271826368px;
-  height: 74.511944506767px;
+.store_xdtjkIoq {
+width: 1640px;
+  height: 924px;
   left: 0px;
   top: 0px;
   position: absolute;
-  font-size:26.620794281525px;
   transform: rotate(0deg);
-  font-family: A Bee Zee;
-  border: 1px solid;
-}
-.store_TQhZHm7Y {
-width: 699.15144718103px;
-  height: 129.40396833841px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:92.625998389597px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_v0WSJhKy {
-width: 867.77659183635px;
-  height: 242.122817949px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:173.30896442665px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_GWlWN0mx {
-width: 564.26521783624px;
-  height: 34px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:24px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_FjcaDNjF {
-width: 287.21628253901px;
-  height: 9px;
-  left: -31.483838493796px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(270.1703644673deg);
   background-color: rgb(255, 255, 255);
-  stroke-dasharray: 0;
+  display:grid;
+  overflow: hidden;
+  position: relative;
+  left:auto;
+  right:auto;
+  grid-template-columns: 0rem 32.94619205298rem 3.7698675496689rem 2.9159768211921rem 1.6349337748344rem 16.369791666667rem 0.33899006622516rem 2.4519867549669rem 6.0372658387857rem 36.03499547468rem;
+  grid-template-rows: minmax(15.223886213125rem,max-content) minmax(12.290186634557rem,max-content) minmax(0rem,max-content) minmax(1.5625rem,max-content) minmax(11.673427152318rem,max-content) minmax(9.9056291390728rem,max-content) minmax(1.5625rem,max-content) minmax(0.27317880794703rem,max-content) minmax(1.5625rem,max-content) minmax(3.6961920529801rem,max-content);
+  display:grid;
+  display: grid;
+  position: relative;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.store_sGyFJyNK {
+grid-area: 6 / 2 / 11 / 11;
+  position: relative;
+  z-index: 1;
+}
+.store_x1IwJoLc {
+width: 1766px;
+  height: 296px;
+  left: -41px;
+  top: 652px;
+  position: absolute;
+  left: -41px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(0deg);
+  background-color: rgb(253, 235, 207);
+  border: 1px solid;
+}
+.store_ddViGVW7 {
+grid-area: 2 / 3 / 3 / 10;
+  position: relative;
+  z-index: 2;
+}
+.store_WinZbmZw {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 536.30099955744px;
+  height: 196.64298615292px;
+  font-size:69.991571342565px;
+  transform: rotate(0deg);
+  font-family: Chewy;
+  border: 1px solid;
+}
+.store_7lyVAgtp {
+grid-area: 4 / 6 / 5 / 7;
+  position: relative;
+  z-index: 3;
+}
+.store_xSKSfp20 {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 261.91666666667px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_XyBb1Dgq {
+grid-area: 9 / 4 / 10 / 9;
+  position: relative;
+  z-index: 4;
+}
+.store_oipdokhl {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 379.38686534216px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_wKeExUQ0 {
+grid-area: 7 / 5 / 8 / 8;
+  position: relative;
+  z-index: 5;
+}
+.store_e4zc2y6d {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 293.49944812362px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
   border: 1px solid;
 }
 
 }
 @media (min-width: 480.05px) and (max-width: 768px) {
-.store_uqWSmjol {
-border: 1px solid;
-}
-.store_dZ8w772x {
-border: 1px solid;
-}
-.store_GFpWxgJZ {
-left: 0px;
-  top: -49.389447002821px;
-  position: absolute;
-  transform: rotate(0deg);
-  border: 1px solid;
-}
-.store_05HuEzYq {
-border: 1px solid;
-}
-.store_QseME8pG {
-width: 125.96271826368px;
-  height: 74.511944506767px;
+.store_xdtjkIoq {
+width: 1640px;
+  height: 924px;
   left: 0px;
   top: 0px;
   position: absolute;
-  font-size:26.620794281525px;
   transform: rotate(0deg);
-  font-family: A Bee Zee;
-  border: 1px solid;
-}
-.store_TQhZHm7Y {
-width: 699.15144718103px;
-  height: 129.40396833841px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:92.625998389597px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_v0WSJhKy {
-width: 867.77659183635px;
-  height: 242.122817949px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:173.30896442665px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_GWlWN0mx {
-width: 564.26521783624px;
-  height: 34px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:24px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_FjcaDNjF {
-width: 287.21628253901px;
-  height: 9px;
-  left: -31.483838493796px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(270.1703644673deg);
   background-color: rgb(255, 255, 255);
-  stroke-dasharray: 0;
+  display:grid;
+  overflow: hidden;
+  position: relative;
+  left:auto;
+  right:auto;
+  grid-template-columns: 0rem 32.94619205298rem 3.7698675496689rem 2.9159768211921rem 1.6349337748344rem 16.369791666667rem 0.33899006622516rem 2.4519867549669rem 6.0372658387857rem 36.03499547468rem;
+  grid-template-rows: minmax(15.223886213125rem,max-content) minmax(12.290186634557rem,max-content) minmax(0rem,max-content) minmax(1.5625rem,max-content) minmax(11.673427152318rem,max-content) minmax(9.9056291390728rem,max-content) minmax(1.5625rem,max-content) minmax(0.27317880794703rem,max-content) minmax(1.5625rem,max-content) minmax(3.6961920529801rem,max-content);
+  display:grid;
+  display: grid;
+  position: relative;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.store_sGyFJyNK {
+grid-area: 6 / 2 / 11 / 11;
+  position: relative;
+  z-index: 1;
+}
+.store_x1IwJoLc {
+width: 1766px;
+  height: 296px;
+  left: -41px;
+  top: 652px;
+  position: absolute;
+  left: -41px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(0deg);
+  background-color: rgb(253, 235, 207);
+  border: 1px solid;
+}
+.store_ddViGVW7 {
+grid-area: 2 / 3 / 3 / 10;
+  position: relative;
+  z-index: 2;
+}
+.store_WinZbmZw {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 536.30099955744px;
+  height: 196.64298615292px;
+  font-size:69.991571342565px;
+  transform: rotate(0deg);
+  font-family: Chewy;
+  border: 1px solid;
+}
+.store_7lyVAgtp {
+grid-area: 4 / 6 / 5 / 7;
+  position: relative;
+  z-index: 3;
+}
+.store_xSKSfp20 {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 261.91666666667px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_XyBb1Dgq {
+grid-area: 9 / 4 / 10 / 9;
+  position: relative;
+  z-index: 4;
+}
+.store_oipdokhl {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 379.38686534216px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_wKeExUQ0 {
+grid-area: 7 / 5 / 8 / 8;
+  position: relative;
+  z-index: 5;
+}
+.store_e4zc2y6d {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 293.49944812362px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
   border: 1px solid;
 }
 
 }
 @media (min-width: 768.05px) and (max-width: 1024px) {
-.store_uqWSmjol {
-border: 1px solid;
-}
-.store_dZ8w772x {
-border: 1px solid;
-}
-.store_GFpWxgJZ {
-left: 0px;
-  top: -49.389447002821px;
-  position: absolute;
-  transform: rotate(0deg);
-  border: 1px solid;
-}
-.store_05HuEzYq {
-border: 1px solid;
-}
-.store_QseME8pG {
-width: 125.96271826368px;
-  height: 74.511944506767px;
+.store_xdtjkIoq {
+width: 1640px;
+  height: 924px;
   left: 0px;
   top: 0px;
   position: absolute;
-  font-size:26.620794281525px;
   transform: rotate(0deg);
-  font-family: A Bee Zee;
-  border: 1px solid;
-}
-.store_TQhZHm7Y {
-width: 699.15144718103px;
-  height: 129.40396833841px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:92.625998389597px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_v0WSJhKy {
-width: 867.77659183635px;
-  height: 242.122817949px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:173.30896442665px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_GWlWN0mx {
-width: 564.26521783624px;
-  height: 34px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:24px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_FjcaDNjF {
-width: 287.21628253901px;
-  height: 9px;
-  left: -31.483838493796px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(270.1703644673deg);
   background-color: rgb(255, 255, 255);
-  stroke-dasharray: 0;
+  display:grid;
+  overflow: hidden;
+  position: relative;
+  left:auto;
+  right:auto;
+  grid-template-columns: 0rem 32.94619205298rem 3.7698675496689rem 2.9159768211921rem 1.6349337748344rem 16.369791666667rem 0.33899006622516rem 2.4519867549669rem 6.0372658387857rem 36.03499547468rem;
+  grid-template-rows: minmax(15.223886213125rem,max-content) minmax(12.290186634557rem,max-content) minmax(0rem,max-content) minmax(1.5625rem,max-content) minmax(11.673427152318rem,max-content) minmax(9.9056291390728rem,max-content) minmax(1.5625rem,max-content) minmax(0.27317880794703rem,max-content) minmax(1.5625rem,max-content) minmax(3.6961920529801rem,max-content);
+  display:grid;
+  display: grid;
+  position: relative;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.store_sGyFJyNK {
+grid-area: 6 / 2 / 11 / 11;
+  position: relative;
+  z-index: 1;
+}
+.store_x1IwJoLc {
+width: 1766px;
+  height: 296px;
+  left: -41px;
+  top: 652px;
+  position: absolute;
+  left: -41px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(0deg);
+  background-color: rgb(253, 235, 207);
+  border: 1px solid;
+}
+.store_ddViGVW7 {
+grid-area: 2 / 3 / 3 / 10;
+  position: relative;
+  z-index: 2;
+}
+.store_WinZbmZw {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 536.30099955744px;
+  height: 196.64298615292px;
+  font-size:69.991571342565px;
+  transform: rotate(0deg);
+  font-family: Chewy;
+  border: 1px solid;
+}
+.store_7lyVAgtp {
+grid-area: 4 / 6 / 5 / 7;
+  position: relative;
+  z-index: 3;
+}
+.store_xSKSfp20 {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 261.91666666667px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_XyBb1Dgq {
+grid-area: 9 / 4 / 10 / 9;
+  position: relative;
+  z-index: 4;
+}
+.store_oipdokhl {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 379.38686534216px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_wKeExUQ0 {
+grid-area: 7 / 5 / 8 / 8;
+  position: relative;
+  z-index: 5;
+}
+.store_e4zc2y6d {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 293.49944812362px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
   border: 1px solid;
 }
 
 }
 @media (min-width: 1024.05px) {
-.store_uqWSmjol {
-border: 1px solid;
-}
-.store_dZ8w772x {
-border: 1px solid;
-}
-.store_GFpWxgJZ {
-left: 0px;
-  top: -49.389447002821px;
-  position: absolute;
-  transform: rotate(0deg);
-  border: 1px solid;
-}
-.store_05HuEzYq {
-border: 1px solid;
-}
-.store_QseME8pG {
-width: 125.96271826368px;
-  height: 74.511944506767px;
+.store_xdtjkIoq {
+width: 1640px;
+  height: 924px;
   left: 0px;
   top: 0px;
   position: absolute;
-  font-size:26.620794281525px;
   transform: rotate(0deg);
-  font-family: A Bee Zee;
-  border: 1px solid;
-}
-.store_TQhZHm7Y {
-width: 699.15144718103px;
-  height: 129.40396833841px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:92.625998389597px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_v0WSJhKy {
-width: 867.77659183635px;
-  height: 242.122817949px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:173.30896442665px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_GWlWN0mx {
-width: 564.26521783624px;
-  height: 34px;
-  left: 0px;
-  top: 0px;
-  position: absolute;
-  font-size:24px;
-  transform: rotate(0deg);
-  font-family: Amiko;
-  border: 1px solid;
-}
-.store_FjcaDNjF {
-width: 287.21628253901px;
-  height: 9px;
-  left: -31.483838493796px;
-  top: 0px;
-  position: absolute;
-  transform: rotate(270.1703644673deg);
   background-color: rgb(255, 255, 255);
-  stroke-dasharray: 0;
+  display:grid;
+  overflow: hidden;
+  position: relative;
+  left:auto;
+  right:auto;
+  grid-template-columns: 0rem 32.94619205298rem 3.7698675496689rem 2.9159768211921rem 1.6349337748344rem 16.369791666667rem 0.33899006622516rem 2.4519867549669rem 6.0372658387857rem 36.03499547468rem;
+  grid-template-rows: minmax(15.223886213125rem,max-content) minmax(12.290186634557rem,max-content) minmax(0rem,max-content) minmax(1.5625rem,max-content) minmax(11.673427152318rem,max-content) minmax(9.9056291390728rem,max-content) minmax(1.5625rem,max-content) minmax(0.27317880794703rem,max-content) minmax(1.5625rem,max-content) minmax(3.6961920529801rem,max-content);
+  display:grid;
+  display: grid;
+  position: relative;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.store_sGyFJyNK {
+grid-area: 6 / 2 / 11 / 11;
+  position: relative;
+  z-index: 1;
+}
+.store_x1IwJoLc {
+width: 1766px;
+  height: 296px;
+  left: -41px;
+  top: 652px;
+  position: absolute;
+  left: -41px;
+  top: 0px;
+  position: absolute;
+  transform: rotate(0deg);
+  background-color: rgb(253, 235, 207);
+  border: 1px solid;
+}
+.store_ddViGVW7 {
+grid-area: 2 / 3 / 3 / 10;
+  position: relative;
+  z-index: 2;
+}
+.store_WinZbmZw {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 536.30099955744px;
+  height: 196.64298615292px;
+  font-size:69.991571342565px;
+  transform: rotate(0deg);
+  font-family: Chewy;
+  border: 1px solid;
+}
+.store_7lyVAgtp {
+grid-area: 4 / 6 / 5 / 7;
+  position: relative;
+  z-index: 3;
+}
+.store_xSKSfp20 {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 261.91666666667px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_XyBb1Dgq {
+grid-area: 9 / 4 / 10 / 9;
+  position: relative;
+  z-index: 4;
+}
+.store_oipdokhl {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 379.38686534216px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
+  border: 1px solid;
+}
+.store_wKeExUQ0 {
+grid-area: 7 / 5 / 8 / 8;
+  position: relative;
+  z-index: 5;
+}
+.store_e4zc2y6d {
+left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 293.49944812362px;
+  height: 25px;
+  font-size:18px;
+  transform: rotate(0deg);
+  font-family: Oswald;
   border: 1px solid;
 }
 

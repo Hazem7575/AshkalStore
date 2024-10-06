@@ -88,8 +88,8 @@ trait RenderDomFonts
     public static function getFontsUrl()
     {
         $path_css = self::$paths_dir['path_font'];
-        if(!File::exists(public_path($path_css))) {
-            File::makeDirectory(public_path($path_css), 0755, true);
+        if(!File::exists($path_css)) {
+            File::makeDirectory($path_css, 0755, true);
         }
 
         foreach (self::$fonts as $fontName => $fontVariants) {
@@ -97,10 +97,9 @@ trait RenderDomFonts
                 $originalUrl = $variant['url'];
                 $fontFileName = self::generateFontFileName($fontName, $variant['style']);
                 $localFontPath = $path_css . '/' . $fontFileName;
-                if (!File::exists(public_path($localFontPath))) {
-
+                if (!File::exists($originalUrl)) {
                     $fontData = file_get_contents($originalUrl);
-                    file_put_contents(public_path($localFontPath), $fontData);
+                    file_put_contents($localFontPath, $fontData);
                 }
                 self::$fonts[$fontName][$index]['url'] =  $path_css .'/'. $fontFileName;
 

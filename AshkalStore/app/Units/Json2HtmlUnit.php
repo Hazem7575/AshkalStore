@@ -22,6 +22,8 @@ class Json2HtmlUnit
     public static $paths_dir;
 
     public static $templete_css;
+
+
     public static function convert($json)
     {
         self::$paths_dir = [
@@ -32,10 +34,10 @@ class Json2HtmlUnit
 
         $html = '';
         foreach ($json as $key => $value) {
-
             $first = $value['layers'];
             $root = $first['ROOT'];
             self::$templete = $first;
+
             self::getFonts()->getFontsUrl()->getRenderFonts()->render();
 
             $html .= self::buildRoot($root, 'ROOT', $first);
@@ -60,8 +62,7 @@ class Json2HtmlUnit
         if (!isset($style['style'])) return '';
         $classes = 'layer-contianer ';
         $html = '<section class="' . $classes . '">';
-        $class_name = self::css_name($style['style']."display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;");
-        $html .='<div class="'. $class_name .'">';
+        $html .='<div style="'.$style['style']."    display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;". '">';
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
                 $html .= RenderElement::render($child);
@@ -94,18 +95,9 @@ class Json2HtmlUnit
         if (!isset($style['style'])) return '';
 
         $styleWithGridDiv = 'position: relative;z-index: '.$zIndex.';';
-        $style_1 = '';
-        if(isset($style['grid'])) {
-            $style_1 = $style['grid'];
-        }
-
-
-        $class_name = self::css_name($style_1. $styleWithGridDiv);
-        $class_name2 = self::css_name($style['style'] ."border: 1px solid;");
-
-
+        $html = '<div style="' . (isset($style['grid'])? $style['grid']:''). $styleWithGridDiv . '">';
+        $class_name = self::css_name($style['style'].'border: 1px solid;');
         $html = '<div class="'. $class_name .'">';
-        $html .= '<div class="'. $class_name2 .'">';
 
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
@@ -179,3 +171,4 @@ class Json2HtmlUnit
 
     public function fonts() {}
 }
+
