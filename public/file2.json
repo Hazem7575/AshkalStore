@@ -20,38 +20,39 @@
                 },
                 "locked": false,
                 "child": [
-                    "e416d18c-d0cf-4d1b-8813-40285f9724be",
-                    "d2cfb635-5709-44c0-a867-8f2e6b2f9cb5",
-                    "84996dd2-6ccd-475a-8904-db8aa838722a",
-                    "a34edc89-d072-4b9b-95e4-6114411d9289",
-                    "ee0645c5-0893-4a50-86d6-1ceb7b4e0ceb"
+                    "661176b5-9722-47a2-8d62-b66cd9378729",
+                    "ae011869-d7db-4ece-b5bd-031a04be78d5",
+                    "be841037-035c-4fa8-bda0-0e5364d23cb1",
+                    "edbd66ea-8f57-42f4-8efb-cfab07e62dbb",
+                    "f06dfafc-9198-408a-b6f9-fa10eb75191f"
                 ],
                 "parent": null
             },
-            "e416d18c-d0cf-4d1b-8813-40285f9724be": {
+            "661176b5-9722-47a2-8d62-b66cd9378729": {
                 "type": {
                     "resolvedName": "ShapeLayer"
                 },
                 "props": {
                     "shape": "rectangle",
                     "position": {
-                        "x": -41,
+                        "x": 0,
                         "y": 652
                     },
                     "boxSize": {
-                        "width": 1766,
-                        "height": 296,
-                        "x": -41,
+                        "width": 1642,
+                        "height": 275.0525862632325,
+                        "x": -2,
                         "y": 652
                     },
                     "rotate": 0,
-                    "color": "rgb(253, 235, 207)"
+                    "color": "rgb(253, 235, 207)",
+                    "scale": 0.9292317103487583
                 },
                 "locked": false,
                 "child": [],
                 "parent": "ROOT"
             },
-            "d2cfb635-5709-44c0-a867-8f2e6b2f9cb5": {
+            "ae011869-d7db-4ece-b5bd-031a04be78d5": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -75,7 +76,7 @@
                             "fonts": [
                                 {
                                     "urls": [
-                                        "/fonts/Chewy-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -92,7 +93,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "84996dd2-6ccd-475a-8904-db8aa838722a": {
+            "be841037-035c-4fa8-bda0-0e5364d23cb1": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -117,12 +118,12 @@
                                 {
                                     "style": "Bold",
                                     "urls": [
-                                        "/fonts/Oswald-Bold.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
                                     ]
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/Oswald-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -140,7 +141,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "a34edc89-d072-4b9b-95e4-6114411d9289": {
+            "edbd66ea-8f57-42f4-8efb-cfab07e62dbb": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -165,12 +166,12 @@
                                 {
                                     "style": "Bold",
                                     "urls": [
-                                        "/fonts/Oswald-Bold.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
                                     ]
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/Oswald-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -188,7 +189,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "ee0645c5-0893-4a50-86d6-1ceb7b4e0ceb": {
+            "f06dfafc-9198-408a-b6f9-fa10eb75191f": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -213,12 +214,12 @@
                                 {
                                     "style": "Bold",
                                     "urls": [
-                                        "/fonts/Oswald-Bold.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
                                     ]
                                 },
                                 {
                                     "urls": [
-                                        "/fonts/Oswald-Regular.woff2"
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
                                     ]
                                 }
                             ]

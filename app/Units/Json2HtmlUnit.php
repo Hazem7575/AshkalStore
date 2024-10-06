@@ -5,6 +5,7 @@ namespace App\Units;
 use App\Traits\RenderDomCss;
 use App\Traits\RenderDomFiles;
 use App\Traits\RenderDomFonts;
+use App\Traits\RenderDomJS;
 use App\Units\Helpers\RenderElement;
 use App\Units\Layers\FrameLayer;
 use App\Units\Layers\GroupLayer;
@@ -17,11 +18,13 @@ use App\Units\Styles\GridUnit;
 
 class Json2HtmlUnit
 {
-    use RenderDomFonts , RenderDomFiles , RenderDomCss;
+    use RenderDomFonts , RenderDomFiles , RenderDomCss , RenderDomJS;
     public static $template;
     public static $paths_dir;
 
     public static $templete_css;
+    public static $size_layer;
+    public static $width_layers;
     public static function convert($json)
     {
         self::$paths_dir = [
@@ -37,16 +40,22 @@ class Json2HtmlUnit
             $root = $first['ROOT'];
             self::$templete = $first;
             self::getFonts()->getFontsUrl()->getRenderFonts()->render();
-
+            $width = $root['props']['boxSize']['width'];
+            $height = $root['props']['boxSize']['height'];
+            self::$size_layer = [
+                'width' => $width,
+                'height' => $height,
+            ];
             $html .= self::buildRoot($root, 'ROOT', $first);
         }
-
 
         self::renderFileCss();
 
         return [
             'html' => $html,
             'css' => self::getUrlCss(),
+            'js' => self::getUrlJs(),
+            'sizes' => self::$size_layer
         ];
     }
 
@@ -61,6 +70,8 @@ class Json2HtmlUnit
         $classes = 'layer-contianer ';
         $html = '<section class="' . $classes . '">';
         $class_name = self::css_name($style['style']."display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;");
+
+        self::put_size($style['style'] , $class_name , $child);
         $html .='<div class="'. $class_name .'">';
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
@@ -103,6 +114,10 @@ class Json2HtmlUnit
         $class_name = self::css_name($style_1. $styleWithGridDiv);
         $class_name2 = self::css_name($style['style'] ."border: 1px solid;");
 
+
+        self::put_size($style_1 , $class_name , $child);
+
+        self::put_size($style['style'] , $class_name2 , $child);
 
         $html = '<div class="'. $class_name .'">';
         $html .= '<div class="'. $class_name2 .'">';
@@ -171,10 +186,12 @@ class Json2HtmlUnit
             default => '',
         };
         if(isset($childElement['child'])){
+
             $style['style'] = $style['style'].GridUnit::rander($childElement,$collection);
         }
         return $style;
     }
+
 
 
     public function fonts() {}

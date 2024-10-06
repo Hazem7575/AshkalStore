@@ -73,16 +73,6 @@ trait RenderDomFonts
     {
         self::$templete_css .= self::$fonts_css;
         return self::$fonts_css;
-//        $path_css = self::$paths_dir['path_css'];
-//        if(!File::exists($path_css)) {
-//            File::makeDirectory($path_css, 0755, true);
-//        }
-//
-//        $formatter = new CssFormatter();
-//        $cssFilePath = $path_css . '/styles.css';
-//        $formattedCss = $formatter->format(self::$fonts_css);
-//        File::put($cssFilePath, $formattedCss);
-//        return true;
     }
 
     public static function getFontsUrl()
@@ -91,7 +81,6 @@ trait RenderDomFonts
         if(!File::exists(public_path($path_css))) {
             File::makeDirectory(public_path($path_css), 0755, true);
         }
-
 
         foreach (self::$fonts as $fontName => $fontVariants) {
             foreach ($fontVariants as $index => &$variant) {

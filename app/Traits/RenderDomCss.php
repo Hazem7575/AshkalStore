@@ -56,7 +56,13 @@ trait RenderDomCss
                             animation: none !important;
                         }
                     }
+                    :root {
+                       --layer-size: '. self::$size_layer['width'] .'px;
 
+                    }
+                    .layer-contianer  {
+                       width: calc((536.30099955744 / var(--layer-size)) * 100vw);
+                    }
                     html {
                         -webkit-text-size-adjust: 100%;
                         scroll-behavior: smooth;
