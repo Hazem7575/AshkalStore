@@ -2,6 +2,9 @@
 
 namespace App\Units\Helpers;
 
+use App\Traits\RenderDomCss;
+use App\Traits\RenderDomJS;
+use App\Units\Json2HtmlUnit;
 use App\Units\Styles\BoxSizeUnit;
 use App\Units\Styles\FilterUnit;
 use App\Units\Styles\OpacityUnit;
@@ -9,6 +12,7 @@ use App\Units\Styles\PositionUnit;
 
 class ImageHelper
 {
+    use RenderDomJS , RenderDomCss;
     public static function getAttr($element)
     {
         $styleImage = '';
@@ -18,12 +22,12 @@ class ImageHelper
         $styleImage .= PositionUnit::rander($element['position']);
         $styleImage .= FilterUnit::rander($element);
 
-
+        $style_render = Json2HtmlUnit::ImageStyleListen($styleImage , $element);
         return [
             'type' => 'img',
             'attr' => [
-                'src' => $element['url'],
-                'style' => $styleImage,
+                'class' => $style_render['class'],
+                'src' => $element['url']
             ]
         ];
     }
