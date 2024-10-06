@@ -15,7 +15,7 @@ class ImageHelper
 
         $styleImage .= OpacityUnit::rander($element);
         $styleImage .= BoxSizeUnit::rander($element['boxSize']);
-        $styleImage .= PositionUnit::rander($element['position'] );
+        $styleImage .= PositionUnit::rander($element['position']);
         $styleImage .= FilterUnit::rander($element);
 
 

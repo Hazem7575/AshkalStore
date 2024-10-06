@@ -21,9 +21,10 @@ class GridUnit
             }
 
             $style .= self::buildGridColumn();
+
             $style .= self::buildGridRow();
             $style .= "display:grid;";
-            
+
             self::applyGridPositionsToChildren($collection, static::$childColumns, 'column');
             self::applyGridPositionsToChildren($collection, static::$childRows, 'row');
         }
@@ -63,20 +64,19 @@ class GridUnit
         $columns = [];
         $style = '';
 
+
         foreach (static::$childColumns as $key => $child) {
             $value = ($key === 0) ? $child['x'] : $child['x'] - static::$childColumns[$key - 1]['x'];
             $columns[] = $value;
             static::$childColumns[$key]['column'] = count($columns) + 1;
             $style .= $value/16 . "rem ";
-            // $style .= $value . "px ";
-
         }
-
         return 'grid-template-columns: ' . trim($style) . ';';
     }
 
     private static function buildGridRow()
     {
+
         usort(static::$childRows, fn($a, $b) => $a['y'] <=> $b['y']);
         self::adjustNegativeValues(static::$childRows, 'y');
 
@@ -84,8 +84,11 @@ class GridUnit
         $style = '';
 
         foreach (static::$childRows as $key => $child) {
+
             $value = ($key === 0) ? $child['y'] : $child['y'] - static::$childRows[$key - 1]['y'];
+
             $rows[] = $value;
+
             static::$childRows[$key]['row'] = count($rows) + 1;
             if($value){
 

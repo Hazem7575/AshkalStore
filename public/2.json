@@ -20,39 +20,38 @@
                 },
                 "locked": false,
                 "child": [
-                    "661176b5-9722-47a2-8d62-b66cd9378729",
-                    "ae011869-d7db-4ece-b5bd-031a04be78d5",
-                    "be841037-035c-4fa8-bda0-0e5364d23cb1",
-                    "edbd66ea-8f57-42f4-8efb-cfab07e62dbb",
-                    "f06dfafc-9198-408a-b6f9-fa10eb75191f"
+                    "289ba611-d58c-4126-a37a-47b4fd140ad6",
+                    "3c516485-f2bb-4006-bec6-0df9b9d0a34f",
+                    "9d75fef3-65bd-4a87-9633-354309596e49",
+                    "519c8294-5066-403a-9345-c2d14d5639e7",
+                    "f9a6c9c8-8e40-4a2e-910a-4b28940f3878"
                 ],
                 "parent": null
             },
-            "661176b5-9722-47a2-8d62-b66cd9378729": {
+            "289ba611-d58c-4126-a37a-47b4fd140ad6": {
                 "type": {
                     "resolvedName": "ShapeLayer"
                 },
                 "props": {
                     "shape": "rectangle",
                     "position": {
-                        "x": 0,
+                        "x": -41,
                         "y": 652
                     },
                     "boxSize": {
-                        "width": 1642,
-                        "height": 275.0525862632325,
-                        "x": -2,
+                        "width": 1766,
+                        "height": 296,
+                        "x": -41,
                         "y": 652
                     },
                     "rotate": 0,
-                    "color": "rgb(253, 235, 207)",
-                    "scale": 0.9292317103487583
+                    "color": "rgb(253, 235, 207)"
                 },
                 "locked": false,
                 "child": [],
                 "parent": "ROOT"
             },
-            "ae011869-d7db-4ece-b5bd-031a04be78d5": {
+            "3c516485-f2bb-4006-bec6-0df9b9d0a34f": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -93,7 +92,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "be841037-035c-4fa8-bda0-0e5364d23cb1": {
+            "9d75fef3-65bd-4a87-9633-354309596e49": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -141,7 +140,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "edbd66ea-8f57-42f4-8efb-cfab07e62dbb": {
+            "519c8294-5066-403a-9345-c2d14d5639e7": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -189,7 +188,7 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "f06dfafc-9198-408a-b6f9-fa10eb75191f": {
+            "f9a6c9c8-8e40-4a2e-910a-4b28940f3878": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },

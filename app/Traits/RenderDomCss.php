@@ -56,7 +56,13 @@ trait RenderDomCss
                             animation: none !important;
                         }
                     }
+                    :root {
+                       --layer-size: '. self::$size_layer['width'] .'px;
 
+                    }
+                    .layer-contianer  {
+                       width: calc((536.30099955744 / var(--layer-size)) * 100vw);
+                    }
                     html {
                         -webkit-text-size-adjust: 100%;
                         scroll-behavior: smooth;
@@ -121,14 +127,17 @@ trait RenderDomCss
            }
 
            self::$render_css_collection .= '@media '. $html_media .' {';
-           foreach (self::$collection_css as $key => $collect) {
-               $prefix = '.';
-               if (!$collect['is_class']) {
-                   $prefix = '#';
-               }
+           if(is_array(self::$collection_css) AND count(self::$collection_css) > 0) {
+               foreach (self::$collection_css as $key => $collect) {
+                   $prefix = '.';
+                   if (!$collect['is_class']) {
+                       $prefix = '#';
+                   }
 
-               self::$render_css_collection .= $prefix . $key . '{' . $collect['style'] . '}';
+                   self::$render_css_collection .= $prefix . $key . '{' . $collect['style'] . '}';
+               }
            }
+
            self::$render_css_collection .= '}';
 
        }

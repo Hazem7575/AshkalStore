@@ -73,23 +73,13 @@ trait RenderDomFonts
     {
         self::$templete_css .= self::$fonts_css;
         return self::$fonts_css;
-//        $path_css = self::$paths_dir['path_css'];
-//        if(!File::exists($path_css)) {
-//            File::makeDirectory($path_css, 0755, true);
-//        }
-//
-//        $formatter = new CssFormatter();
-//        $cssFilePath = $path_css . '/styles.css';
-//        $formattedCss = $formatter->format(self::$fonts_css);
-//        File::put($cssFilePath, $formattedCss);
-//        return true;
     }
 
     public static function getFontsUrl()
     {
         $path_css = self::$paths_dir['path_font'];
-        if(!File::exists($path_css)) {
-            File::makeDirectory($path_css, 0755, true);
+        if(!File::exists(public_path($path_css))) {
+            File::makeDirectory(public_path($path_css), 0755, true);
         }
 
         foreach (self::$fonts as $fontName => $fontVariants) {
@@ -97,9 +87,10 @@ trait RenderDomFonts
                 $originalUrl = $variant['url'];
                 $fontFileName = self::generateFontFileName($fontName, $variant['style']);
                 $localFontPath = $path_css . '/' . $fontFileName;
-                if (!File::exists($originalUrl)) {
+                if (!File::exists(public_path($localFontPath))) {
+
                     $fontData = file_get_contents($originalUrl);
-                    file_put_contents($localFontPath, $fontData);
+                    file_put_contents(public_path($localFontPath), $fontData);
                 }
                 self::$fonts[$fontName][$index]['url'] =  $path_css .'/'. $fontFileName;
 
