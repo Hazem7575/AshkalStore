@@ -2,6 +2,9 @@
 
 namespace App\Units;
 
+use App\Traits\RenderDomCss;
+use App\Traits\RenderDomFiles;
+use App\Traits\RenderDomFonts;
 use App\Units\Helpers\RenderElement;
 use App\Units\Layers\FrameLayer;
 use App\Units\Layers\GroupLayer;
@@ -14,50 +17,39 @@ use App\Units\Styles\GridUnit;
 
 class Json2HtmlUnit
 {
-    public static $fonts = [];
+    use RenderDomFonts , RenderDomFiles , RenderDomCss;
+    public static $template;
+    public static $paths_dir;
+
+    public static $templete_css;
+
+
     public static function convert($json)
     {
+        self::$paths_dir = [
+            'path_css' => '/test/css/',
+            'path_js' => '/test/js/',
+            'path_font' => '/test/fonts',
+        ];
+
         $html = '';
         foreach ($json as $key => $value) {
-
             $first = $value['layers'];
             $root = $first['ROOT'];
-            $width = $root['props']['boxSize']['width'];
-            $height = $root['props']['boxSize']['height'];
+            self::$templete = $first;
+
+            self::getFonts()->getFontsUrl()->getRenderFonts()->render();
+
             $html .= self::buildRoot($root, 'ROOT', $first);
         }
 
-        $html .= '<style>';
 
-        foreach (self::$fonts as $fontName => $fontVariants) {
+        self::renderFileCss();
 
-            foreach ($fontVariants as $variant) {
-                $html .= '@font-face {';
-                $html .= 'font-family: "' . $fontName . '"; ';
-                $html .= 'src: url("' . "https://corsproxy.io/?" . $variant['url'] . '"); ';
-                if (isset($variant['style'])) {
-                    if (strpos($variant['style'], 'Italic') !== false) {
-                        $html .= 'font-style: italic; ';
-                    } else {
-                        $html .= 'font-style: normal; ';
-                    }
-
-                    if (strpos($variant['style'], 'Bold') !== false) {
-                        $html .= 'font-weight: bold; ';
-                    } else {
-                        $html .= 'font-weight: normal; ';
-                    }
-                } else {
-                    $html .= 'font-style: normal; ';
-                    $html .= 'font-weight: normal; ';
-                }
-
-                $html .= '}';
-            }
-        }
-
-        $html .= '</style>';
-        return $html;
+        return [
+            'html' => $html,
+            'css' => self::getUrlCss(),
+        ];
     }
 
 
@@ -104,7 +96,8 @@ class Json2HtmlUnit
 
         $styleWithGridDiv = 'position: relative;z-index: '.$zIndex.';';
         $html = '<div style="' . (isset($style['grid'])? $style['grid']:''). $styleWithGridDiv . '">';
-        $html .= '<div style="' . $style['style'] ."border: 1px solid;". '">';
+        $class_name = self::css_name($style['style'].'border: 1px solid;');
+        $html = '<div class="'. $class_name .'">';
 
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
@@ -157,7 +150,7 @@ class Json2HtmlUnit
         }
 
 
-        
+
         $style = match ($type) {
             'RootLayer'  =>   RootShape::rander($props),
             'ShapeLayer' =>   ShapeLayer::rander($props),
@@ -178,3 +171,4 @@ class Json2HtmlUnit
 
     public function fonts() {}
 }
+

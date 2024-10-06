@@ -2,17 +2,24 @@
 
 namespace App\Units\Styles;
 
+use App\Units\Helpers\SizeHelper;
+
 class BoxSizeUnit
 {
-    public static function rander($props , $position = true)
+    public static function rander($props , $position = true , $resize = false , $sizes = [])
     {
         $style = '';
 
         if (isset($props['width'])) {
-            $style .= 'width: ' . $props['width'] . 'px; ';
+            $width = $props['width'] . 'px; ';
+            if($resize) {
+               // $width = SizeHelper::getWidth($props['width'] , $sizes).'%; ';
+            }
+            $style .= 'width: ' . $width;
         }
 
         if (isset($props['height'])) {
+
             $style .= 'height: ' . $props['height'] . 'px; ';
         }
 
@@ -26,9 +33,10 @@ class BoxSizeUnit
             }
 
             if (isset($props['x']) || isset($props['y'])) {
-                $style .= 'position: absolute; ';
+                $style .= 'position: relative; ';
             }
         }
+
 
 
         return $style;

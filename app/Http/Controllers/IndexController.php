@@ -10,9 +10,9 @@ class IndexController extends Controller
 {
     public function index()
     {
-        $file = File::get(public_path('file3.json'));
+        $file = File::get(public_path('file.json'));
         $json = json_decode($file, true);
         $html = Json2HtmlUnit::convert($json);
         return view('welcome', compact('html'));
     }
-}   
+}

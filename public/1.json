@@ -1,0 +1,405 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(35, 31, 32)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "259bbe56-89b8-4b7b-980e-ce50fa9f462d",
+                    "dfce2764-439c-48b8-870f-10c2143a6339",
+                    "73c44f21-55f5-4f2b-a2d8-83da8d5547e4",
+                    "3a033f99-2d64-4869-89b5-1fd00b9fefcd",
+                    "15c02508-23c4-4e71-8253-e9c6e02b371a"
+                ],
+                "parent": null
+            },
+            "259bbe56-89b8-4b7b-980e-ce50fa9f462d": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Anton; color: rgb(255, 223, 43); font-size: 100px; text-align: center; line-height: 1.4; letter-spacing: 0em;\">SPECIAL PROMOTION</p>",
+                    "fonts": [
+                        {
+                            "name": "Anton",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Anton-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 36,
+                        "y": 102,
+                        "width": 672.5,
+                        "height": 280
+                    },
+                    "position": {
+                        "x": 36,
+                        "y": 102
+                    },
+                    "fontSizes": [
+                        100
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "dfce2764-439c-48b8-870f-10c2143a6339": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 284,
+                        "height": 284
+                    },
+                    "position": {
+                        "x": 1196,
+                        "y": 246
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "fadd4e13-edd7-4819-9571-62e4b2efcc91",
+                    "e983a177-6ca1-4ada-90e4-10486a9b824c",
+                    "d195ce24-0672-419e-8fce-7053226c45de"
+                ],
+                "parent": "ROOT"
+            },
+            "fadd4e13-edd7-4819-9571-62e4b2efcc91": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(168, 65, 54)",
+                    "shape": "circle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 155,
+                        "y": 328,
+                        "width": 284,
+                        "height": 284
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "dfce2764-439c-48b8-870f-10c2143a6339"
+            },
+            "e983a177-6ca1-4ada-90e4-10486a9b824c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Oswald;font-size: 40px;color: rgb(255, 223, 43); line-height: 1.4; letter-spacing: 0em;\"><span style=\"color: rgb(255, 223, 43);\">DISCOUNTS</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "/fonts/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1226,
+                        "y": 324.39119496855346,
+                        "width": 223.49999999999997,
+                        "height": 56
+                    },
+                    "position": {
+                        "x": 30,
+                        "y": 78.39119496855346
+                    },
+                    "fontSizes": [
+                        40
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "dfce2764-439c-48b8-870f-10c2143a6339"
+            },
+            "d195ce24-0672-419e-8fce-7053226c45de": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Anton;font-size: 100px;color: rgb(255, 223, 43);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 223, 43);\">20%</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Anton",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Anton-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 0.5119496855345911,
+                    "colors": [
+                        "rgb(255, 223, 43)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1242,
+                        "y": 377.39119496855346,
+                        "width": 190.49999999999997,
+                        "height": 71.67295597484275
+                    },
+                    "position": {
+                        "x": 46,
+                        "y": 131.39119496855346
+                    },
+                    "fontSizes": [
+                        100
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "dfce2764-439c-48b8-870f-10c2143a6339"
+            },
+            "73c44f21-55f5-4f2b-a2d8-83da8d5547e4": {
+                "type": {
+                    "resolvedName": "ImageLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/RqfoZjE.png",
+                        "thumb": "/images/RqfoZjEm.png",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 1112.4117263843648,
+                            "height": 739.1999999999999
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1112.4117263843648,
+                        "height": 739.1999999999999
+                    },
+                    "position": {
+                        "x": 559.7941368078176,
+                        "y": 351.40000000000003
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "3a033f99-2d64-4869-89b5-1fd00b9fefcd": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Lato;font-size: 32px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">Only for this weekend</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lato",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/Lato-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "/fonts/Lato-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "/fonts/Lato-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "/fonts/Lato-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 32,
+                        "y": 859,
+                        "width": 465.5,
+                        "height": 45
+                    },
+                    "position": {
+                        "x": 32,
+                        "y": 859
+                    },
+                    "fontSizes": [
+                        32
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "15c02508-23c4-4e71-8253-e9c6e02b371a": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 1,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 717.5,
+                        "height": 156
+                    },
+                    "position": {
+                        "x": 23,
+                        "y": 528
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "1042daaf-5a5e-4997-958d-c5fe0b39fc65",
+                    "6a832236-542b-4fe0-96db-05ca94c67059"
+                ],
+                "parent": "ROOT"
+            },
+            "1042daaf-5a5e-4997-958d-c5fe0b39fc65": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Lilita One;font-size: 80px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(255, 255, 255);\">BANH MI</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lilita One",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/LilitaOne-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 36,
+                        "y": 57,
+                        "width": 676.5,
+                        "height": 112
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        80
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "15c02508-23c4-4e71-8253-e9c6e02b371a"
+            },
+            "6a832236-542b-4fe0-96db-05ca94c67059": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Lilita One;font-size: 60px;color: rgb(168, 65, 54);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(168, 65, 54);\">DAC BIET</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Lilita One",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "/fonts/LilitaOne-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(168, 65, 54)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 36,
+                        "y": 57,
+                        "width": 676.5,
+                        "height": 84
+                    },
+                    "position": {
+                        "x": 41,
+                        "y": 72
+                    },
+                    "fontSizes": [
+                        60
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "15c02508-23c4-4e71-8253-e9c6e02b371a"
+            }
+        }
+    }
+]
