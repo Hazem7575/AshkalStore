@@ -92,6 +92,7 @@ trait RenderDomFonts
             File::makeDirectory(public_path($path_css), 0755, true);
         }
 
+
         foreach (self::$fonts as $fontName => $fontVariants) {
             foreach ($fontVariants as $index => &$variant) {
                 $originalUrl = $variant['url'];
