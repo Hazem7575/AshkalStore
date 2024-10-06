@@ -1,0 +1,383 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(239, 238, 238)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "fcb45033-053b-47ba-a576-81b4e5b7b7db",
+                    "040b47ea-7290-448a-831a-093a53784d78",
+                    "625baa43-2711-4b09-9e7e-185cb9bc12b6",
+                    "7c6fd5a6-e54b-4b0d-8dcf-963e96e49795",
+                    "092db992-4d39-4804-9efc-42fd5c168d29",
+                    "8661c386-06a0-4fbc-8825-a8e1828da391",
+                    "b0e0f7ce-137e-4f24-b323-6abaaf0071e8",
+                    "fd66b2d2-7f9c-4654-8723-dfabd8a82c76",
+                    "99365337-1e17-4e94-b5d1-099610c03d81"
+                ],
+                "parent": null
+            },
+            "fcb45033-053b-47ba-a576-81b4e5b7b7db": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/Vm0PVfp.jpeg",
+                        "thumb": "/images/Vm0PVfp.jpeg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 440.6849252942363,
+                            "height": 661.0273879413545
+                        },
+                        "position": {
+                            "x": -101.73995880314791,
+                            "y": -49.808885516534986
+                        }
+                    },
+                    "scale": 0.8463947234695957,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 93.20655914691945,
+                        "y": 260.7946287519747,
+                        "width": 284.9049278671006,
+                        "height": 423.19736173479777
+                    },
+                    "clipPath": "M 336.62 0 L 215.49 500 H 0 L 119.72 0 H 336.62 Z",
+                    "position": {
+                        "x": 94.50197778830972,
+                        "y": 327.30330430989534
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "040b47ea-7290-448a-831a-093a53784d78": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/iZ2cmsm.jpeg",
+                        "thumb": "/images/iZ2cmsmm.jpeg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 336.61,
+                            "height": 506.89505882352944
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "scale": 0.8463947234695957,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 93.20655914691945,
+                        "y": 260.7946287519747,
+                        "width": 284.9049278671006,
+                        "height": 423.19736173479777
+                    },
+                    "clipPath": "M 336.62 0 L 215.49 500 H 0 L 119.72 0 H 336.62 Z",
+                    "position": {
+                        "x": 308.2838349864708,
+                        "y": 239.6814311816677
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "625baa43-2711-4b09-9e7e-185cb9bc12b6": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/9pHKSeF.jpg",
+                        "thumb": "/images/9pHKSeFm.jpg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 394.5026104349234,
+                            "height": 591.753915652385
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": -34.26297352270976
+                        }
+                    },
+                    "scale": 0.8463947234695957,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 93.20655914691945,
+                        "y": 260.7946287519747,
+                        "width": 284.9049278671006,
+                        "height": 423.19736173479777
+                    },
+                    "clipPath": "M 336.62 0 L 215.49 500 H 0 L 119.72 0 H 336.62 Z",
+                    "position": {
+                        "x": 478.7227693377513,
+                        "y": 325.6425566030247
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "7c6fd5a6-e54b-4b0d-8dcf-963e96e49795": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/uSa1yQV.jpg",
+                        "thumb": "https://i.imgur.com/uSa1yQVm.jpg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 404.6205159655355,
+                            "height": 541.0783159403112
+                        },
+                        "position": {
+                            "x": -18.645993989828895,
+                            "y": 0
+                        }
+                    },
+                    "scale": 0.8463947234695957,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 93.20655914691945,
+                        "y": 260.7946287519747,
+                        "width": 284.9049278671006,
+                        "height": 423.19736173479777
+                    },
+                    "clipPath": "M 336.62 0 L 215.49 500 H 0 L 119.72 0 H 336.62 Z",
+                    "position": {
+                        "x": 691.460328861764,
+                        "y": 238.8138601817034
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "092db992-4d39-4804-9efc-42fd5c168d29": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/wXPmETk.jpg",
+                        "thumb": "https://i.imgur.com/wXPmETkm.jpg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 367.3285279858777,
+                            "height": 550.2610618433865
+                        },
+                        "position": {
+                            "x": -30.71852798587771,
+                            "y": -40.17038275076316
+                        }
+                    },
+                    "scale": 0.8463947234695957,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 93.20655914691945,
+                        "y": 260.7946287519747,
+                        "width": 284.9049278671006,
+                        "height": 423.19736173479777
+                    },
+                    "clipPath": "M 336.62 0 L 215.49 500 H 0 L 119.72 0 H 336.62 Z",
+                    "position": {
+                        "x": 862.692439919951,
+                        "y": 324.4840508306378
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "8661c386-06a0-4fbc-8825-a8e1828da391": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/XsIiZRC.jpg",
+                        "thumb": "https://i.imgur.com/XsIiZRCm.jpg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 495.9196813647603,
+                            "height": 743.8174855596042
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": -118.00469267401644
+                        }
+                    },
+                    "scale": 0.847423926404743,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1074.1345808025735,
+                        "y": 242.5859080076356,
+                        "width": 285.25136786710056,
+                        "height": 423.7119632023715
+                    },
+                    "clipPath": "M 336.62 0 L 215.49 500 H 0 L 119.72 0 H 336.62 Z",
+                    "position": {
+                        "x": 1074.1345808025735,
+                        "y": 242.5859080076356
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "b0e0f7ce-137e-4f24-b323-6abaaf0071e8": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://i.imgur.com/ZQ4CBCt.jpg",
+                        "thumb": "https://i.imgur.com/ZQ4CBCtm.jpg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 386.2322375156486,
+                            "height": 579.3483562734729
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": -41.35186459637384
+                        }
+                    },
+                    "scale": 0.8463947234695957,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 93.20655914691945,
+                        "y": 260.7946287519747,
+                        "width": 284.9049278671006,
+                        "height": 423.19736173479777
+                    },
+                    "clipPath": "M 336.62 0 L 215.49 500 H 0 L 119.72 0 H 336.62 Z",
+                    "position": {
+                        "x": 1246.9132314693925,
+                        "y": 327.21180098242166
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "fd66b2d2-7f9c-4654-8723-dfabd8a82c76": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Almarai;text-transform: uppercase;font-size: 104px;color: rgb(52, 49, 47);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(52, 49, 47);\">Modern room</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Almarai",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Almarai/Almarai-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Almarai/Almarai-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(52, 49, 47)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 581.6066350710901,
+                        "y": 115.34597156398104,
+                        "width": 857.1176935229068,
+                        "height": 146
+                    },
+                    "position": {
+                        "x": 410.6113744075829,
+                        "y": 70.00631911532385
+                    },
+                    "fontSizes": [
+                        104
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "99365337-1e17-4e94-b5d1-099610c03d81": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Almarai;text-transform: uppercase;font-size: 24px;color: rgb(52, 49, 47);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(52, 49, 47);\">Save time and money while satisfying all your fashion, clothing and accessory needs by visiting these best showroom</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Almarai",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Almarai/Almarai-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Almarai/Almarai-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(52, 49, 47)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 581.6066350710901,
+                        "y": 115.34597156398104,
+                        "width": 857.1176935229068,
+                        "height": 67
+                    },
+                    "position": {
+                        "x": 384.33965244865715,
+                        "y": 814.5086887835704
+                    },
+                    "fontSizes": [
+                        24
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]

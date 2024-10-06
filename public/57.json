@@ -1,0 +1,280 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 2,
+                        "y": -1
+                    },
+                    "rotate": 0,
+                    "color": "rgb(0, 0, 0)",
+                    "image": null,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [
+                    "393c1009-2213-4132-b58e-b1910fa3c3a2",
+                    "f1ff58ec-c9ba-4df8-a3d7-479f95fa7f44",
+                    "4f485642-7695-4bf1-bdfb-3993be08275b",
+                    "1d9750c8-79c3-4da0-ac9f-742ef935320c",
+                    "af3eaa55-c940-4ab7-8323-35f29f786a1d",
+                    "c4b5d151-b814-44fa-8349-c43f7e678fa8",
+                    "b3538bed-bff1-4e1e-8e7e-7afbee3d37df"
+                ],
+                "parent": null
+            },
+            "393c1009-2213-4132-b58e-b1910fa3c3a2": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 218.89999999999998,
+                        "y": 334.3375
+                    },
+                    "boxSize": {
+                        "width": 1195.95,
+                        "height": 277.2,
+                        "x": 365.775,
+                        "y": 414.025
+                    },
+                    "rotate": 0,
+                    "color": "#5E6278",
+                    "scale": 4.33125
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "f1ff58ec-c9ba-4df8-a3d7-479f95fa7f44": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "triangleUpsideDown",
+                    "position": {
+                        "x": 170.97500000000002,
+                        "y": 334.3375
+                    },
+                    "boxSize": {
+                        "width": 316.79999999999995,
+                        "height": 277.2
+                    },
+                    "rotate": 0,
+                    "color": "#5E6278",
+                    "scale": 4.95
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "4f485642-7695-4bf1-bdfb-3993be08275b": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "triangleUpsideDown",
+                    "position": {
+                        "x": 1150.6625,
+                        "y": 334.3375
+                    },
+                    "boxSize": {
+                        "width": 316.79999999999995,
+                        "height": 277.2
+                    },
+                    "rotate": 0,
+                    "color": "#5E6278",
+                    "scale": 4.95
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "1d9750c8-79c3-4da0-ac9f-742ef935320c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(0, 0, 0);\">عرض خاص جدا</span></strong></p>",
+                    "position": {
+                        "x": 551.8495002212821,
+                        "y": 414.5
+                    },
+                    "boxSize": {
+                        "width": 536.3009995574356,
+                        "height": 95,
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875
+                    },
+                    "scale": 1,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "af3eaa55-c940-4ab7-8323-35f29f786a1d": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Fascinate;font-size: 87.092px;color: rgb(255, 253, 71);line-height: 1.4;letter-spacing: NaNem;\"><span style=\"color: rgb(255, 253, 71);\">enjoy</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Fascinate",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Fascinate/Fascinate-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 253, 71)"
+                    ],
+                    "effect": {
+                        "name": "echo",
+                        "settings": {
+                            "color": "rgb(236, 0, 255)",
+                            "offset": 40,
+                            "direction": 53
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 363.17083333333323,
+                        "y": 414.5,
+                        "width": 416.5421052631582,
+                        "height": 122
+                    },
+                    "position": {
+                        "x": 600.7914473684209,
+                        "y": 472.9375
+                    },
+                    "fontSizes": [
+                        87.092
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c4b5d151-b814-44fa-8349-c43f7e678fa8": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "clipPath": "M 182 0 h -61.9 v 100.1 H 61.7 V 0 H 0 v 264.2 h 61.7 V 158.3 h 58.4 v 105.9 H 182 Z",
+                    "position": {
+                        "x": 465.4375,
+                        "y": 414.5
+                    },
+                    "boxSize": {
+                        "width": 105.21875000000001,
+                        "height": 152.625,
+                        "x": 660.75,
+                        "y": 231
+                    },
+                    "rotate": 0,
+                    "scale": 0.5781250000000001
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "b3538bed-bff1-4e1e-8e7e-7afbee3d37df": {
+                "type": {
+                    "resolvedName": "ImageLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://images.unsplash.com/photo-1720048171731-15b3d9d5473f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1Mjc0OTN8MXwxfGFsbHwxfHx8fHx8fHwxNzI3OTY1Mzk2fA&ixlib=rb-4.0.3&q=85",
+                        "thumb": "https://images.unsplash.com/photo-1720048171731-15b3d9d5473f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Mjc0OTN8MXwxfGFsbHwxfHx8fHx8fHwxNzI3OTY1Mzk2fA&ixlib=rb-4.0.3&q=80&w=200",
+                        "boxSize": {
+                            "width": 405.67500000000007,
+                            "height": 270.45000000000005
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "rotate": 0
+                    },
+                    "position": {
+                        "x": 1009.1749999999998,
+                        "y": 337.7125
+                    },
+                    "boxSize": {
+                        "width": 405.67500000000007,
+                        "height": 270.45000000000005,
+                        "x": 265.6,
+                        "y": 92.40000000000003
+                    },
+                    "rotate": 0
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]

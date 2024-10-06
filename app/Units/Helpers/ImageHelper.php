@@ -3,6 +3,7 @@
 namespace App\Units\Helpers;
 
 use App\Units\Styles\BoxSizeUnit;
+use App\Units\Styles\FilterUnit;
 use App\Units\Styles\OpacityUnit;
 use App\Units\Styles\PositionUnit;
 
@@ -15,6 +16,8 @@ class ImageHelper
         $styleImage .= OpacityUnit::rander($element);
         $styleImage .= BoxSizeUnit::rander($element['boxSize']);
         $styleImage .= PositionUnit::rander($element['position']);
+        $styleImage .= FilterUnit::rander($element);
+
 
         return [
             'type' => 'img',
@@ -29,7 +32,7 @@ class ImageHelper
 /*************  ✨ Codeium Command ⭐  *************/
     /**
      * render
-     * 
+     *
      * @param array $element
      * @return string
      */
