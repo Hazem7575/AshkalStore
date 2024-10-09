@@ -18,14 +18,14 @@ class ClipPathUnit
 
             // $style .="width:".$props['boxSize']['width']."px;";
             // $style .="height:".$props['boxSize']['height']."px;";
-            $style .="width:".$props['boxSize']['width']/$props['scale']."px;";
-            $style .="height:".$props['boxSize']['height']/$props['scale']."px;";
-            // $style .=TransformUnit::rander($props,true);
-            $style .="overflow:hidden;";
+//            $style .="width:".$props['boxSize']['width']/$props['scale']."px;";
+//            $style .="height:".$props['boxSize']['height']/$props['scale']."px;";
+//            // $style .=TransformUnit::rander($props,true);
+//            $style .="overflow:hidden;";
             $dimensions = self::extractDimensions($props['clipPath']);
-            return $style;
-            $width = $dimensions['width'];
-            $height = $dimensions['width'];
+           // return $style;
+            $width = $props['boxSize']['width']/$props['scale'];
+            $height = $props['boxSize']['height']/$props['scale'];
             $style .= 'clip-path: ' . self::convertToSquare($width, $height) . '; ';
         }
         return $style;
@@ -60,4 +60,9 @@ class ClipPathUnit
         return ['width' => $width, 'height' => $height];
     }
 
+    private static function convertToSquare($width, $height)
+    {
+        // شكل مربع باستخدام القيم المحددة
+        return "path('M 0 0 L $width 0 L $width $height L 0 $height Z')";
+    }
 }

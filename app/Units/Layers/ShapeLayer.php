@@ -31,7 +31,7 @@ class ShapeLayer
         $style .= RoundedCornersUnit::rander($element);
         $style .= ShapeUnit::rander($element);
         if (isset($element['image']['url'])) {
-            $data['children'][] = ImageHelper::getAttr($element['image']);
+            $data['children'][] = ImageHelper::getAttr($element['image'] , $element);
         }
 
         $data['style'] = $style;

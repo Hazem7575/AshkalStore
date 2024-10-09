@@ -20,34 +20,38 @@
                 },
                 "locked": false,
                 "child": [
-                    "af627c11-fc85-4aa0-b280-b7b92a92ae5e",
-                    "47c1dbfa-4034-4459-9ac6-441d921b2875",
-                    "2ec3981a-4766-495f-aca7-743f2c6aa89a",
-                    "25eb0ad1-dbda-46f8-b2a6-725e69ed86f8",
-                    "84280da9-faee-44b7-8712-8429bc03d94a",
-                    "e4de8847-1f10-4c5f-887f-72bcfdceee71",
-                    "abd17d48-2b72-4d77-995c-f26050bdb30e",
-                    "aa8d7ac7-b29d-49b3-88ca-8a4f6c13b6a2",
-                    "0b421156-6d19-41c3-b2f5-f2f5c22de7d6",
-                    "99b7dc9f-867e-4e06-a88a-5da105807c95",
-                    "10610428-6d0e-4056-8058-80cf50ee5054",
-                    "23620322-d84c-4072-9cea-6f0562d3214c",
-                    "a4026602-1162-45cf-bde6-95cf08005578",
-                    "4e9e1d70-5306-4862-bf7d-165eaf5675fe",
-                    "3775d975-d669-463b-8614-76408e8debec",
-                    "b660443f-fa18-42ed-a760-79ae2766bf2d",
-                    "5d92a816-9acb-4107-a3d6-b903be8c0677",
-                    "c949f6a0-02ac-4f53-943b-2cfc7277536d",
-                    "309edb2c-a361-44f1-974b-fe2783426ea3",
-                    "e9b5a208-18e0-4799-90d5-6c6302bd0996",
-                    "e9307ebd-f633-4355-a2af-6d80f6d90e81",
-                    "5fbc8125-0e24-470b-840e-7d0b5fdbbecf",
-                    "c24ae775-efcc-41a0-b85d-1c8374f0515f",
-                    "52ebd27f-b3e5-4444-8935-9ba7a2bb370c"
+                    "b2fc2221-5a55-477d-90f1-cb1d7b9db8d6",
+                    "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
                 ],
                 "parent": null
             },
-            "af627c11-fc85-4aa0-b280-b7b92a92ae5e": {
+            "b2fc2221-5a55-477d-90f1-cb1d7b9db8d6": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "position": {
+                        "x": -62.43285939968405,
+                        "y": -27.921011058451768
+                    },
+                    "boxSize": {
+                        "width": 891.7535545023696,
+                        "height": 1038.135860979463
+                    },
+                    "scale": 1,
+                    "rotate": 0
+                },
+                "locked": false,
+                "child": [
+                    "6a535ae8-45be-4ea1-8710-be8ec8766ade",
+                    "91431dd4-cc56-4726-96e5-5e631c3aa3ce",
+                    "a58b880a-7063-4574-a3a3-9b6770ee14b6",
+                    "feebbe5f-78aa-4de2-8bad-9e514c972fd5",
+                    "46920287-0943-4b24-b434-888fda456606"
+                ],
+                "parent": "ROOT"
+            },
+            "6a535ae8-45be-4ea1-8710-be8ec8766ade": {
                 "type": {
                     "resolvedName": "ShapeLayer"
                 },
@@ -62,23 +66,23 @@
                         "height": 1038.135860979463
                     },
                     "position": {
-                        "x": -62.43285939968404,
-                        "y": -27.921011058451796
+                        "x": 7.105427357601002e-15,
+                        "y": -2.842170943040401e-14
                     },
                     "roundedCorners": 0
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "b2fc2221-5a55-477d-90f1-cb1d7b9db8d6"
             },
-            "47c1dbfa-4034-4459-9ac6-441d921b2875": {
+            "91431dd4-cc56-4726-96e5-5e631c3aa3ce": {
                 "type": {
                     "resolvedName": "FrameLayer"
                 },
                 "props": {
                     "image": {
                         "url": "/images/CFJ0AJ3.jpeg",
-                        "thumb": "/images/CFJ0AJ3.jpeg",
+                        "thumb": "/images/CFJ0AJ3m.jpeg",
                         "rotate": 0,
                         "boxSize": {
                             "width": 1157.523098281392,
@@ -99,15 +103,15 @@
                     },
                     "clipPath": "path(\"M 500 250.002 c 0 138.065 -111.931 249.996 -250 249.996 c -138.071 0 -250 -111.931 -250 -249.996 C 0 111.93 111.929 0 250 0 s 250 111.93 250 250.002 Z\")",
                     "position": {
-                        "x": 41.037914691943115,
-                        "y": 565.2180094786729
+                        "x": 103.47077409162716,
+                        "y": 593.1390205371247
                     }
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "b2fc2221-5a55-477d-90f1-cb1d7b9db8d6"
             },
-            "2ec3981a-4766-495f-aca7-743f2c6aa89a": {
+            "a58b880a-7063-4574-a3a3-9b6770ee14b6": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -138,8 +142,8 @@
                         "height": 50
                     },
                     "position": {
-                        "x": 49.18957345971576,
-                        "y": 248.77409162717217
+                        "x": 111.62243285939981,
+                        "y": 276.69510268562397
                     },
                     "fontSizes": [
                         36
@@ -147,9 +151,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "b2fc2221-5a55-477d-90f1-cb1d7b9db8d6"
             },
-            "25eb0ad1-dbda-46f8-b2a6-725e69ed86f8": {
+            "feebbe5f-78aa-4de2-8bad-9e514c972fd5": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -185,8 +189,8 @@
                         "height": 112
                     },
                     "position": {
-                        "x": 48.75671406003162,
-                        "y": 144.73459715639808
+                        "x": 111.18957345971566,
+                        "y": 172.65560821484985
                     },
                     "fontSizes": [
                         80
@@ -194,9 +198,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "b2fc2221-5a55-477d-90f1-cb1d7b9db8d6"
             },
-            "84280da9-faee-44b7-8712-8429bc03d94a": {
+            "46920287-0943-4b24-b434-888fda456606": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -227,8 +231,8 @@
                         "height": 50
                     },
                     "position": {
-                        "x": 52.712480252764735,
-                        "y": 423.2922590837282
+                        "x": 115.14533965244878,
+                        "y": 451.21327014217997
                     },
                     "fontSizes": [
                         36
@@ -236,9 +240,50 @@
                 },
                 "locked": false,
                 "child": [],
+                "parent": "b2fc2221-5a55-477d-90f1-cb1d7b9db8d6"
+            },
+            "241b2d10-b4c3-4f67-9f1d-e696f3015e71": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "position": {
+                        "x": 925.09794628752,
+                        "y": 117.21011058451813
+                    },
+                    "boxSize": {
+                        "width": 634.5110584518168,
+                        "height": 705.6192733017377
+                    },
+                    "scale": 1,
+                    "rotate": 0
+                },
+                "locked": false,
+                "child": [
+                    "fa7e8459-4344-4845-8f44-ec30942f1b7a",
+                    "e0c2b28f-3cef-4a1d-ba22-d74a2d173604",
+                    "23344522-39ca-4413-83f6-ff289a215ae4",
+                    "dd5ccccf-ab7e-484b-b672-3bde629b262f",
+                    "250ce325-4be5-40e2-a221-1eefda7ca837",
+                    "8b94c422-b289-4bf2-b442-b3683b3cdf1e",
+                    "e2daa911-e77a-4ec7-8e14-92d5e5f3fd0e",
+                    "ab2e9bf0-3707-4201-ad19-da4b55d541da",
+                    "42a9f24a-5df5-487a-b115-f4f6dc673d5e",
+                    "07663680-5c61-4703-89d6-6988896399c4",
+                    "9e6c6a04-1218-4657-a1cc-fc47a3d101db",
+                    "9b688099-53b1-4625-b252-cee95f1141bd",
+                    "7e751bdd-e208-4d24-b730-074f38b18848",
+                    "13de185c-bfd0-4099-baa3-4be845b7e91b",
+                    "7be63129-41ed-4d41-8b72-d090df45072a",
+                    "7a62c589-d039-49a2-913f-4e26ba9ba09b",
+                    "2b5de347-f51b-4380-be33-a6b548263111",
+                    "2d106725-ab9e-4f66-89ab-cbc8296b530a",
+                    "8bd70b99-9f19-43fb-bdb7-36514d9a0e05",
+                    "0af55776-c9b5-491c-8481-d9f3045a8b6d"
+                ],
                 "parent": "ROOT"
             },
-            "e4de8847-1f10-4c5f-887f-72bcfdceee71": {
+            "fa7e8459-4344-4845-8f44-ec30942f1b7a": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -298,8 +343,8 @@
                         "height": 50
                     },
                     "position": {
-                        "x": 928.052132701422,
-                        "y": 117.21011058451812
+                        "x": 2.9541864139019935,
+                        "y": -1.4210854715202004e-14
                     },
                     "fontSizes": [
                         36
@@ -307,9 +352,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "abd17d48-2b72-4d77-995c-f26050bdb30e": {
+            "e0c2b28f-3cef-4a1d-ba22-d74a2d173604": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -340,8 +385,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 930.2796208530808,
-                        "y": 184.20853080568716
+                        "x": 5.181674565560797,
+                        "y": 66.99842022116903
                     },
                     "fontSizes": [
                         28
@@ -349,9 +394,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "aa8d7ac7-b29d-49b3-88ca-8a4f6c13b6a2": {
+            "23344522-39ca-4413-83f6-ff289a215ae4": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -382,8 +427,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1362.586097946288,
-                        "y": 185.1406003159557
+                        "x": 437.48815165876795,
+                        "y": 67.93048973143758
                     },
                     "fontSizes": [
                         28
@@ -391,9 +436,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "0b421156-6d19-41c3-b2f5-f2f5c22de7d6": {
+            "dd5ccccf-ab7e-484b-b672-3bde629b262f": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -424,8 +469,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 934.7345971563982,
-                        "y": 241.7756714060031
+                        "x": 9.636650868878178,
+                        "y": 124.56556082148498
                     },
                     "fontSizes": [
                         28
@@ -433,9 +478,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "99b7dc9f-867e-4e06-a88a-5da105807c95": {
+            "250ce325-4be5-40e2-a221-1eefda7ca837": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -466,8 +511,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1363.1548183254347,
-                        "y": 242.7077409162717
+                        "x": 438.0568720379147,
+                        "y": 125.49763033175356
                     },
                     "fontSizes": [
                         28
@@ -475,9 +520,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "10610428-6d0e-4056-8058-80cf50ee5054": {
+            "8b94c422-b289-4bf2-b442-b3683b3cdf1e": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -508,8 +553,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 936.5987361769354,
-                        "y": 309.70616113744074
+                        "x": 11.500789889415387,
+                        "y": 192.4960505529226
                     },
                     "fontSizes": [
                         28
@@ -517,9 +562,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "23620322-d84c-4072-9cea-6f0562d3214c": {
+            "e2daa911-e77a-4ec7-8e14-92d5e5f3fd0e": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -550,8 +595,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1359.8372827804112,
-                        "y": 309.3428120063191
+                        "x": 434.7393364928912,
+                        "y": 192.13270142180096
                     },
                     "fontSizes": [
                         28
@@ -559,9 +604,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "a4026602-1162-45cf-bde6-95cf08005578": {
+            "ab2e9bf0-3707-4201-ad19-da4b55d541da": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -592,8 +637,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 933.2812006319116,
-                        "y": 373.7503949447077
+                        "x": 8.183254344391571,
+                        "y": 256.54028436018956
                     },
                     "fontSizes": [
                         28
@@ -601,9 +646,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "4e9e1d70-5306-4862-bf7d-165eaf5675fe": {
+            "42a9f24a-5df5-487a-b115-f4f6dc673d5e": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -634,8 +679,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1360.4060031595582,
-                        "y": 374.68246445497624
+                        "x": 435.30805687203815,
+                        "y": 257.4723538704581
                     },
                     "fontSizes": [
                         28
@@ -643,9 +688,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "3775d975-d669-463b-8614-76408e8debec": {
+            "07663680-5c61-4703-89d6-6988896399c4": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -676,8 +721,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 931.259083728278,
-                        "y": 436.4992101105845
+                        "x": 6.1611374407580115,
+                        "y": 319.28909952606637
                     },
                     "fontSizes": [
                         28
@@ -685,9 +730,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "b660443f-fa18-42ed-a760-79ae2766bf2d": {
+            "9e6c6a04-1218-4657-a1cc-fc47a3d101db": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -718,8 +763,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1359.6793048973143,
-                        "y": 437.431279620853
+                        "x": 434.5813586097943,
+                        "y": 320.22116903633486
                     },
                     "fontSizes": [
                         28
@@ -727,9 +772,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "5d92a816-9acb-4107-a3d6-b903be8c0677": {
+            "9b688099-53b1-4625-b252-cee95f1141bd": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -789,8 +834,8 @@
                         "height": 50
                     },
                     "position": {
-                        "x": 925.09794628752,
-                        "y": 526.1990521327014
+                        "x": 0,
+                        "y": 408.9889415481832
                     },
                     "fontSizes": [
                         36
@@ -798,32 +843,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "c949f6a0-02ac-4f53-943b-2cfc7277536d": {
-                "type": {
-                    "resolvedName": "GroupLayer"
-                },
-                "props": {
-                    "scale": 1,
-                    "rotate": 0,
-                    "boxSize": {
-                        "width": 618.3973143759878,
-                        "height": 34.93206951026866
-                    },
-                    "position": {
-                        "x": 935.09794628752,
-                        "y": 593.1974723538704
-                    }
-                },
-                "locked": false,
-                "child": [
-                    "775ef1bd-b1c1-4608-8920-7cfdf2b4e9af",
-                    "d91a6fcf-9ceb-4e24-8e0c-1510a1e79c74"
-                ],
-                "parent": "ROOT"
-            },
-            "775ef1bd-b1c1-4608-8920-7cfdf2b4e9af": {
+            "7e751bdd-e208-4d24-b730-074f38b18848": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -854,8 +876,8 @@
                         "height": 34
                     },
                     "position": {
-                        "x": 0,
-                        "y": 0
+                        "x": 10,
+                        "y": 475.9873617693522
                     },
                     "fontSizes": [
                         28
@@ -863,9 +885,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "c949f6a0-02ac-4f53-943b-2cfc7277536d"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "d91a6fcf-9ceb-4e24-8e0c-1510a1e79c74": {
+            "13de185c-bfd0-4099-baa3-4be845b7e91b": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -896,8 +918,8 @@
                         "height": 34
                     },
                     "position": {
-                        "x": 421.94312796208567,
-                        "y": 0.9320695102686614
+                        "x": 431.94312796208555,
+                        "y": 476.9194312796209
                     },
                     "fontSizes": [
                         28
@@ -905,9 +927,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "c949f6a0-02ac-4f53-943b-2cfc7277536d"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "309edb2c-a361-44f1-974b-fe2783426ea3": {
+            "7be63129-41ed-4d41-8b72-d090df45072a": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -938,8 +960,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 932.1437598736178,
-                        "y": 656.3096366508688
+                        "x": 7.045813586097779,
+                        "y": 539.0995260663507
                     },
                     "fontSizes": [
                         28
@@ -947,9 +969,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "e9b5a208-18e0-4799-90d5-6c6302bd0996": {
+            "7a62c589-d039-49a2-913f-4e26ba9ba09b": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -980,8 +1002,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 934.3712480252766,
-                        "y": 720.7172195892575
+                        "x": 9.273301737756583,
+                        "y": 603.5071090047394
                     },
                     "fontSizes": [
                         28
@@ -989,9 +1011,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "e9307ebd-f633-4355-a2af-6d80f6d90e81": {
+            "2b5de347-f51b-4380-be33-a6b548263111": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -1022,8 +1044,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 930.1216429699844,
-                        "y": 783.8293838862559
+                        "x": 5.023696682464333,
+                        "y": 666.6192733017377
                     },
                     "fontSizes": [
                         28
@@ -1031,9 +1053,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "5fbc8125-0e24-470b-840e-7d0b5fdbbecf": {
+            "2d106725-ab9e-4f66-89ab-cbc8296b530a": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -1064,8 +1086,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1360.5639810426544,
-                        "y": 655.9462875197472
+                        "x": 435.4660347551344,
+                        "y": 538.7361769352291
                     },
                     "fontSizes": [
                         28
@@ -1073,9 +1095,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "c24ae775-efcc-41a0-b85d-1c8374f0515f": {
+            "8bd70b99-9f19-43fb-bdb7-36514d9a0e05": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -1106,8 +1128,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1361.496050552923,
-                        "y": 720.3538704581357
+                        "x": 436.39810426540294,
+                        "y": 603.1437598736176
                     },
                     "fontSizes": [
                         28
@@ -1115,9 +1137,9 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             },
-            "52ebd27f-b3e5-4444-8935-9ba7a2bb370c": {
+            "0af55776-c9b5-491c-8481-d9f3045a8b6d": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
@@ -1148,8 +1170,8 @@
                         "height": 39
                     },
                     "position": {
-                        "x": 1361.1327014218016,
-                        "y": 783.4660347551342
+                        "x": 436.03475513428157,
+                        "y": 666.255924170616
                     },
                     "fontSizes": [
                         28
@@ -1157,7 +1179,7 @@
                 },
                 "locked": false,
                 "child": [],
-                "parent": "ROOT"
+                "parent": "241b2d10-b4c3-4f67-9f1d-e696f3015e71"
             }
         }
     }

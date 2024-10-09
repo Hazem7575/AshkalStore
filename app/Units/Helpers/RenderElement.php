@@ -10,6 +10,7 @@ class RenderElement
             'img'  => ImageHelper::render($element),
             'text' => TextHelper::render($element),
             'svg'  => SvgHelper::render($element),
+            'background'  => BackgroundHelper::render($element),
             default => '',
         };
     }

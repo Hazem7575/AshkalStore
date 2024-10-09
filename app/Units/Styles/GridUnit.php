@@ -77,8 +77,10 @@ class GridUnit
     private static function buildGridRow()
     {
 
+
         usort(static::$childRows, fn($a, $b) => $a['y'] <=> $b['y']);
         self::adjustNegativeValues(static::$childRows, 'y');
+
 
         $rows = [];
         $style = '';

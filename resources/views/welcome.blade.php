@@ -17,67 +17,76 @@
             margin: 0;
             padding: 0;
         }
+        .layer-contianer {
+            position: relative;
+            overflow: hidden;
+            display: grid;
+            align-items: center;
+            grid-template-columns: auto {{$html['sizes']['width'] / 16}}rem auto;
+            z-index: 0;
+        }
     </style>
 </head>
 <body>
 {!! $html['html'] !!}
+
 <script src="{{$html['js']}}"></script>
 <script src="{{asset('test/js/grid.js')}}"></script>
 <script>
-    const width = window.innerWidth;
-    document.documentElement.style.setProperty('--width', `${width}px`);
-    window.addEventListener('resize', () => {
-        const width = window.innerWidth;
-        document.documentElement.style.setProperty('--width', `${width}px`);
-    });
-    function updateGrid() {
-        const layerSize = 1640; // العرض الأصلي للطبقة
-        const screenWidth = window.innerWidth;
-        const mobileBreakpoint = 768;
+    {{--const width = window.innerWidth;--}}
+    {{--const originalFontSizes = new Map();--}}
 
-        // العثور على العناصر الأب وتحديثها
-        for (const id in sizesElements) {
-            if (sizesElements[id].grid) {
-                const parentElement = document.querySelector(`.${id}`);
-                if (parentElement) {
-                    if (screenWidth < mobileBreakpoint) {
-                        // إذا كانت الشاشة أصغر من 768 بكسل، تغيير تخطيط الـ Grid إلى عمود واحد
-                        parentElement.style.gridTemplateColumns = '1fr'; // عمود واحد
-                    } else {
-                        // حساب معامل التغيير
-                        const scalingFactor = screenWidth / layerSize;
+    {{--document.documentElement.style.setProperty('--width', `${width}px`);--}}
+    {{--window.addEventListener('resize', () => {--}}
+    {{--    const width = window.innerWidth;--}}
+    {{--    document.documentElement.style.setProperty('--width', `${width}px`);--}}
+    {{--});--}}
+    {{--function updateGrid() {--}}
+    {{--    const layerSize = {{$html['sizes']['width']}};--}}
+    {{--    const screenWidth = window.innerWidth;--}}
+    {{--    const mobileBreakpoint = 768;--}}
+    {{--    const scalingFactor = screenWidth / layerSize;--}}
+    {{--    for (const id in sizesElements) {--}}
+    {{--        if (sizesElements[id].grid) {--}}
+    {{--            const parentElement = document.querySelector(`.${id}`);--}}
+    {{--            if (parentElement) {--}}
+    {{--                const scalingFactor = screenWidth / layerSize;--}}
 
-                        const originalColumns = sizesElements[id].grid.split(' ');
-                        const newGridCols = originalColumns.map(column => {
-                            const originalValue = parseFloat(column);
-                            const newValue = originalValue * scalingFactor;
-                            return `${newValue}rem`;
-                        });
-                        parentElement.style.gridTemplateColumns = newGridCols.join(' ');
-                    }
-                }
-            }
-        }
+    {{--                const originalColumns = sizesElements[id].grid.split(' ');--}}
+    {{--                const newGridCols = originalColumns.map(column => {--}}
+    {{--                    const originalValue = parseFloat(column);--}}
+    {{--                    const newValue = originalValue * scalingFactor;--}}
+    {{--                    return `minmax(${newValue}rem , ${originalValue}rem)`;--}}
+    {{--                });--}}
+    {{--               // parentElement.style.gridTemplateColumns = newGridCols.join(' ');--}}
+    {{--            }--}}
+    {{--        }--}}
+    {{--    }--}}
 
-        // تحديث عرض العناصر
-        for (const className in sizesElements) {
-            const elementData = sizesElements[className];
-            const originalWidth = parseFloat(elementData.width) || 0;
-            const newWidth = originalWidth * (screenWidth < mobileBreakpoint ? 1 : (screenWidth / layerSize));
-            const element = document.querySelector(`.${className}`);
-            if (element) {
-                element.style.width = newWidth + 'px';
-            }
-        }
-    }
+    {{--    for (const className in sizesElements) {--}}
+    {{--        const elementData = sizesElements[className];--}}
+    {{--        const originalWidth = parseFloat(elementData.width) || 0;--}}
 
-    // استدعاء الدالة عند تحميل المحتوى
-    window.addEventListener('DOMContentLoaded', () => {
-        updateGrid();
-    });
 
-    // استدعاء الدالة عند تغيير حجم الشاشة
-    window.addEventListener('resize', updateGrid);
+
+    {{--        if(originalWidth < layerSize ) {--}}
+    {{--            const newWidth = originalWidth * (screenWidth / layerSize);--}}
+    {{--            const element = document.querySelector(`.${className}`);--}}
+    {{--            if (element) {--}}
+    {{--              //  element.style.width = newWidth + 'px';--}}
+    {{--            }--}}
+    {{--        }--}}
+
+    {{--    }--}}
+    {{--}--}}
+
+    {{--// استدعاء الدالة عند تحميل المحتوى--}}
+    {{--window.addEventListener('DOMContentLoaded', () => {--}}
+    {{--    updateGrid();--}}
+    {{--});--}}
+
+    {{--// استدعاء الدالة عند تغيير حجم الشاشة--}}
+    {{--window.addEventListener('resize', updateGrid);--}}
 
 
 

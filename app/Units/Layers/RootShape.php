@@ -2,6 +2,7 @@
 
 namespace App\Units\Layers;
 
+use App\Units\Helpers\BackgroundHelper;
 use App\Units\Helpers\ImageHelper;
 use App\Units\Styles\BoxSizeUnit;
 use App\Units\Styles\ColorUnit;
@@ -20,14 +21,21 @@ class RootShape
         $style .= BoxSizeUnit::rander($element['boxSize']);
         $style .= PositionUnit::rander($element['position']);
         $style .= TransformUnit::rander($element);;
-        $style .= ColorUnit::rander($element);
-        //convert in grid way 
+
+        //convert in grid way
         $style.="display:grid;";
-        
+
 
         if (isset($element['image']['url'])) {
-            $data['children'][] = ImageHelper::getAttr($element['image']);
+            $data['children'][] = ImageHelper::getAttr($element['image'] , $element , true);
         }
+
+        if (isset($element['color'])) {
+            $data['children'][] = BackgroundHelper::getAttr($element['color']);
+        }
+
+
+     //   $style .= ColorUnit::rander($element);
         $style .= 'overflow: hidden;position: relative;left:auto;right:auto;';
         // $style .= 'overflow: hidden;position: relative;width: 100%;left:auto;right:auto;';
         $data['style'] = $style;

@@ -64,21 +64,27 @@ class Json2HtmlUnit
 
     public static function buildRoot($child, $index, &$collection)
     {
+        $is_root = $child['type']['resolvedName'] == 'RootLayer';
+
         $style = self::shaps($child, $collection);
 
         if (!isset($style['style'])) return '';
         $classes = 'layer-contianer ';
         $html = '<section class="' . $classes . '">';
-        $class_name = self::css_name($style['style'] . "display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;");
+
+        $class_name = self::css_name($style['style'] . "display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;z-index:2");
 
         self::put_size($style['style'], $class_name, $child);
-        $html .= '<div class="' . $class_name . '">';
+
+
+
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
                 $html .= RenderElement::render($child);
             }
         }
 
+        $html .= '<div class="' . $class_name . '">';
         $check_if_have_child = collect($collection)->where('parent', '=', $index)->all();
 
         if ($check_if_have_child and count($check_if_have_child) > 0) {
@@ -99,6 +105,8 @@ class Json2HtmlUnit
 
     public static function children($child, $index, &$collection, $zIndex)
     {
+
+
         $style = self::shaps($child, $collection);
 
         if (!isset($style['style'])) return '';
@@ -110,12 +118,12 @@ class Json2HtmlUnit
         }
 
 
+
         $class_name = self::css_name($style_1 . $styleWithGridDiv);
         $class_name2 = self::css_name($style['style'] . "");
 
 
         self::put_size($style_1, $class_name, $child);
-
         self::put_size($style['style'], $class_name2, $child);
 
         $html = '<div class="' . $class_name . '">';
@@ -123,6 +131,7 @@ class Json2HtmlUnit
 
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
+
                 $html .= RenderElement::render($child);
             }
         }
@@ -180,17 +189,19 @@ class Json2HtmlUnit
             'LineLayer' => LineLayer::rander($props),
             default => '',
         };
-        if (isset($childElement['child'])) {
 
+        if (isset($childElement['child'])) {
             $style['style'] = $style['style'] . GridUnit::rander($childElement, $collection);
         }
         return $style;
     }
 
 
-    public static function ImageStyleListen($styleImage , $element) {
+    public static function ImageStyleListen($styleImage , $element , $parent = null) {
         $class_name = self::css_name($styleImage);
-        self::put_size($styleImage , $class_name , $element);
+        if(!isset($parent) or !isset($parent['clipPath'])) {
+            self::put_size($styleImage , $class_name , $element);
+        }
 
         return [
           'class' => $class_name

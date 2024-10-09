@@ -13,11 +13,10 @@ use App\Units\Styles\TransformUnit;
 
 class FrameLayer
 {
-    public static function rander($element)
+    public static function rander($element , $is_root = false)
     {
         $style = '';
 
-        $style = '';
 
         $data = [
             'children' => []
@@ -31,7 +30,7 @@ class FrameLayer
         $style .= OpacityUnit::rander($element);
 
         if (isset($element['image']['url'])) {
-            $data['children'][] = ImageHelper::getAttr($element['image']);
+            $data['children'][] = ImageHelper::getAttr($element['image'] , $element , $is_root);
         }
 
         $data['style'] = $style;

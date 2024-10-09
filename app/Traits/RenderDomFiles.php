@@ -17,6 +17,7 @@ trait RenderDomFiles
             File::makeDirectory(public_path($path_css), 0755, true);
         }
 
+
         self::RenderCollectionCss();
         self::render_javascript();
 

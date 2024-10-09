@@ -9,11 +9,12 @@ use App\Units\Styles\BoxSizeUnit;
 use App\Units\Styles\FilterUnit;
 use App\Units\Styles\OpacityUnit;
 use App\Units\Styles\PositionUnit;
+use App\Units\Styles\ZindexUnit;
 
 class ImageHelper
 {
     use RenderDomJS , RenderDomCss;
-    public static function getAttr($element)
+    public static function getAttr($element , $parent , $is_root = false)
     {
         $styleImage = '';
 
@@ -21,13 +22,23 @@ class ImageHelper
         $styleImage .= BoxSizeUnit::rander($element['boxSize']);
         $styleImage .= PositionUnit::rander($element['position']);
         $styleImage .= FilterUnit::rander($element);
+        $styleImage .= ZindexUnit::rander(1);
 
-        $style_render = Json2HtmlUnit::ImageStyleListen($styleImage , $element);
+        $style_render = Json2HtmlUnit::ImageStyleListen($styleImage , $element, $parent);
+        if(isset($element['flipHorizontal'])) {
+            $styleImage .= 'transform: scaleX(-1);';
+        };
+        if($is_root) {
+            $styleImage .= 'width:100%';
+
+        }
+
         return [
             'type' => 'img',
             'attr' => [
                 'class' => $style_render['class'],
-                'src' => $element['url']
+                'src' => $element['url'],
+                'style' => $styleImage,
             ]
         ];
     }
