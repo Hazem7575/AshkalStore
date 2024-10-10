@@ -19,6 +19,7 @@ class SvgHelper
         $style .= BoxSizeUnit::rander($element['boxSize']);
         $style .= PositionUnit::rander($element['position']);
         $style .= OpacityUnit::rander($element);
+
         $fillColor = $element['colors'][0] ?? 'none';
 
         $class_name = Json2HtmlUnit::ImageStyleListen($style , $element);
@@ -41,8 +42,7 @@ class SvgHelper
     {
         if (filter_var($element['image'], FILTER_VALIDATE_URL)) {
             $svgElement = file_get_contents($element['image']);
-        }
-        else{
+        } else {
             $svgData = $element['image'];
             $svgElement = base64_decode(substr($svgData, strpos($svgData, ",") + 1));
         }
@@ -50,10 +50,10 @@ class SvgHelper
         preg_match('/<svg[^>]*\s+width="(\d+\.?\d*)"/', $svgElement, $matches);
         preg_match('/<svg[^>]*\s+height="(\d+\.?\d*)"/', $svgElement, $matches2);
 
-
-        if(isset($matches[1]) AND isset($matches2[1])) {
+        if (isset($matches[1]) && isset($matches2[1])) {
             $element['attr']['viewBox'] = '0 0 ' .  $matches[1] .' ' .$matches2[1];
         }
+
         $attrs = '';
         foreach ($element['attr'] as $key => $value) {
             $attrs .= $key . '="' . htmlspecialchars($value, ENT_QUOTES) . '" ';
@@ -61,12 +61,26 @@ class SvgHelper
 
         $svgElementWithAttributes = preg_replace('/<svg([^>]*)>/', '<svg$1 ' . trim($attrs) . ' preserveAspectRatio="none">', $svgElement);
 
+        // Create a linear gradient
+        $gradientId = 'grad-' . uniqid();
+        $linearGradient = '';
+        if(count($element['colors']) > 1) {
+            $linearGradient = "
+            <defs>
+                <linearGradient id='{$gradientId}' x1='0%' y1='0%' x2='100%' y2='100%'>
+                    <stop offset='0%' style='stop-color:{$element['colors'][1]};stop-opacity:1' />
+                    <stop offset='100%' style='stop-color:{$element['colors'][0]};stop-opacity:1' />
+                </linearGradient>
+            </defs>";
+            $svgElementWithFillColor = preg_replace('/(<(path|rect|circle|ellipse|polygon|line|polyline)([^>]*?))/', '$1 fill="url(#' . $gradientId . ')"', $svgElementWithAttributes);
 
-        $fillColor = $element['fill'];
-        $svgElementWithFillColor = preg_replace('/(<(path|rect|circle|ellipse|polygon|line|polyline)([^>]*?))/', '$1 fill="' . htmlspecialchars($fillColor, ENT_QUOTES) . '"', $svgElementWithAttributes);
+        }else{
+            $svgElementWithFillColor = preg_replace('/(<(path|rect|circle|ellipse|polygon|line|polyline)([^>]*?))/', '$1 fill="' . htmlspecialchars($element['fill'], ENT_QUOTES) . '"', $svgElementWithAttributes);
 
-        return $svgElementWithFillColor;
+        }
+
+        $svgElementWithGradient = preg_replace('/(<svg[^>]*>)/', '$1' . $linearGradient, $svgElementWithFillColor);
+
+        return $svgElementWithGradient;
     }
-
-
 }

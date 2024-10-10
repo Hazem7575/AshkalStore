@@ -1,47 +1,47 @@
 var sizesElements = {
-    "store_BPO5bFoD": {
-        "width": "1640",
+    "store_JgJxKEKv": {
+        "width": "400",
         "height": "924",
-        "grid": "11.9625rem 17.325rem 6.8625rem 17.325rem 7.175rem 17.325rem",
+        "grid": "0rem 0rem 0rem 17.325rem 0rem 0rem",
         "x": "0",
         "y": "0",
         "child": 3,
         "parent": true
     },
-    "store_8DZmewFK": {
-        "x": "191.4",
-        "y": "243.4",
+    "store_7xJV8PNi": {
+        "x": "0",
+        "y": "0",
         "child": 0
     },
-    "store_wNUcpIu5": {
+    "store_5NjETTR1": {
         "width": "277.2",
         "height": "277.2",
-        "x": "191.4",
-        "y": "243.4",
+        "x": "0",
+        "y": "0",
         "child": 0
     },
-    "store_dcjh4vrH": {
-        "x": "578.4",
-        "y": "243.4",
+    "store_aEI2LOG8": {
+        "x": "0",
+        "y": "300",
         "child": 0
     },
-    "store_SFQZtXxg": {
+    "store_s8GnC1Xr": {
         "width": "277.2",
         "height": "277.2",
-        "x": "578.4",
-        "y": "243.4",
+        "x": "0",
+        "y": "300",
         "child": 0
     },
-    "store_eULhhmSM": {
-        "x": "970.4",
-        "y": "243.4",
+    "store_LrzuINn3": {
+        "x": "0",
+        "y": "600",
         "child": 0
     },
-    "store_32NR53ch": {
+    "store_vd7DJ7zv": {
         "width": "277.2",
         "height": "277.2",
-        "x": "970.4",
-        "y": "243.4",
+        "x": "0",
+        "y": "600",
         "child": 0
     }
 };

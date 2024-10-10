@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-layer="1640">
+<html lang="en" data-layer="{{$html['sizes']['width']}}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"

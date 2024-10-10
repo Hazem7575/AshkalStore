@@ -9,6 +9,7 @@ use App\Traits\RenderDomJS;
 use App\Units\Helpers\RenderElement;
 use App\Units\Layers\FrameLayer;
 use App\Units\Layers\GroupLayer;
+use App\Units\Layers\ImageLayer;
 use App\Units\Layers\LineLayer;
 use App\Units\Layers\RootShape;
 use App\Units\Layers\ShapeLayer;
@@ -131,7 +132,6 @@ class Json2HtmlUnit
 
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
-
                 $html .= RenderElement::render($child);
             }
         }
@@ -185,7 +185,7 @@ class Json2HtmlUnit
             'TextLayer' => TextLayer::rander($props),
             'GroupLayer' => GroupLayer::rander($props),
             'SvgLayer' => SvgLayer::rander($props),
-            'ImageLayer' => FrameLayer::rander($props),
+            'ImageLayer' => ImageLayer::rander($props),
             'LineLayer' => LineLayer::rander($props),
             default => '',
         };
@@ -193,6 +193,7 @@ class Json2HtmlUnit
         if (isset($childElement['child'])) {
             $style['style'] = $style['style'] . GridUnit::rander($childElement, $collection);
         }
+
         return $style;
     }
 

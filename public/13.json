@@ -111,8 +111,8 @@
                 },
                 "props": {
                     "image": {
-                        "url": "https://i.imgur.com/uSa1yQV.jpg",
-                        "thumb": "https://i.imgur.com/uSa1yQVm.jpg",
+                        "url": "/images/uSa1yQV.jpeg",
+                        "thumb": "/images/uSa1yQVm.jpeg",
                         "rotate": 0,
                         "boxSize": {
                             "width": 500,
