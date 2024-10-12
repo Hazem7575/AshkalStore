@@ -1,0 +1,100 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 255, 255)",
+                    "image": null
+                },
+                "locked": false,
+                "child": [
+                    "9c1296a8-1458-4e3f-8a40-1c696548913e",
+                    "8b93da76-9e40-465b-a68d-b6c33bd839fb",
+                    "c32613e0-d89f-483b-a661-3616e17515d7"
+                ],
+                "parent": null
+            },
+            "9c1296a8-1458-4e3f-8a40-1c696548913e": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 191.39999999999998,
+                        "y": 243.39999999999998
+                    },
+                    "boxSize": {
+                        "width": 277.2,
+                        "height": 277.2
+                    },
+                    "rotate": 0,
+                    "color": "rgb(203, 108, 230)",
+                    "scale": 4.33125,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "8b93da76-9e40-465b-a68d-b6c33bd839fb": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 578.4,
+                        "y": 243.39999999999998
+                    },
+                    "boxSize": {
+                        "width": 277.2,
+                        "height": 277.2
+                    },
+                    "rotate": 0,
+                    "color": "rgb(0, 151, 178)",
+                    "scale": 4.33125,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c32613e0-d89f-483b-a661-3616e17515d7": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 970.4,
+                        "y": 243.39999999999998
+                    },
+                    "boxSize": {
+                        "width": 277.2,
+                        "height": 277.2
+                    },
+                    "rotate": 0,
+                    "color": "rgb(0, 74, 173)",
+                    "scale": 4.33125,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]

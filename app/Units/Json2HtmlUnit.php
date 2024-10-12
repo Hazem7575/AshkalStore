@@ -162,6 +162,7 @@ class Json2HtmlUnit
 
     public static function shaps(&$childElement,&$collection,$propsName='props')
     {
+
        
         $type = $childElement['type']['resolvedName'];
         
@@ -201,7 +202,7 @@ class Json2HtmlUnit
         };
         if(isset($childElement['child'])&&!isset($childElement['props']['grid_template'])){
             $style['style'] = $style['style'].GridUnit::rander($childElement,$collection);
-                        
+
         }
         return $style;
     }

@@ -23,9 +23,9 @@ class GridUnit
         foreach ($element['child'] as $key) {
             $children[$key] = &$collection[$key];
         }
-       $style = static::buildGrid($element, $collection);
+        $style = static::buildGrid($element, $collection);
 
-       $children =static::sortCollection($element, $collection);
+        $children =static::sortCollection($element, $collection);
         foreach (static::$mediaQuery as $key => $media) {
             $maxWidth = $media['maxWidth'];
             $propsName = $media['propsName'];
@@ -34,17 +34,17 @@ class GridUnit
 
             $res = self::randerMedia($element, $children,$media);
             $element[$media['propsName']]['grid_template'] = $res['style'];
-            $children = $res['collection']; 
+            $children = $res['collection'];
         }
         foreach ($children as $key => $child) {
             $collection[$key] = $child;
         }
         $element['props']['grid_template'] = $style;
-       return $style;
+        return $style;
     }
 
     public static function buildGrid($element, &$children,$media = null) {
-       
+
         static::$childColumns = [];
         static::$childRows = [];
         static::$grid = [
@@ -52,12 +52,12 @@ class GridUnit
             'rows' => [],
             'grid' => [],
         ];
-       
+
         static::$currentElement = $element;
 
         $style = '';
 
-        
+
         if (!empty($element['child'])) {
             // if($media&&$media['propsName']=='props_iphon'){
             //     dd($media,$children,static::$childColumns,static::$childRows,static::$grid);
@@ -70,20 +70,20 @@ class GridUnit
             $style .= self::buildGridColumn($media);
             $style .= self::buildGridRow($element,$media);
             $style .= "display:grid;";
-           
+
             self::applyGridPositionsToChildren($children, static::$childColumns, 'column',$media);
             self::applyGridPositionsToChildren($children, static::$childRows, 'row',$media);
         }
         // if($media){
-        //     dd('buildGrid',$style,static::$grid,static::$childColumns,static::$childRows);    
+        //     dd('buildGrid',$style,static::$grid,static::$childColumns,static::$childRows);
         // }
-       
+
         return $style;
 
     }
 
     public static function sortCollection($element, &$collection){
-            
+
         $children = [];
         foreach ($element['child'] as $childName) {
             $children[$childName] = &$collection[$childName];
@@ -149,7 +149,7 @@ class GridUnit
                     unset($collectionCopy[$key]);
                 }
             }
-            
+
         }
 
         // $collection = $sortedCollection;
@@ -163,7 +163,7 @@ class GridUnit
                 self::$grid['grid'][$rowNum][$colNum] = null;
             }
         }
-        
+
         // Fill the grid with elements
         foreach ($sortedCollection as $key => $item) {
             if (isset($item['props']['grid']) && isset($item['props']['grid']['row-start'])) {
@@ -189,7 +189,7 @@ class GridUnit
     public static function randerMedia($element, $collection,$media = null)
     {
         $localCollection  = $collection;
-        
+
         $maxWidth = $media['maxWidth'];
         $propsName = $media['propsName'];
         $res = self::generateGrid($element,$localCollection,$maxWidth,$propsName);
@@ -197,17 +197,17 @@ class GridUnit
         $localCollection=$res['collection'];
         $responsiveGrid = $res['responsiveGrid'];
         $style=  self::buildGrid($element,$localCollection,$media);
-        
+
         foreach ($localCollection as $key => $item) {
             $collection[$key] = $item;
         }
-        
+
         return [
             'style'=>$style,
             'collection'=>$collection
-        ];      
+        ];
 
-        
+
     }
 
     private static function processChildElement($childElement, $parentElement, $childName,$media = null)
@@ -344,7 +344,7 @@ class GridUnit
                     $previousElementInRow = $currentRow[count($currentRow) - 1];
 
                     $previousElementWidth = $previousElementInRow['props']['boxSize']['width'];
-                    //check if current element interect with previous element in rows-start and row-end 
+                    //check if current element interect with previous element in rows-start and row-end
                     // حساب المسافة بين العناصر
                     // $originalDistance = ($previousElement['props']['boxSize']['x'] + $previousElementWidth) - $element['props']['boxSize']['x'];
                     $originalDistance =  ($previousElementInRow['props']['boxSize']['x'] + $previousElementWidth) - $element['props']['boxSize']['x'];
@@ -388,76 +388,76 @@ class GridUnit
         ];
     }
     private static function proccessAppendRow(&$currentRow, &$rowHeights,&$rowIndex,&$targetWidth,&$element,&$normalizedWidth,&$elementHeight,&$responsiveGrid,$propsName,$originalWidth) {
-        
-                // step 2: التعامل مع كل صف
-                // إذا كان الصف يحتوي على عنصر واحد
-                if (count($currentRow) === 1) {
 
-                    $currentRow[0][$propsName] = $currentRow[0]['props'];
-                    $left = ($targetWidth - $currentRow[0][$propsName]['boxSize']['width']) / 2;
-                    $currentRow[0][$propsName]['position']['x'] = $left;
-                    $currentRow[0][$propsName]['boxSize']['x'] = $left;
-                    $top = ($rowHeights[$rowIndex] - $currentRow[0][$propsName]['boxSize']['height']) / 2;
-                    $currentRow[0][$propsName]['position']['y'] = $top;
-                    $currentRow[0][$propsName]['boxSize']['y'] = $top;
+        // step 2: التعامل مع كل صف
+        // إذا كان الصف يحتوي على عنصر واحد
+        if (count($currentRow) === 1) {
+
+            $currentRow[0][$propsName] = $currentRow[0]['props'];
+            $left = ($targetWidth - $currentRow[0][$propsName]['boxSize']['width']) / 2;
+            $currentRow[0][$propsName]['position']['x'] = $left;
+            $currentRow[0][$propsName]['boxSize']['x'] = $left;
+            $top = ($rowHeights[$rowIndex] - $currentRow[0][$propsName]['boxSize']['height']) / 2;
+            $currentRow[0][$propsName]['position']['y'] = $top;
+            $currentRow[0][$propsName]['boxSize']['y'] = $top;
+        } else {
+
+            // // إذا كان هناك أكثر من عنصر في الصف
+            // $columnIndex = 1;
+            $previousElement = null;
+            $currentRowWidth = 0;
+            foreach ($currentRow as &$rowElement) {
+
+                //first element
+                $rowElement[$propsName] = $rowElement['props'];
+                if (!$previousElement) {
+                    $previousElement = &$rowElement;
+                    $left = 0;
+                    $rowElement[$propsName]['position']['x'] = $left;
+                    $rowElement[$propsName]['boxSize']['x'] = $left;
+
+                    $top = ($rowHeights[$rowIndex] - $rowElement[$propsName]['boxSize']['height']) / 2;
+                    $rowElement[$propsName]['position']['y'] = $top;
+                    $rowElement[$propsName]['boxSize']['y'] = $top;
+
+                    $currentRowWidth = $rowElement[$propsName]['boxSize']['width'];
                 } else {
+                    $previousElementWidth = $previousElement['props']['boxSize']['width'];
+                    $originalDistance =  ($previousElement['props']['boxSize']['x'] + $previousElementWidth) - $rowElement['props']['boxSize']['x'];
+                    $scaledDistance = ($originalDistance / $originalWidth) * $targetWidth;
+                    $rowElement[$propsName]['position']['x'] = $currentRowWidth + $scaledDistance;
+                    $currentRowWidth += $scaledDistance + $rowElement[$propsName]['boxSize']['width'];
 
-                    // // إذا كان هناك أكثر من عنصر في الصف
-                    // $columnIndex = 1;
-                    $previousElement = null;
-                    $currentRowWidth = 0;
-                    foreach ($currentRow as &$rowElement) {
-
-                        //first element 
-                        $rowElement[$propsName] = $rowElement['props'];
-                        if (!$previousElement) {
-                            $previousElement = &$rowElement;
-                            $left = 0;
-                            $rowElement[$propsName]['position']['x'] = $left;
-                            $rowElement[$propsName]['boxSize']['x'] = $left;
-
-                            $top = ($rowHeights[$rowIndex] - $rowElement[$propsName]['boxSize']['height']) / 2;
-                            $rowElement[$propsName]['position']['y'] = $top;
-                            $rowElement[$propsName]['boxSize']['y'] = $top;
-
-                            $currentRowWidth = $rowElement[$propsName]['boxSize']['width'];
-                        } else {
-                            $previousElementWidth = $previousElement['props']['boxSize']['width'];
-                            $originalDistance =  ($previousElement['props']['boxSize']['x'] + $previousElementWidth) - $rowElement['props']['boxSize']['x'];
-                            $scaledDistance = ($originalDistance / $originalWidth) * $targetWidth;
-                            $rowElement[$propsName]['position']['x'] = $currentRowWidth + $scaledDistance;
-                            $currentRowWidth += $scaledDistance + $rowElement[$propsName]['boxSize']['width'];
-
-                            $top = ($rowHeights[$rowIndex] - $rowElement[$propsName]['boxSize']['height']) / 2;
-                            $rowElement[$propsName]['position']['y'] = $top;
-                            $rowElement[$propsName]['boxSize']['y'] = $top;
-                        }
-                    }
-                    if ($currentRowWidth < $targetWidth) {
-                        $leftResult = ($targetWidth - $currentRowWidth) / 2;
-
-                        foreach ($currentRow as &$rowElement) {
-                            $rowElement[$propsName]['position']['x'] += $leftResult;
-                            $rowElement[$propsName]['boxSize']['x'] += $leftResult;
-                        }
-                    }
+                    $top = ($rowHeights[$rowIndex] - $rowElement[$propsName]['boxSize']['height']) / 2;
+                    $rowElement[$propsName]['position']['y'] = $top;
+                    $rowElement[$propsName]['boxSize']['y'] = $top;
                 }
+            }
+            if ($currentRowWidth < $targetWidth) {
+                $leftResult = ($targetWidth - $currentRowWidth) / 2;
 
-                // الانتقال إلى الصف التالي
-                $responsiveGrid[] = $currentRow;
-                $currentRow = [&$element]; // بدء صف جديد بالعنصر الحالي
-
-                $currentRowWidth = $normalizedWidth;
-                $rowIndex++;
-
-                // تحديث ارتفاع الصف الحالي
-                if (!isset($rowHeights[$rowIndex])) {
-                    $rowHeights[$rowIndex] = $elementHeight; // أول عنصر في الصف
-                } else {
-                    $rowHeights[$rowIndex] = max($rowHeights[$rowIndex], $elementHeight); // تحديث الارتفاع
+                foreach ($currentRow as &$rowElement) {
+                    $rowElement[$propsName]['position']['x'] += $leftResult;
+                    $rowElement[$propsName]['boxSize']['x'] += $leftResult;
                 }
+            }
+        }
+
+        // الانتقال إلى الصف التالي
+        $responsiveGrid[] = $currentRow;
+        $currentRow = [&$element]; // بدء صف جديد بالعنصر الحالي
+
+        $currentRowWidth = $normalizedWidth;
+        $rowIndex++;
+
+        // تحديث ارتفاع الصف الحالي
+        if (!isset($rowHeights[$rowIndex])) {
+            $rowHeights[$rowIndex] = $elementHeight; // أول عنصر في الصف
+        } else {
+            $rowHeights[$rowIndex] = max($rowHeights[$rowIndex], $elementHeight); // تحديث الارتفاع
+        }
     }
 
-  
-   
+
+
 }

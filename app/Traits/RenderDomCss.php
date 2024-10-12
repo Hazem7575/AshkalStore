@@ -15,7 +15,6 @@ trait RenderDomCss
             'max-width' => '375px',
             'propsName'=>'props_s_iphon',
             'maxWidth'=>375,
-            
         ],
         [
             'min-width' => '375.05px',

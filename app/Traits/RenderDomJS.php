@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 trait RenderDomJS
 {
-    public static function put_size($style , $class_name , $child)
+    public static function put_size($style , $class_name , $child = [])
     {
         preg_match('/width:\s*([0-9\.]+)px;/', $style, $width_matches);
         preg_match('/height:\s*([0-9\.]+)px;/', $style, $height_matches);
@@ -36,7 +36,9 @@ trait RenderDomJS
         if(isset($child['props']['position']['y'])) {
             $data['y'] = (string)$child['props']['position']['y'];
         }
-        $data['child'] = count($child['child']);
+        if(isset($child['child'])) {
+            $data['child'] = count($child['child']);
+        }
 
         if(isset($child['type']['resolvedName']) && $child['type']['resolvedName'] == 'RootLayer') {
             $data['parent'] = true;

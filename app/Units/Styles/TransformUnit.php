@@ -15,6 +15,7 @@ class TransformUnit
             $transform[] = 'scale(' . $props['scale'] . ')';
         }
 
+
         if (!empty($transform)) {
             $style .= 'transform: ' . implode(' ', $transform) . '; ';
         }
