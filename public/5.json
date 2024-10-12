@@ -1,0 +1,261 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(255, 255, 255)",
+                    "image": {
+                        "url": "/images/vbBynfJ.jpeg",
+                        "thumb": "/images/vbBynfJm.jpeg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 1640,
+                            "height": 1230
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": -153
+                        },
+                        "transparency": 0.26
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "0bd0dd9e-7234-42a2-ac14-a546faed4de6",
+                    "82ec7c8c-77f9-4f16-bf79-880f14a70a3c",
+                    "40e50da0-9e58-4a04-b3dd-1deae2b5dc88",
+                    "c17ca867-22d5-4b50-8061-ea569515b794",
+                    "40f1513d-b6a6-497a-a7ec-2b5e4b1101bb",
+                    "c2943a39-90d9-4edb-9950-427ddbd3a65b"
+                ],
+                "parent": null
+            },
+            "0bd0dd9e-7234-42a2-ac14-a546faed4de6": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Akronim;text-transform: uppercase;font-size: 104px;color: rgb(84, 84, 84);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(84, 84, 84);\">LIQUID EDITOR</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Akronim",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Akronim/Akronim-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(84, 84, 84)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 581.6066350710901,
+                        "y": 115.34597156398104,
+                        "width": 857.1176935229068,
+                        "height": 146
+                    },
+                    "position": {
+                        "x": 410.6113744075829,
+                        "y": 71.30173775671405
+                    },
+                    "fontSizes": [
+                        104
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "82ec7c8c-77f9-4f16-bf79-880f14a70a3c": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(166, 166, 166)",
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -54.66034755134274,
+                        "y": 316.6603475513428,
+                        "width": 1746.7298578199052,
+                        "height": 326.9510268562401
+                    },
+                    "position": {
+                        "x": -57.251184834123144,
+                        "y": 411.2259083728278
+                    },
+                    "transparency": 0.43
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "40e50da0-9e58-4a04-b3dd-1deae2b5dc88": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/2MvVGbT.jpeg",
+                        "thumb": "/images/2MvVGbTm.jpeg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 888.8899999999996,
+                            "height": 666.6674999999998
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": -134.49162079583496
+                        }
+                    },
+                    "scale": 0.577917925469892,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 25.260663507109,
+                        "y": 342.78107283882497,
+                        "width": 513.705464770932,
+                        "height": 288.95896273494594
+                    },
+                    "clipPath": "M 0 458.6 V 41.4 C 0 18.5 18.5 0 41.4 0 h 806 c 22.9 0 41.4 18.5 41.4 41.4 v 417.1 c 0 22.9 -18.5 41.4 -41.4 41.4 h -806 C 18.6 500 0 481.5 0 458.6 C 0 458.6 0 458.6 0 458.6 Z",
+                    "position": {
+                        "x": 21.37440758293844,
+                        "y": 430.8695404533589
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c17ca867-22d5-4b50-8061-ea569515b794": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/xqLlVks.jpeg",
+                        "thumb": "/images/xqLlVksm.jpeg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 888.8899999999996,
+                            "height": 1185.1866666666665
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": -573.8309153955626
+                        }
+                    },
+                    "scale": 0.577917925469892,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 25.260663507109,
+                        "y": 342.78107283882497,
+                        "width": 513.705464770932,
+                        "height": 288.95896273494594
+                    },
+                    "clipPath": "M 0 458.6 V 41.4 C 0 18.5 18.5 0 41.4 0 h 806 c 22.9 0 41.4 18.5 41.4 41.4 v 417.1 c 0 22.9 -18.5 41.4 -41.4 41.4 h -806 C 18.6 500 0 481.5 0 458.6 C 0 458.6 0 458.6 0 458.6 Z",
+                    "position": {
+                        "x": 563.7914691943129,
+                        "y": 431.8016099636274
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "40f1513d-b6a6-497a-a7ec-2b5e4b1101bb": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "/images/IHTcWOG.jpeg",
+                        "thumb": "/images/IHTcWOGm.jpeg",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 888.8899999999996,
+                            "height": 666.6674999999998
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "scale": 0.577917925469892,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 25.260663507109,
+                        "y": 342.78107283882497,
+                        "width": 513.705464770932,
+                        "height": 288.95896273494594
+                    },
+                    "clipPath": "M 0 458.6 V 41.4 C 0 18.5 18.5 0 41.4 0 h 806 c 22.9 0 41.4 18.5 41.4 41.4 v 417.1 c 0 22.9 -18.5 41.4 -41.4 41.4 h -806 C 18.6 500 0 481.5 0 458.6 C 0 458.6 0 458.6 0 458.6 Z",
+                    "position": {
+                        "x": 1107.5039494470773,
+                        "y": 432.733679473896
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c2943a39-90d9-4edb-9950-427ddbd3a65b": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Alatsi;text-transform: uppercase;font-size: 24px;color: rgb(84, 84, 84);line-height: 1.4;letter-spacing: 0em;\"><span style=\"color: rgb(84, 84, 84);\">NHA TRANG BEACH</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Alatsi",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Alatsi/Alatsi-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(84, 84, 84)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 581.6066350710901,
+                        "y": 115.34597156398104,
+                        "width": 857.1176935229068,
+                        "height": 34
+                    },
+                    "position": {
+                        "x": 387.86255924170615,
+                        "y": 210.48025276461317
+                    },
+                    "fontSizes": [
+                        24
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]

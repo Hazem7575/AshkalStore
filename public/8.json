@@ -1,0 +1,454 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "color": "rgb(5, 29, 64)",
+                    "image": null,
+                    "rotate": 0,
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [
+                    "f9f3bb74-377a-4c06-8949-9a37ec9c87f2",
+                    "aa1fc622-059d-4a80-bdd8-adf949deb6a7",
+                    "93996177-d255-42e5-998f-31596331207c",
+                    "75312777-1ff8-4e28-83d5-20d1ed442075",
+                    "a24df133-d804-4d7c-a9fb-2192c33de62b",
+                    "feea6a07-01a7-4c01-acdf-32075eca1433",
+                    "b432496d-3354-48a7-9694-0c0da05558db",
+                    "c50cb1b8-4a1b-4833-99a2-6fbf937a09c4"
+                ],
+                "parent": null
+            },
+            "f9f3bb74-377a-4c06-8949-9a37ec9c87f2": {
+                "type": {
+                    "resolvedName": "SvgLayer"
+                },
+                "props": {
+                    "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGhlaWdodD0iMTEyMC4wIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0IiB2ZXJzaW9uPSIxLjAiIHZpZXdCb3g9IjUxNy4xIDQ0MC43IDk2NS43IDExMjAuMCIgd2lkdGg9Ijk2NS43IiB6b29tQW5kUGFuPSJtYWduaWZ5Ij48Zz48ZyBpZD0iY2hhbmdlMV8xIj48cGF0aCBkPSJNIDEwNjcuNjcxODc1IDQ0MC43MTg3NSBDIDEwNzAuNjkxNDA2IDQ0MC43MTg3NSAxMDczLjczMDQ2OSA0NDEuMTc5Njg4IDEwNzYuNjc5Njg4IDQ0Mi4xMjEwOTQgTCAxNDYyIDU2NC43MTA5MzggQyAxNDc0LjM5MDYyNSA1NjguNjQ4NDM4IDE0ODIuNzg5MDYyIDU4MC4xOTE0MDYgMTQ4Mi43MTg3NSA1OTMuMTk5MjE5IEwgMTQ4MC43NjE3MTkgOTkzLjY3MTg3NSBDIDE0ODAuNzEwOTM4IDEwMDMuMTQwNjI1IDE0NzYuMTYwMTU2IDEwMTIuMDExNzE5IDE0NjguNTExNzE5IDEwMTcuNTc4MTI1IEMgMTQ2MC44NTE1NjIgMTAyMy4xNDg0MzggMTQ1MS4wMTE3MTkgMTAyNC43MzgyODEgMTQ0MS45ODgyODEgMTAyMS44NzEwOTQgTCAxMDU2LjY3OTY4OCA4OTkuMjgxMjUgQyAxMDQ0LjI4MTI1IDg5NS4zMzk4NDQgMTAzNS44Nzg5MDYgODgzLjc4OTA2MiAxMDM1Ljk0OTIxOSA4NzAuNzg5MDYyIEwgMTAzNy45MjE4NzUgNDcwLjMyMDMxMiBDIDEwMzcuOTYwOTM4IDQ2MC44NTE1NjIgMTA0Mi41MTE3MTkgNDUxLjk4MDQ2OSAxMDUwLjE2MDE1NiA0NDYuNDEwMTU2IEMgMTA1NS4zMDg1OTQgNDQyLjY2MDE1NiAxMDYxLjQ0OTIxOSA0NDAuNzE4NzUgMTA2Ny42NzE4NzUgNDQwLjcxODc1IiBmaWxsPSIjZmZjODAzIi8+PC9nPjxnIGlkPSJjaGFuZ2UyXzEiPjxwYXRoIGQ9Ik0gOTA0LjQ0OTIxOSA4NDkuMjEwOTM4IEwgOTAyLjc4OTA2MiA1MTEuMDc4MTI1IEwgNTc2Ljg3NSA2MTQuNzY5NTMxIEwgNTc4LjUzOTA2MiA5NTIuOTEwMTU2IFogTSA5MzIuMzM1OTM4IDQ0MC43MTg3NSBDIDkzOC41NDY4NzUgNDQwLjcxODc1IDk0NC42ODc1IDQ0Mi42NjAxNTYgOTQ5LjgzNTkzOCA0NDYuNDEwMTU2IEMgOTU3LjQ4ODI4MSA0NTEuOTgwNDY5IDk2Mi4wMzUxNTYgNDYwLjg1MTU2MiA5NjIuMDgyMDMxIDQ3MC4zMjAzMTIgTCA5NjQuMDUwNzgxIDg3MC43ODkwNjIgQyA5NjQuMTEzMjgxIDg4My43ODkwNjIgOTU1LjcxODc1IDg5NS4zMzk4NDQgOTQzLjMyNDIxOSA4OTkuMjgxMjUgTCA1NTguMDA3ODEyIDEwMjEuODcxMDk0IEMgNTQ4Ljk5MjE4OCAxMDI0LjczODI4MSA1MzkuMTQ0NTMxIDEwMjMuMTQ4NDM4IDUzMS40OTIxODggMTAxNy41NzgxMjUgQyA1MjMuODM5ODQ0IDEwMTIuMDExNzE5IDUxOS4yODkwNjIgMTAwMy4xMjg5MDYgNTE5LjI0NjA5NCA5OTMuNjcxODc1IEwgNTE3LjI3NzM0NCA1OTMuMTk5MjE5IEMgNTE3LjIxMDkzOCA1ODAuMTkxNDA2IDUyNS42MDU0NjkgNTY4LjY0ODQzOCA1MzguMDAzOTA2IDU2NC43MTA5MzggTCA5MjMuMzE2NDA2IDQ0Mi4xMjEwOTQgQyA5MjYuMjY5NTMxIDQ0MS4xNzk2ODggOTI5LjMwODU5NCA0NDAuNzE4NzUgOTMyLjMzNTkzOCA0NDAuNzE4NzUiIGZpbGw9IiMwNTg3ODkiLz48L2c+PGcgaWQ9ImNoYW5nZTJfMiI+PHBhdGggZD0iTSAxMDY3LjY3MTg3NSA5ODkuOTEwMTU2IEMgMTA3MC42OTE0MDYgOTg5LjkxMDE1NiAxMDczLjczMDQ2OSA5OTAuMzcxMDk0IDEwNzYuNjc5Njg4IDk5MS4zMDg1OTQgTCAxNDYyIDExMTMuOTEwMTU2IEMgMTQ3NC40NDkyMTkgMTExNy44NzEwOTQgMTQ4Mi44NTkzNzUgMTEyOS40ODgyODEgMTQ4Mi43MTg3NSAxMTQyLjU1ODU5NCBMIDE0ODAuNzUgMTMzNi4xOTkyMTkgQyAxNDgwLjY0MDYyNSAxMzQ3LjMyODEyNSAxNDc0LjMyMDMxMiAxMzU3LjQ2ODc1IDE0NjQuMzcxMDk0IDEzNjIuNDY4NzUgTCAxMDc5LjA1MDc4MSAxNTU2LjEyMTA5NCBDIDEwNjkuODA4NTk0IDE1NjAuNzYxNzE5IDEwNTguODIwMzEyIDE1NjAuMjY5NTMxIDEwNTAuMDMxMjUgMTU1NC44MjgxMjUgQyAxMDQxLjIzODI4MSAxNTQ5LjM3ODkwNiAxMDM1LjkxMDE1NiAxNTM5Ljc2MTcxOSAxMDM1Ljk0OTIxOSAxNTI5LjQyMTg3NSBMIDEwMzcuOTIxODc1IDEwMTkuNTUwNzgxIEMgMTAzNy45NDkyMTkgMTAxMC4wNzgxMjUgMTA0Mi41IDEwMDEuMTkxNDA2IDEwNTAuMTQ4NDM4IDk5NS42MDkzNzUgQyAxMDU1LjMwMDc4MSA5OTEuODU5Mzc1IDEwNjEuNDQ5MjE5IDk4OS45MTAxNTYgMTA2Ny42NzE4NzUgOTg5LjkxMDE1NiIgZmlsbD0iIzA1ODc4OSIvPjwvZz48ZyBpZD0iY2hhbmdlMV8yIj48cGF0aCBkPSJNIDkwNC4zNzEwOTQgMTQ4MS4xOTkyMTkgTCA5MDIuNzQ2MDk0IDEwNjAuMjg5MDYyIEwgNTc2Ljk4ODI4MSAxMTYzLjkyOTY4OCBMIDU3OC41NTA3ODEgMTMxNy40NjA5MzggWiBNIDkzMi4zMzIwMzEgOTg5LjkxMDE1NiBDIDkzOC41NTA3ODEgOTg5LjkxMDE1NiA5NDQuNjk1MzEyIDk5MS44NTkzNzUgOTQ5Ljg0NzY1NiA5OTUuNjA5Mzc1IEMgOTU3LjUwMzkwNiAxMDAxLjE5MTQwNiA5NjIuMDQ2ODc1IDEwMTAuMDc4MTI1IDk2Mi4wODIwMzEgMTAxOS41NTA3ODEgTCA5NjQuMDUwNzgxIDE1MjkuNDIxODc1IEMgOTY0LjA4OTg0NCAxNTM5Ljc2MTcxOSA5NTguNzU3ODEyIDE1NDkuMzc4OTA2IDk0OS45Njg3NSAxNTU0LjgyODEyNSBDIDk0MS4xNzU3ODEgMTU2MC4yNjk1MzEgOTMwLjE4NzUgMTU2MC43NjE3MTkgOTIwLjk0OTIxOSAxNTU2LjEyMTA5NCBMIDUzNS42MzI4MTIgMTM2Mi40Njg3NSBDIDUyNS42ODM1OTQgMTM1Ny40Njg3NSA1MTkuMzU5Mzc1IDEzNDcuMzI4MTI1IDUxOS4yNDYwOTQgMTMzNi4xOTkyMTkgTCA1MTcuMjc3MzQ0IDExNDIuNTU4NTk0IEMgNTE3LjE0NDUzMSAxMTI5LjQ4ODI4MSA1MjUuNTUwNzgxIDExMTcuODcxMDk0IDUzOC4wMDM5MDYgMTExMy45MTAxNTYgTCA5MjMuMzE2NDA2IDk5MS4zMDg1OTQgQyA5MjYuMjY5NTMxIDk5MC4zNzEwOTQgOTI5LjMwODU5NCA5ODkuOTEwMTU2IDkzMi4zMzIwMzEgOTg5LjkxMDE1NiIgZmlsbD0iI2ZmYzgwMyIvPjwvZz48L2c+PC9zdmc+",
+                    "scale": 0.3041651715223445,
+                    "colors": [
+                        "rgb(86, 174, 255)",
+                        "rgb(20, 93, 160)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 108.06427866519424,
+                        "y": 87.21874467083111,
+                        "width": 121.16457628239031,
+                        "height": 140.52430924332313
+                    },
+                    "position": {
+                        "x": 108.06427866519424,
+                        "y": 87.21874467083111
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "aa1fc622-059d-4a80-bdd8-adf949deb6a7": {
+                "type": {
+                    "resolvedName": "SvgLayer"
+                },
+                "props": {
+                    "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGhlaWdodD0iNDUwLjAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMjUuMCAyNS4wIDQ1MC4wIDQ1MC4wIiB3aWR0aD0iNDUwLjAiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxnPjxnIGlkPSJjaGFuZ2UxXzEiPjxwYXRoIGQ9Ik0zMi4zMiAzMi4zM0g2Ny42OFY2Ny42OUgzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDkuOTk4IDUwLjAxMikiLz48L2c+PGcgaWQ9ImNoYW5nZTFfMiI+PHBhdGggZD0iTTMyLjMyIDIzMi4zSDY3LjY4VjI2Ny42NkgzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDkuOTk1IDI0OS45NzYpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzgiPjxwYXRoIGQ9Ik0zMi4zMiA0MzIuM0g2Ny42OFY0NjcuNjZIMzIuMzJ6IiBmaWxsPSIjOTFEMEI3IiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUuMDAxIDQ5Ljk5MyA0NDkuOTc3KSIvPjwvZz48ZyBpZD0iY2hhbmdlMV80Ij48cGF0aCBkPSJNMTMyLjMyIDEzMi4yOEgxNjcuNjhWMTY3LjY0SDEzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMTUwIDE0OS45NjIpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzUiPjxwYXRoIGQ9Ik0xMzIuMzIgMzMyLjI2SDE2Ny42OFYzNjcuNjJIMTMyLjMyeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSAxNDkuOTk4IDM0OS45NCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfMTEiPjxwYXRoIGQ9Ik0yMzIuMzEgMzIuMzNIMjY3LjY3VjY3LjY5SDIzMi4zMXoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMjQ5Ljk5MSA1MC4wMTQpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzMiPjxwYXRoIGQ9Ik0yMzIuMzEgMjMyLjMxSDI2Ny42N1YyNjcuNjdIMjMyLjMxeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSAyNDkuOTg5IDI0OS45OTMpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzEzIj48cGF0aCBkPSJNMjMyLjMxIDQzMi4zMUgyNjcuNjdWNDY3LjY3SDIzMi4zMXoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMjQ5Ljk4NyA0NDkuOTk0KSIvPjwvZz48ZyBpZD0iY2hhbmdlMV83Ij48cGF0aCBkPSJNMzMyLjMyIDEzMi4zSDM2Ny42OFYxNjcuNjYwMDAwMDAwMDAwMDNIMzMyLjMyeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSAzNDkuOTk0IDE0OS45OCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfOSI+PHBhdGggZD0iTTMzMi4zMiAzMzIuMjdIMzY3LjY4VjM2Ny42M0gzMzIuMzJ6IiBmaWxsPSIjOTFEMEI3IiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUuMDAxIDM0OS45OTIgMzQ5Ljk1OCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfMTAiPjxwYXRoIGQ9Ik00MzIuMzIgMzIuMzNINDY3LjY4VjY3LjY5SDQzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDUwLjAwNCA1MC4wMTYpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzEyIj48cGF0aCBkPSJNNDMyLjMyIDIzMi4zSDQ2Ny42OFYyNjcuNjZINDMyLjMyeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSA0NTAuMDAxIDI0OS45OCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfNiI+PHBhdGggZD0iTTQzMi4zMiA0MzIuM0g0NjcuNjhWNDY3LjY2SDQzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDQ5Ljk5OSA0NDkuOTgyKSIvPjwvZz48L2c+PC9zdmc+",
+                    "scale": 0.7943798597167032,
+                    "colors": [
+                        "rgb(20, 93, 160)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -56.863725794092446,
+                        "y": 715.890204311309,
+                        "width": 367.0034951891169,
+                        "height": 367.0034951891169
+                    },
+                    "position": {
+                        "x": -51.86390975141439,
+                        "y": 687.5579134028001
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "93996177-d255-42e5-998f-31596331207c": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "scale": 0.8572406953109786,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 108.0642786651942,
+                        "y": 270.4943985263282,
+                        "width": 602.5345472125006,
+                        "height": 237.48146955056848
+                    },
+                    "position": {
+                        "x": 108.06427866519424,
+                        "y": 314.3283409035274
+                    }
+                },
+                "locked": false,
+                "child": [
+                    "27662b1f-3335-4279-9624-852244e06267",
+                    "af051939-2f02-4034-a3d9-28bf0aa443a1"
+                ],
+                "parent": "ROOT"
+            },
+            "27662b1f-3335-4279-9624-852244e06267": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">BUSINESS</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.6223908918406071,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 199.94792309122337,
+                        "y": 183.37544404968992,
+                        "width": 702.8767422128985,
+                        "height": 154.12713472485768
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "93996177-d255-42e5-998f-31596331207c"
+            },
+            "af051939-2f02-4034-a3d9-28bf0aa443a1": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Roboto;font-size: 68px;color: rgb(86, 174, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(86, 174, 255);\">PROJECT</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.6223908918406071,
+                    "colors": [
+                        "rgb(86, 174, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 199.94792309122337,
+                        "y": 183.37544404968992,
+                        "width": 702.8767422128985,
+                        "height": 154.12713472485768
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 122.90295828118894
+                    },
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "93996177-d255-42e5-998f-31596331207c"
+            },
+            "75312777-1ff8-4e28-83d5-20d1ed442075": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Roboto;font-size: 26px;color: rgb(86, 174, 255);line-height: 1.55;letter-spacing: 0em;\"><span style=\"color: rgb(86, 174, 255);\">LidoJS</span></p><p style=\"font-family: Roboto;font-size: 26px;color: rgb(86, 174, 255);line-height: 1.55;letter-spacing: 0em;\"><span style=\"color: rgb(86, 174, 255);\">Editor</span></p>",
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold_Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ],
+                                    "style": "Italic"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1.5356847160125846,
+                    "colors": [
+                        "rgb(86, 174, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 381.9445719104748,
+                        "y": 59.576419782604574,
+                        "width": 198.13470274808043,
+                        "height": 124.39046199701936
+                    },
+                    "position": {
+                        "x": 247.00009979925156,
+                        "y": 92.12581508041126
+                    },
+                    "fontSizes": [
+                        26
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "a24df133-d804-4d7c-a9fb-2192c33de62b": {
+                "type": {
+                    "resolvedName": "SvgLayer"
+                },
+                "props": {
+                    "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGhlaWdodD0iNDUwLjAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMjUuMCAyNS4wIDQ1MC4wIDQ1MC4wIiB3aWR0aD0iNDUwLjAiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxnPjxnIGlkPSJjaGFuZ2UxXzEiPjxwYXRoIGQ9Ik0zMi4zMiAzMi4zM0g2Ny42OFY2Ny42OUgzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDkuOTk4IDUwLjAxMikiLz48L2c+PGcgaWQ9ImNoYW5nZTFfMiI+PHBhdGggZD0iTTMyLjMyIDIzMi4zSDY3LjY4VjI2Ny42NkgzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDkuOTk1IDI0OS45NzYpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzgiPjxwYXRoIGQ9Ik0zMi4zMiA0MzIuM0g2Ny42OFY0NjcuNjZIMzIuMzJ6IiBmaWxsPSIjOTFEMEI3IiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUuMDAxIDQ5Ljk5MyA0NDkuOTc3KSIvPjwvZz48ZyBpZD0iY2hhbmdlMV80Ij48cGF0aCBkPSJNMTMyLjMyIDEzMi4yOEgxNjcuNjhWMTY3LjY0SDEzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMTUwIDE0OS45NjIpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzUiPjxwYXRoIGQ9Ik0xMzIuMzIgMzMyLjI2SDE2Ny42OFYzNjcuNjJIMTMyLjMyeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSAxNDkuOTk4IDM0OS45NCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfMTEiPjxwYXRoIGQ9Ik0yMzIuMzEgMzIuMzNIMjY3LjY3VjY3LjY5SDIzMi4zMXoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMjQ5Ljk5MSA1MC4wMTQpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzMiPjxwYXRoIGQ9Ik0yMzIuMzEgMjMyLjMxSDI2Ny42N1YyNjcuNjdIMjMyLjMxeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSAyNDkuOTg5IDI0OS45OTMpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzEzIj48cGF0aCBkPSJNMjMyLjMxIDQzMi4zMUgyNjcuNjdWNDY3LjY3SDIzMi4zMXoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgMjQ5Ljk4NyA0NDkuOTk0KSIvPjwvZz48ZyBpZD0iY2hhbmdlMV83Ij48cGF0aCBkPSJNMzMyLjMyIDEzMi4zSDM2Ny42OFYxNjcuNjYwMDAwMDAwMDAwMDNIMzMyLjMyeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSAzNDkuOTk0IDE0OS45OCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfOSI+PHBhdGggZD0iTTMzMi4zMiAzMzIuMjdIMzY3LjY4VjM2Ny42M0gzMzIuMzJ6IiBmaWxsPSIjOTFEMEI3IiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUuMDAxIDM0OS45OTIgMzQ5Ljk1OCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfMTAiPjxwYXRoIGQ9Ik00MzIuMzIgMzIuMzNINDY3LjY4VjY3LjY5SDQzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDUwLjAwNCA1MC4wMTYpIi8+PC9nPjxnIGlkPSJjaGFuZ2UxXzEyIj48cGF0aCBkPSJNNDMyLjMyIDIzMi4zSDQ2Ny42OFYyNjcuNjZINDMyLjMyeiIgZmlsbD0iIzkxRDBCNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTQ1LjAwMSA0NTAuMDAxIDI0OS45OCkiLz48L2c+PGcgaWQ9ImNoYW5nZTFfNiI+PHBhdGggZD0iTTQzMi4zMiA0MzIuM0g0NjcuNjhWNDY3LjY2SDQzMi4zMnoiIGZpbGw9IiM5MUQwQjciIHRyYW5zZm9ybT0icm90YXRlKC00NS4wMDEgNDQ5Ljk5OSA0NDkuOTgyKSIvPjwvZz48L2c+PC9zdmc+",
+                    "scale": 0.7943798597167032,
+                    "colors": [
+                        "rgb(20, 93, 160)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": -56.863725794092446,
+                        "y": 715.890204311309,
+                        "width": 367.0034951891169,
+                        "height": 367.0034951891169
+                    },
+                    "position": {
+                        "x": 974.81913795999,
+                        "y": -119.82042566124368
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "feea6a07-01a7-4c01-acdf-32075eca1433": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "color": "rgb(20, 93, 160)",
+                    "scale": 4.33125,
+                    "shape": "rectangle",
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 1443.038643834624,
+                        "y": -46.47418491958874,
+                        "width": 277.2,
+                        "height": 1015.506168968793
+                    },
+                    "position": {
+                        "x": 1439.7054331395054,
+                        "y": -46.47418491958874
+                    },
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "b432496d-3354-48a7-9694-0c0da05558db": {
+                "type": {
+                    "resolvedName": "FrameLayer"
+                },
+                "props": {
+                    "image": {
+                        "url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w1Mjc0OTN8MHwxfHNlYXJjaHw0MDJ8fHdvcmslMjB8ZW58MHx8fHwxNzI3NjE4MjQ4fDA&ixlib=rb-4.0.3&q=85",
+                        "thumb": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1Mjc0OTN8MHwxfHNlYXJjaHw0MDJ8fHdvcmslMjB8ZW58MHx8fHwxNzI3NjE4MjQ4fDA&ixlib=rb-4.0.3&q=80&w=200",
+                        "rotate": 0,
+                        "boxSize": {
+                            "width": 1216.6162890737023,
+                            "height": 810.9999999999999
+                        },
+                        "position": {
+                            "x": -314.88215076830534,
+                            "y": 0
+                        },
+                        "grayscale": 29
+                    },
+                    "scale": 0.9222209023506134,
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 986.4519024211988,
+                        "y": 92.12581508041124,
+                        "width": 625.2657717937158,
+                        "height": 747.9211518063472
+                    },
+                    "clipPath": "M678,807.8691820557106C678,810.481378149772 677.1592932111066,810.6615296045348 674.967450511492,810.6615296045348C450.00832558345513,810.6114875337673 225.05920906957178,810.6114875337673 0.1000841415349415,810.6114875337673C-0.22018511137679847,809.5205703910367 0.2802355962977952,808.529737389841 0.5104291218281082,807.5188875603384C10.39874230547808,763.2616801735973 20.297063903281543,719.0144812010097 30.21540232939199,674.7672822284221C44.35729152827601,611.684247818963 58.52920596962049,548.6112218236572 72.66108675435102,485.52818741419776C90.11576103804084,407.622691643417 107.53040166511671,329.7171958726363 124.97506753465306,251.82170851600904C142.6999690004872,172.6851778043488 160.43487888047477,93.55865550684206 178.20982241707634,14.432133209335298C179.29073114565347,9.618086001505707 179.9813117222444,4.693946237987705 181.73278419910548,0.04003365661398264C346.15101191266996,0.04003365661398264 510.5692396262345,0.04003365661398264 674.987467339799,-0.01000841415347673C677.2193436960277,-0.01000841415347673 677.9799831716931,0.2602187679908039 677.9799831716931,2.8123643771312317C677.9199326867721,271.1679730747088 677.9199326867721,539.5235817722864 678,807.8691820557106Z",
+                    "position": {
+                        "x": 953.0396613457896,
+                        "y": 103.64049319521102
+                    }
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "c50cb1b8-4a1b-4833-99a2-6fbf937a09c4": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"font-family: Abel;font-size: 26px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><em><span style=\"color: rgb(255, 255, 255);\">Developed by LidoJS</span></em></p>",
+                    "fonts": [
+                        {
+                            "name": "Abel",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Abel/Abel-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(255, 255, 255)"
+                    ],
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875,
+                        "width": 536.3009995574356,
+                        "height": 36
+                    },
+                    "position": {
+                        "x": 108.06427866519422,
+                        "y": 551.8098104540959
+                    },
+                    "fontSizes": [
+                        26
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            }
+        }
+    }
+]

@@ -1,0 +1,952 @@
+[
+    {
+        "layers": {
+            "ROOT": {
+                "type": {
+                    "resolvedName": "RootLayer"
+                },
+                "props": {
+                    "boxSize": {
+                        "width": 1640,
+                        "height": 924
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 255, 255)",
+                    "image": null
+                },
+                "locked": false,
+                "child": [
+                    "88c731da-3dea-4895-8d00-358f687ebf3c",
+                    "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+                ],
+                "parent": null
+            },
+            "88c731da-3dea-4895-8d00-358f687ebf3c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(0, 0, 0);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(0, 0, 0);\">Buy Now</span></strong></p>",
+                    "position": {
+                        "x": 533.851108462285,
+                        "y": 32.291451731761235
+                    },
+                    "boxSize": {
+                        "width": 536.3009995574356,
+                        "height": 95,
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875
+                    },
+                    "scale": 1,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "ec651e7f-3820-4106-9d81-cc40bfb7d3f6": {
+                "type": {
+                    "resolvedName": "GroupLayer"
+                },
+                "props": {
+                    "position": {
+                        "x": 222.37273397199706,
+                        "y": 179.6795136330139
+                    },
+                    "boxSize": {
+                        "width": 1159.2577485380116,
+                        "height": 460.3500000000001
+                    },
+                    "scale": 1,
+                    "rotate": 0
+                },
+                "locked": false,
+                "child": [
+                    "e31c931c-d910-4aba-8572-11e62127f93d",
+                    "d84faf0b-1ea8-4595-bc1c-1c00b1719903",
+                    "aa06ceb7-b076-4165-bcd3-376aa7871fe0",
+                    "8085e953-2cfe-4136-bf57-d8fdae85b7c5",
+                    "f5607313-81f6-4862-92a7-784a9db9be96",
+                    "605911fb-3ab8-45b5-84b4-473668d00e7b",
+                    "fdca807a-13bf-4ce1-93a1-cc1ea6fe0f3e",
+                    "31f3d8d5-b7ad-431d-827a-f0ae86e56a68",
+                    "6f5747fe-49f8-4a0b-9bed-330cd9827107",
+                    "54bf2a12-2ff6-49f8-8338-147e53709910",
+                    "f7672331-5ab5-409c-ab8b-e0d7120d3227",
+                    "033d58e7-2d76-4eb2-8601-331a21466b60",
+                    "040838d5-54b3-45dd-838f-d5e4ef06f3ff",
+                    "ea7df9c8-b94b-4d59-80e7-62d4b16df822",
+                    "24db7546-b050-4c3d-8692-439e95ef8fac",
+                    "d3901767-56e4-4a6a-9a46-51b809d60afd",
+                    "a10bf4b0-2da9-4675-aa73-9b2911ff6d40",
+                    "c3bb6ff8-9a87-4ea1-a02c-40de7221c860"
+                ],
+                "parent": "ROOT"
+            },
+            "e31c931c-d910-4aba-8572-11e62127f93d": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": -2.842170943040401e-14,
+                        "y": 61.10000000000008
+                    },
+                    "boxSize": {
+                        "width": 340.2,
+                        "height": 394.2,
+                        "x": 79.39999999999998,
+                        "y": 203.39999999999998
+                    },
+                    "rotate": 0,
+                    "color": "#5E6278",
+                    "scale": 6.159375
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "d84faf0b-1ea8-4595-bc1c-1c00b1719903": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "circle",
+                    "position": {
+                        "x": 108.99999999999989,
+                        "y": 2.842170943040401e-14
+                    },
+                    "boxSize": {
+                        "width": 122.20000000000013,
+                        "height": 122.20000000000013,
+                        "x": 437.4,
+                        "y": 156.39999999999998
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 145, 77)",
+                    "scale": 1.909375000000002,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "aa06ceb7-b076-4165-bcd3-376aa7871fe0": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">15</span></strong></p>",
+                    "position": {
+                        "x": 130.03059493948993,
+                        "y": 17.600000000000108
+                    },
+                    "boxSize": {
+                        "width": 80.13881012102007,
+                        "height": 87.00000000000001,
+                        "x": 551.8495002212821,
+                        "y": 414.5
+                    },
+                    "scale": 0.9157894736842107,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "8085e953-2cfe-4136-bf57-d8fdae85b7c5": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Oswald;font-size: 70.486px;color: rgb(40, 255, 13);line-height: 1.4;letter-spacing: NaNem;\"><strong><span style=\"color: rgb(40, 255, 13);\">WORKOUT</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(40, 255, 13)"
+                    ],
+                    "effect": {
+                        "name": "echo",
+                        "settings": {
+                            "color": "rgb(0, 87, 255)",
+                            "offset": 33,
+                            "direction": 53
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 443.23333333333323,
+                        "y": 348,
+                        "width": 341.3154970760235,
+                        "height": 99
+                    },
+                    "position": {
+                        "x": -2.842170943040401e-14,
+                        "y": 134.7000000000001
+                    },
+                    "fontSizes": [
+                        70.486
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "f5607313-81f6-4862-92a7-784a9db9be96": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 32.05774853801174,
+                        "y": 360.1000000000001
+                    },
+                    "boxSize": {
+                        "width": 277.2,
+                        "height": 62.19999999999999,
+                        "x": 681.4,
+                        "y": 314.4
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 145, 77)",
+                    "scale": 4.33125,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "605911fb-3ab8-45b5-84b4-473668d00e7b": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">Buy Now</span></strong></p>",
+                    "position": {
+                        "x": 50.949500221282165,
+                        "y": 370.09376024225384
+                    },
+                    "boxSize": {
+                        "width": 238.3009995574356,
+                        "height": 42.21247951549246,
+                        "x": 551.8495002212821,
+                        "y": 502.4999999999999
+                    },
+                    "scale": 0.44434188963676274,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "fdca807a-13bf-4ce1-93a1-cc1ea6fe0f3e": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 411.94225146198823,
+                        "y": 62.15000000000012
+                    },
+                    "boxSize": {
+                        "width": 340.2,
+                        "height": 394.2,
+                        "x": 79.39999999999998,
+                        "y": 203.39999999999998
+                    },
+                    "rotate": 0,
+                    "color": "#5E6278",
+                    "scale": 6.159375
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "31f3d8d5-b7ad-431d-827a-f0ae86e56a68": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "circle",
+                    "position": {
+                        "x": 520.9422514619881,
+                        "y": 1.0500000000000682
+                    },
+                    "boxSize": {
+                        "width": 122.20000000000013,
+                        "height": 122.20000000000013,
+                        "x": 437.4,
+                        "y": 156.39999999999998
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 145, 77)",
+                    "scale": 1.909375000000002,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "6f5747fe-49f8-4a0b-9bed-330cd9827107": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">15</span></strong></p>",
+                    "position": {
+                        "x": 541.9728464014783,
+                        "y": 18.650000000000148
+                    },
+                    "boxSize": {
+                        "width": 80.13881012102007,
+                        "height": 87.00000000000001,
+                        "x": 551.8495002212821,
+                        "y": 414.5
+                    },
+                    "scale": 0.9157894736842107,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "54bf2a12-2ff6-49f8-8338-147e53709910": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Oswald;font-size: 71.486px;color: rgb(40, 255, 13);line-height: 1.4;letter-spacing: NaNem;\"><strong><span style=\"color: rgb(40, 255, 13);\">WORKOUT</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(40, 255, 13)"
+                    ],
+                    "effect": {
+                        "name": "echo",
+                        "settings": {
+                            "color": "rgb(0, 87, 255)",
+                            "offset": 33,
+                            "direction": 53
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 443.23333333333323,
+                        "y": 348,
+                        "width": 341.3154970760235,
+                        "height": 100
+                    },
+                    "position": {
+                        "x": 411.94225146198823,
+                        "y": 139.75000000000017
+                    },
+                    "fontSizes": [
+                        71.486
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "f7672331-5ab5-409c-ab8b-e0d7120d3227": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 444,
+                        "y": 361.15000000000015
+                    },
+                    "boxSize": {
+                        "width": 277.2,
+                        "height": 62.19999999999999,
+                        "x": 681.4,
+                        "y": 314.4
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 145, 77)",
+                    "scale": 4.33125,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "033d58e7-2d76-4eb2-8601-331a21466b60": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">Buy Now</span></strong></p>",
+                    "position": {
+                        "x": 462.8917516832704,
+                        "y": 371.1437602422539
+                    },
+                    "boxSize": {
+                        "width": 238.3009995574356,
+                        "height": 42.21247951549246,
+                        "x": 551.8495002212821,
+                        "y": 502.4999999999999
+                    },
+                    "scale": 0.44434188963676274,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "040838d5-54b3-45dd-838f-d5e4ef06f3ff": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 817.9422514619882,
+                        "y": 66.15000000000012
+                    },
+                    "boxSize": {
+                        "width": 340.2,
+                        "height": 394.2,
+                        "x": 959.3422514619882,
+                        "y": 220.45000000000002
+                    },
+                    "rotate": 0,
+                    "color": "#5E6278",
+                    "scale": 6.159375
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "ea7df9c8-b94b-4d59-80e7-62d4b16df822": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "circle",
+                    "position": {
+                        "x": 926.9422514619881,
+                        "y": 5.050000000000068
+                    },
+                    "boxSize": {
+                        "width": 122.20000000000013,
+                        "height": 122.20000000000013,
+                        "x": 437.4,
+                        "y": 156.39999999999998
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 145, 77)",
+                    "scale": 1.909375000000002,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "24db7546-b050-4c3d-8692-439e95ef8fac": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">15</span></strong></p>",
+                    "position": {
+                        "x": 947.9728464014783,
+                        "y": 22.650000000000148
+                    },
+                    "boxSize": {
+                        "width": 80.13881012102007,
+                        "height": 87.00000000000001,
+                        "x": 551.8495002212821,
+                        "y": 414.5
+                    },
+                    "scale": 0.9157894736842107,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "d3901767-56e4-4a6a-9a46-51b809d60afd": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Oswald;font-size: 71.486px;color: rgb(40, 255, 13);line-height: 1.4;letter-spacing: NaNem;\"><strong><span style=\"color: rgb(40, 255, 13);\">WORKOUT</span></strong></p>",
+                    "fonts": [
+                        {
+                            "name": "Oswald",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Bold.woff2"
+                                    ],
+                                    "style": "Bold"
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Oswald/Oswald-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "scale": 1,
+                    "colors": [
+                        "rgb(40, 255, 13)"
+                    ],
+                    "effect": {
+                        "name": "echo",
+                        "settings": {
+                            "color": "rgb(0, 87, 255)",
+                            "offset": 33,
+                            "direction": 53
+                        }
+                    },
+                    "rotate": 0,
+                    "boxSize": {
+                        "x": 443.23333333333323,
+                        "y": 348,
+                        "width": 341.3154970760235,
+                        "height": 100
+                    },
+                    "position": {
+                        "x": 817.9422514619882,
+                        "y": 139.75000000000017
+                    },
+                    "fontSizes": [
+                        71.486
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "a10bf4b0-2da9-4675-aa73-9b2911ff6d40": {
+                "type": {
+                    "resolvedName": "ShapeLayer"
+                },
+                "props": {
+                    "shape": "rectangle",
+                    "position": {
+                        "x": 850,
+                        "y": 365.15000000000015
+                    },
+                    "boxSize": {
+                        "width": 277.2,
+                        "height": 62.19999999999999,
+                        "x": 681.4,
+                        "y": 314.4
+                    },
+                    "rotate": 0,
+                    "color": "rgb(255, 145, 77)",
+                    "scale": 4.33125,
+                    "gradientBackground": null
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            },
+            "c3bb6ff8-9a87-4ea1-a02c-40de7221c860": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Roboto;font-size: 68px;color: rgb(255, 255, 255);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 255, 255);\">Buy Now</span></strong></p>",
+                    "position": {
+                        "x": 868.8917516832704,
+                        "y": 375.1437602422539
+                    },
+                    "boxSize": {
+                        "width": 238.3009995574356,
+                        "height": 42.21247951549246,
+                        "x": 551.8495002212821,
+                        "y": 502.4999999999999
+                    },
+                    "scale": 0.44434188963676274,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Roboto",
+                            "fonts": [
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold_Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Bold",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Bold.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "style": "Italic",
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                },
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Roboto/Roboto-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 0, 0)",
+                        "rgb(255, 255, 255)"
+                    ],
+                    "fontSizes": [
+                        68
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ec651e7f-3820-4106-9d81-cc40bfb7d3f6"
+            }
+        }
+    }
+]

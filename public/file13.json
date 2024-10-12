@@ -308,7 +308,7 @@
                             "fonts": [
                                 {
                                     "urls": [
-                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/AnnieUseYourTelescope/AnnieUseYourTelescope-Regular.woff2"
+                                        "/fonts/AnnieUseYourTelescope-Regular.woff2"
                                     ]
                                 }
                             ]
@@ -349,7 +349,7 @@
                             "fonts": [
                                 {
                                     "urls": [
-                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Coiny/Coiny-Regular.woff2"
+                                        "/fonts/Coiny-Regular.woff2"
                                     ]
                                 }
                             ]

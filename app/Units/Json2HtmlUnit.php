@@ -2,9 +2,14 @@
 
 namespace App\Units;
 
+use App\Traits\RenderDomCss;
+use App\Traits\RenderDomFiles;
+use App\Traits\RenderDomFonts;
+use App\Traits\RenderDomJS;
 use App\Units\Helpers\RenderElement;
 use App\Units\Layers\FrameLayer;
 use App\Units\Layers\GroupLayer;
+use App\Units\Layers\ImageLayer;
 use App\Units\Layers\LineLayer;
 use App\Units\Layers\RootShape;
 use App\Units\Layers\ShapeLayer;
@@ -14,97 +19,116 @@ use App\Units\Styles\GridUnit;
 
 class Json2HtmlUnit
 {
-    public static $fonts = [];
+    use RenderDomFonts, RenderDomFiles, RenderDomCss, RenderDomJS;
+
+    public static $template;
+    public static $paths_dir;
+
+    public static $templete_css;
+    public static $size_layer;
+    public static $width_layers;
+
     public static function convert($json)
     {
+        self::$paths_dir = [
+            'path_css' => '/test/css/',
+            'path_js' => '/test/js/',
+            'path_font' => '/test/fonts',
+        ];
+
         $html = '';
         foreach ($json as $key => $value) {
 
             $first = $value['layers'];
             $root = $first['ROOT'];
+            self::$templete = $first;
+            self::getFonts()->getFontsUrl()->getRenderFonts()->render();
             $width = $root['props']['boxSize']['width'];
             $height = $root['props']['boxSize']['height'];
+            self::$size_layer = [
+                'width' => $width,
+                'height' => $height,
+            ];
             $html .= self::buildRoot($root, 'ROOT', $first);
         }
 
-        $html .= '<style>';
+        self::renderFileCss();
 
-        foreach (self::$fonts as $fontName => $fontVariants) {
-
-            foreach ($fontVariants as $variant) {
-                $html .= '@font-face {';
-                $html .= 'font-family: "' . $fontName . '"; ';
-                $html .= 'src: url("' . "https://corsproxy.io/?" . $variant['url'] . '"); ';
-                if (isset($variant['style'])) {
-                    if (strpos($variant['style'], 'Italic') !== false) {
-                        $html .= 'font-style: italic; ';
-                    } else {
-                        $html .= 'font-style: normal; ';
-                    }
-
-                    if (strpos($variant['style'], 'Bold') !== false) {
-                        $html .= 'font-weight: bold; ';
-                    } else {
-                        $html .= 'font-weight: normal; ';
-                    }
-                } else {
-                    $html .= 'font-style: normal; ';
-                    $html .= 'font-weight: normal; ';
-                }
-
-                $html .= '}';
-            }
-        }
-
-        $html .= '</style>';
-        return $html;
+        return [
+            'html' => $html,
+            'css' => self::getUrlCss(),
+            'js' => self::getUrlJs(),
+            'sizes' => self::$size_layer
+        ];
     }
-
-
 
 
     public static function buildRoot($child, $index, &$collection)
     {
-        $style = self::shaps($child,$collection);
+        $is_root = $child['type']['resolvedName'] == 'RootLayer';
+
+        $style = self::shaps($child, $collection);
 
         if (!isset($style['style'])) return '';
         $classes = 'layer-contianer ';
         $html = '<section class="' . $classes . '">';
-        $html .='<div style="'.$style['style']."    display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;". '">';
+
+        $class_name = self::css_name($style['style'] . "display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;z-index:2");
+
+        self::put_size($style['style'], $class_name, $child);
+
+
+
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
                 $html .= RenderElement::render($child);
             }
         }
 
+        $html .= '<div class="' . $class_name . '">';
         $check_if_have_child = collect($collection)->where('parent', '=', $index)->all();
 
         if ($check_if_have_child and count($check_if_have_child) > 0) {
             $zIndex = 1;
             // $zIndex = count($check_if_have_child);
             foreach ($check_if_have_child as $row => $child_sub) {
-                $html .= self::children($child_sub, $row, $collection,$zIndex);
-                $zIndex+=1;
+                $html .= self::children($child_sub, $row, $collection, $zIndex);
+                $zIndex += 1;
             }
         }
-        $html .='</div>';
+        $html .= '</div>';
 
         $html .= '</section>';
 
 
-
-
         return $html;
     }
-    public static function children($child, $index, &$collection,$zIndex)
+
+    public static function children($child, $index, &$collection, $zIndex)
     {
-        $style = self::shaps($child,$collection);
+
+
+        $style = self::shaps($child, $collection);
 
         if (!isset($style['style'])) return '';
 
-        $styleWithGridDiv = 'position: relative;z-index: '.$zIndex.';';
-        $html = '<div style="' . (isset($style['grid'])? $style['grid']:''). $styleWithGridDiv . '">';
-        $html .= '<div style="' . $style['style'] ."border: 1px solid;". '">';
+        $styleWithGridDiv = 'position: relative;z-index: ' . $zIndex . ';';
+        $style_1 = '';
+        if (isset($style['grid'])) {
+            $style_1 = $style['grid'];
+        }
+
+
+
+        $class_name = self::css_name($style_1 . $styleWithGridDiv);
+        $class_name2 = self::css_name($style['style'] . "");
+
+
+        self::put_size($style_1, $class_name, $child);
+        self::put_size($style['style'], $class_name2, $child);
+
+        $html = '<div class="' . $class_name . '">';
+        $html .= '<div class="' . $class_name2 . '">';
 
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
@@ -117,22 +141,19 @@ class Json2HtmlUnit
         if ($check_if_have_child and count($check_if_have_child) > 0) {
             $zIndex = 1;
             foreach ($check_if_have_child as $row => $child_sub) {
-                $html .= self::children($child_sub, $row, $collection,$zIndex);
-                $zIndex+=1;
+                $html .= self::children($child_sub, $row, $collection, $zIndex);
+                $zIndex += 1;
             }
         }
         $html .= '</div>';
         $html .= '</div>';
 
 
-
-
         return $html;
     }
 
 
-
-    public static function shaps($childElement,&$collection)
+    public static function shaps($childElement, &$collection)
     {
         $type = $childElement['type']['resolvedName'];
         $props = $childElement['props'];
@@ -157,24 +178,34 @@ class Json2HtmlUnit
         }
 
 
-        
         $style = match ($type) {
-            'RootLayer'  =>   RootShape::rander($props),
-            'ShapeLayer' =>   ShapeLayer::rander($props),
-            'FrameLayer' =>   FrameLayer::rander($props),
-            'TextLayer'  =>   TextLayer::rander($props),
-            'GroupLayer' =>   GroupLayer::rander($props),
-            'SvgLayer'  =>    SvgLayer::rander($props),
-            'ImageLayer' =>   FrameLayer::rander($props),
-            'LineLayer' =>   LineLayer::rander($props),
+            'RootLayer' => RootShape::rander($props),
+            'ShapeLayer' => ShapeLayer::rander($props),
+            'FrameLayer' => FrameLayer::rander($props),
+            'TextLayer' => TextLayer::rander($props),
+            'GroupLayer' => GroupLayer::rander($props),
+            'SvgLayer' => SvgLayer::rander($props),
+            'ImageLayer' => ImageLayer::rander($props),
+            'LineLayer' => LineLayer::rander($props),
             default => '',
         };
-        if(isset($childElement['child'])){
-            $style['style'] = $style['style'].GridUnit::rander($childElement,$collection);
+
+        if (isset($childElement['child'])) {
+            $style['style'] = $style['style'] . GridUnit::rander($childElement, $collection);
         }
+
         return $style;
     }
 
 
-    public function fonts() {}
+    public static function ImageStyleListen($styleImage , $element , $parent = null) {
+        $class_name = self::css_name($styleImage);
+        if(!isset($parent) or !isset($parent['clipPath'])) {
+            self::put_size($styleImage , $class_name , $element);
+        }
+
+        return [
+          'class' => $class_name
+        ];
+    }
 }

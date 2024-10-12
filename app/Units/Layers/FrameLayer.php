@@ -2,6 +2,7 @@
 
 namespace App\Units\Layers;
 
+use App\Units\Helpers\ImageFrameHelper;
 use App\Units\Helpers\ImageHelper;
 use App\Units\Styles\BoxSizeUnit;
 use App\Units\Styles\ClipPathUnit;
@@ -13,11 +14,10 @@ use App\Units\Styles\TransformUnit;
 
 class FrameLayer
 {
-    public static function rander($element)
+    public static function rander($element , $is_root = false)
     {
         $style = '';
 
-        $style = '';
 
         $data = [
             'children' => []
@@ -31,7 +31,7 @@ class FrameLayer
         $style .= OpacityUnit::rander($element);
 
         if (isset($element['image']['url'])) {
-            $data['children'][] = ImageHelper::getAttr($element['image']);
+            $data['children'][] = ImageFrameHelper::getAttr($element['image'] , $element , $is_root);
         }
 
         $data['style'] = $style;
