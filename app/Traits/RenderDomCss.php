@@ -156,64 +156,35 @@ trait RenderDomCss
     }
 
     public static function RenderMediaCss($style , $max = null) {
-//        if(in_array($max , ['375px' , '480px'])) {
-//            return self::MobileCss($style , $max);
-//        }
+        if(in_array($max , ['375px' , '480px'])) {
+            return self::MobileCss($style , $max);
+        }
         return $style;
     }
 
 
-    public static function MobileCss($style , $max) {
+    public static function MobileCss($style, $maxPercentage) {
         $styleArray = explode(';', $style);
+        $maxPercentage = str_replace('px', '', $maxPercentage);
         foreach ($styleArray as $key => $value) {
-
             $value = trim($value);
-            if (strpos($value, 'grid-template-columns:') !== false) {
-                $modifiedGridColumns = 'grid-template-columns: auto 100rem auto';
-                $styleArray[$key] = $modifiedGridColumns .' !important;';
+
+            if (preg_match('/(width|margin|padding|top|left|right|bottom):\s*(\d+)(px|rem)/', $value, $matches)) {
+
+                $property = $matches[1]; // الخاصية مثل width أو height
+                $originalValue = $matches[2]; // القيمة الأصلية
+                $unit = $matches[3]; // وحدة القياس مثل px أو rem
+
+                if($originalValue != 0) {
+                    $newValue = $maxPercentage / $originalValue;
+                    $newValue = $originalValue * $newValue;
+                    $styleArray[$key] = "$property: $newValue$unit !important;";
+                }
             }
-
-//            if (strpos($value, 'grid-template-rows:') !== false) {
-//                $columns_value = str_replace('grid-template-rows:' , '' , $value);
-//                $rowsArray = explode(' ', trim($columns_value));
-//                if (preg_match('/minmax\((\d*\.?\d*)rem,max-content\)/', $columns_value, $matches)) {
-//
-//                    $minValue = (float)$matches[1];
-//
-//                    $maxValue = 'max-content';
-//
-//                    if ($minValue * 16 > $max) {
-//                        $new_val = $max / 16;
-//                        $rowsArray[$key] = "minmax({$new_val}rem,$maxValue)";
-//                    }
-//                }
-//
-//                $modifiedGridColumns = 'grid-template-rows: ' . implode(' ' , $rowsArray);
-//                $styleArray[$key] = $modifiedGridColumns .' !important;';
-//            }
-
-//            if (strpos($value, 'grid-area:') !== false) {
-//                $columns_value = str_replace('grid-area:' , '' , $value);
-//                $explode = explode('/' , $columns_value);
-//                $explode[0] = $explode[0] + 1;
-//                $explode[1] = $explode[1] - 2;
-//                $explode[2] = $explode[2] + 1;
-//
-//                $modifiedGridColumns = 'grid-area: ' . implode(' / ' , $explode);
-//                $styleArray[$key] = $modifiedGridColumns .' !important;';
-//            }
-//            if (strpos($value, 'width:') !== false) {
-//                $columns_value = str_replace('width:' , '' , $value);
-//                $value_alone = trim(str_replace('px' , '' , $columns_value));
-//
-//                $modifiedGridColumns = 'width: ' . $max .' !important;';
-//                $styleArray[$key] = $modifiedGridColumns;
-//
-//
-//            }
         }
 
-        return implode(';' , $styleArray);
+        // إعادة دمج الخصائص المعدلة في نص CSS واحد
+        return implode(';', $styleArray);
     }
 
 

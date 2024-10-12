@@ -11,9 +11,8 @@ class IndexController extends Controller
 {
     public function index()
     {
-        $file = File::get(public_path('10.json'));
+        $file = File::get(public_path('4.json'));
         $json = json_decode($file, true);
-      //  dd((new ResponsiveUnit())->new_size($file , 400,1640));
         $html = Json2HtmlUnit::convert($json);
 
         return view('welcome', compact('html'));

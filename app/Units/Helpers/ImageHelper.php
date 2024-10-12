@@ -28,7 +28,7 @@ class ImageHelper
         $style_render = Json2HtmlUnit::ImageStyleListen($styleImage , $element, $parent);
 
         if($is_root) {
-            $styleImage .= 'width:100%';
+            $styleImage .= 'width:100%;position: absolute;';
 
         }
 
@@ -40,8 +40,10 @@ class ImageHelper
         }
 
 
+
         return [
             'type' => 'img',
+            'is_root' => $is_root,
             'parent' => [
                 'style' => $parent_style
             ],
@@ -69,7 +71,7 @@ class ImageHelper
             $attrs .= $key . '="' . htmlspecialchars($value, ENT_QUOTES) . '" ';
         }
         $html = '<img ' . trim($attrs) . '>';
-        if(isset($element['parent'])) {
+        if(isset($element['parent']) AND !$element['is_root']) {
             return '<div style="'. $element['parent']['style'] .'">' . $html . '</div>';
         }else{
             return  $html;
