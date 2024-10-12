@@ -15,7 +15,6 @@ trait RenderDomCss
             'max-width' => '375px',
             'propsName'=>'props_s_iphon',
             'maxWidth'=>375,
-
         ],
         [
             'min-width' => '375.05px',
@@ -136,33 +135,33 @@ trait RenderDomCss
 
             self::$render_css_collection .= $prefix . $key . '{' . $collect['props'] . '}';
         }
-        foreach (self::$mediaQuery as$key=> $mediaQuery) {
-            $html_media = '';
-            if(isset($mediaQuery['min-width'])) {
-                $html_media .= '(min-width: ' . $mediaQuery['min-width'] . ')';
-            }
-            if(isset($mediaQuery['max-width'])) {
-                if(isset($mediaQuery['min-width'])) {
-                    $html_media .= ' and ';
-                }
-                $html_media .= '(max-width: ' . $mediaQuery['max-width'] . ')';
-            }
+       foreach (self::$mediaQuery as$key=> $mediaQuery) {
+           $html_media = '';
+           if(isset($mediaQuery['min-width'])) {
+               $html_media .= '(min-width: ' . $mediaQuery['min-width'] . ')';
+           }
+           if(isset($mediaQuery['max-width'])) {
+               if(isset($mediaQuery['min-width'])) {
+                   $html_media .= ' and ';
+               }
+               $html_media .= '(max-width: ' . $mediaQuery['max-width'] . ')';
+           }
 
-            self::$render_css_collection .= '@media '. $html_media .' {';
-            if(is_array(self::$collection_css) AND count(self::$collection_css) > 0) {
-                foreach (self::$collection_css as $key => $collect) {
-                    $prefix = '.';
-                    if (!$collect['is_class']) {
-                        $prefix = '#';
-                    }
+           self::$render_css_collection .= '@media '. $html_media .' {';
+           if(is_array(self::$collection_css) AND count(self::$collection_css) > 0) {
+               foreach (self::$collection_css as $key => $collect) {
+                   $prefix = '.';
+                   if (!$collect['is_class']) {
+                       $prefix = '#';
+                   }
 
-                    self::$render_css_collection .= $prefix . $key . '{' . $collect[$mediaQuery['propsName']] . '}';
-                }
-            }
+                   self::$render_css_collection .= $prefix . $key . '{' . $collect[$mediaQuery['propsName']] . '}';
+               }
+           }
 
-            self::$render_css_collection .= '}';
+           self::$render_css_collection .= '}';
 
-        }
+       }
     }
 
 }

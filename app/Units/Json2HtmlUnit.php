@@ -163,8 +163,9 @@ class Json2HtmlUnit
     public static function shaps(&$childElement,&$collection,$propsName='props')
     {
 
+       
         $type = $childElement['type']['resolvedName'];
-
+        
         $props = $childElement[$propsName];
         //get fonts
         if ($type == 'TextLayer' and isset($props['fonts']) and count($props['fonts']) > 0) {

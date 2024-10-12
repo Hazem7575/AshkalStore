@@ -15,6 +15,7 @@ trait RenderDomJS
         preg_match('/grid-template-columns:\s*([^;]+);/', $style, $matches);
 
         $width = isset($width_matches[1]) ? $width_matches[1] : null;
+
         $height = isset($height_matches[1]) ? $height_matches[1] : null;
         $grid = isset($matches[1]) ? $matches[1] : null;
 
