@@ -13,22 +13,36 @@ trait RenderDomCss
     public static $mediaQuery = [
         [
             'max-width' => '375px',
+            'propsName'=>'props_s_iphon',
+            'maxWidth'=>375,
+
         ],
         [
             'min-width' => '375.05px',
             'max-width' => '480px',
+            'propsName'=>'props_iphon',
+            'maxWidth'=>480,
+
         ],
         [
             'min-width' => '480.05px',
             'max-width' => '768px',
+            'propsName'=>'props_mobile',
+            'maxWidth'=>1024,
+
         ],
         [
             'min-width' => '768.05px',
             'max-width' => '1024px',
+            'propsName'=>'props_tap',
+            'maxWidth'=>1024,
         ],
-        [
-            'min-width' => '1024.05px',
-        ]
+        // [
+        //     'min-width' => '1024.05px',
+        //     'propsName'=>'props',
+        //     'maxWidth'=>1024,
+
+        // ]
     ];
 
     public static function css_name($style, $prefix = null, $name = null, $is_class = true)
@@ -38,13 +52,13 @@ trait RenderDomCss
         }
 
         $name = $prefix . $name;
-
-
         self::$collection_css[$name] = [
             'is_class' => $is_class,
-            'style' => $style,
+            'props' => $style['props'],
         ];
-
+        foreach (self::$mediaQuery as  $media) {
+            self::$collection_css[$name][$media['propsName']] = $style[$media['propsName']];
+        }
         return $name;
     }
 
@@ -101,12 +115,7 @@ trait RenderDomCss
                         -o-user-drag: none;
                         user-drag: none;
                         -webkit-touch-callout: none;
-                    }
-
-
-
-
-                ';
+                    }';
 
     }
 
@@ -119,73 +128,41 @@ trait RenderDomCss
 
     public static function RenderCssMediaQuery()
     {
-       foreach (self::$mediaQuery as $mediaQuery) {
-           $html_media = '';
-           if(isset($mediaQuery['min-width'])) {
-               $html_media .= '(min-width: ' . $mediaQuery['min-width'] . ')';
-           }
-           if(isset($mediaQuery['max-width'])) {
-               if(isset($mediaQuery['min-width'])) {
-                   $html_media .= ' and ';
-               }
-               $html_media .= '(max-width: ' . $mediaQuery['max-width'] . ')';
-           }
-           self::$render_css_collection .= '@media '. $html_media .' {';
-           self::$render_css_collection .= self::ResponsiveCss($mediaQuery['min-width'] ?? null , $mediaQuery['max-width'] ?? null);
-           self::$render_css_collection .= '}';
-
-       }
-    }
-
-    public static function ResponsiveCss($min = null, $max = null)
-    {
-        $styles = '';
-        if(is_array(self::$collection_css) AND count(self::$collection_css) > 0) {
-            foreach (self::$collection_css as $key => $collect) {
-                $prefix = '.';
-                if (!$collect['is_class']) {
-                    $prefix = '#';
-                }
-
-                $style_media = self::RenderMediaCss($collect['style'] ,  $max);
-                $styles .= $prefix . $key . '{' . $style_media . '}';
+        foreach (self::$collection_css as $key => $collect) {
+            $prefix = '.';
+            if (!$collect['is_class']) {
+                $prefix = '#';
             }
+
+            self::$render_css_collection .= $prefix . $key . '{' . $collect['props'] . '}';
         }
+        foreach (self::$mediaQuery as$key=> $mediaQuery) {
+            $html_media = '';
+            if(isset($mediaQuery['min-width'])) {
+                $html_media .= '(min-width: ' . $mediaQuery['min-width'] . ')';
+            }
+            if(isset($mediaQuery['max-width'])) {
+                if(isset($mediaQuery['min-width'])) {
+                    $html_media .= ' and ';
+                }
+                $html_media .= '(max-width: ' . $mediaQuery['max-width'] . ')';
+            }
 
-        return $styles;
-    }
+            self::$render_css_collection .= '@media '. $html_media .' {';
+            if(is_array(self::$collection_css) AND count(self::$collection_css) > 0) {
+                foreach (self::$collection_css as $key => $collect) {
+                    $prefix = '.';
+                    if (!$collect['is_class']) {
+                        $prefix = '#';
+                    }
 
-    public static function RenderMediaCss($style , $max = null) {
-        if(in_array($max , ['375px' , '480px'])) {
-            return self::MobileCss($style , $max);
-        }
-        return $style;
-    }
-
-
-    public static function MobileCss($style, $maxPercentage) {
-        $styleArray = explode(';', $style);
-        $maxPercentage = str_replace('px', '', $maxPercentage);
-        foreach ($styleArray as $key => $value) {
-            $value = trim($value);
-
-            if (preg_match('/(width|margin|padding|top|left|right|bottom):\s*(\d+)(px|rem)/', $value, $matches)) {
-
-                $property = $matches[1]; // الخاصية مثل width أو height
-                $originalValue = $matches[2]; // القيمة الأصلية
-                $unit = $matches[3]; // وحدة القياس مثل px أو rem
-
-                if($originalValue != 0) {
-                    $newValue = $maxPercentage / $originalValue;
-                    $newValue = $originalValue * $newValue;
-                    $styleArray[$key] = "$property: $newValue$unit !important;";
+                    self::$render_css_collection .= $prefix . $key . '{' . $collect[$mediaQuery['propsName']] . '}';
                 }
             }
+
+            self::$render_css_collection .= '}';
+
         }
-
-        // إعادة دمج الخصائص المعدلة في نص CSS واحد
-        return implode(';', $styleArray);
     }
-
 
 }
