@@ -13,22 +13,36 @@ trait RenderDomCss
     public static $mediaQuery = [
         [
             'max-width' => '375px',
+            'propsName'=>'props_s_iphon',
+            'maxWidth'=>375,
+            
         ],
         [
             'min-width' => '375.05px',
             'max-width' => '480px',
+            'propsName'=>'props_iphon',
+            'maxWidth'=>480,
+
         ],
         [
             'min-width' => '480.05px',
             'max-width' => '768px',
+            'propsName'=>'props_mobile',
+            'maxWidth'=>1024,
+
         ],
         [
             'min-width' => '768.05px',
             'max-width' => '1024px',
+            'propsName'=>'props_tap',
+            'maxWidth'=>1024,
         ],
-        [
-            'min-width' => '1024.05px',
-        ]
+        // [
+        //     'min-width' => '1024.05px',
+        //     'propsName'=>'props',
+        //     'maxWidth'=>1024,
+
+        // ]
     ];
 
     public static function css_name($style, $prefix = null, $name = null, $is_class = true)
@@ -38,13 +52,13 @@ trait RenderDomCss
         }
 
         $name = $prefix . $name;
-
-
         self::$collection_css[$name] = [
             'is_class' => $is_class,
-            'style' => $style,
+            'props' => $style['props'],
         ];
-
+        foreach (self::$mediaQuery as  $media) {
+            self::$collection_css[$name][$media['propsName']] = $style[$media['propsName']];
+        }
         return $name;
     }
 
@@ -114,7 +128,15 @@ trait RenderDomCss
 
     public static function RenderCssMediaQuery()
     {
-       foreach (self::$mediaQuery as $mediaQuery) {
+        foreach (self::$collection_css as $key => $collect) {
+            $prefix = '.';
+            if (!$collect['is_class']) {
+                $prefix = '#';
+            }
+
+            self::$render_css_collection .= $prefix . $key . '{' . $collect['props'] . '}';
+        }
+       foreach (self::$mediaQuery as$key=> $mediaQuery) {
            $html_media = '';
            if(isset($mediaQuery['min-width'])) {
                $html_media .= '(min-width: ' . $mediaQuery['min-width'] . ')';
@@ -134,7 +156,7 @@ trait RenderDomCss
                        $prefix = '#';
                    }
 
-                   self::$render_css_collection .= $prefix . $key . '{' . $collect['style'] . '}';
+                   self::$render_css_collection .= $prefix . $key . '{' . $collect[$mediaQuery['propsName']] . '}';
                }
            }
 

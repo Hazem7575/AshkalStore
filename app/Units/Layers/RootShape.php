@@ -15,7 +15,7 @@ class RootShape
         $data = [
             'children' => []
         ];
-
+        
         $style = '';
         $style .= BoxSizeUnit::rander($element['boxSize']);
         $style .= PositionUnit::rander($element['position']);

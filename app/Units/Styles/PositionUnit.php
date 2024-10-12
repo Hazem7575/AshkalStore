@@ -21,7 +21,7 @@ class PositionUnit
             }
             // $style .= 'top: ' . $props['y'] . 'px; ';
         }
-        $style .= 'position: absolute;';
+        // $style .= 'position: absolute;';
         return $style;
     }
 }

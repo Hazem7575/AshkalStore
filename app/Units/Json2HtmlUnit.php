@@ -64,14 +64,20 @@ class Json2HtmlUnit
 
     public static function buildRoot($child, $index, &$collection)
     {
-        $style = self::shaps($child,$collection);
+        $style = [];
+        $style['props'] = self::shaps($child,$collection);
+        $mediaStyle = [];
+        $mediaStyle['props'] = $style['props']['style']."display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;".$child['props']['grid_template'];
+        foreach (self::$mediaQuery as $key => $media) {
+            $style[$media['propsName']] = self::shaps($child,$collection,$media['propsName']);
+            $mediaStyle[$media['propsName']] = $style[$media['propsName']]['style']."display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;".$child[$media['propsName']]['grid_template'];
+        }
 
-        if (!isset($style['style'])) return '';
+        // if (!isset($style['style'])) return '';
         $classes = 'layer-contianer ';
         $html = '<section class="' . $classes . '">';
-        $class_name = self::css_name($style['style']."display: grid;position: relative;grid-area: 1 / 2 / 2 / 3;");
-
-        self::put_size($style['style'] , $class_name , $child);
+        $class_name = self::css_name($mediaStyle);
+        // self::put_size($style['style'] , $class_name , $child);
         $html .='<div class="'. $class_name .'">';
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
@@ -100,28 +106,34 @@ class Json2HtmlUnit
     }
     public static function children($child, $index, &$collection,$zIndex)
     {
-        $style = self::shaps($child,$collection);
-
-        if (!isset($style['style'])) return '';
-
-        $styleWithGridDiv = 'position: relative;z-index: '.$zIndex.';';
-        $style_1 = '';
-        if(isset($style['grid'])) {
-            $style_1 = $style['grid'];
+        $mediaCollectionStyle=[];
+        //for props
+        $mediaCollectionStyle['props'] = self::shaps($child,$collection);
+        foreach (self::$mediaQuery as $key => $media) {
+            $mediaCollectionStyle[$media['propsName']] = self::shaps($child,$collection,$media['propsName']);
         }
+        // if (!isset($style['style'])) return '';
+
+        $mediaStyleGrid=[];
+        $meidaStyleDiv=[];
+        $styleWithGridDiv = 'position: relative;z-index: '.$zIndex.';';
+        foreach ($mediaCollectionStyle as $mediaKey => $style) {
+            if(isset($style['grid'])) {
+                $mediaStyleGrid[$mediaKey] = $style['grid'].' '.$styleWithGridDiv;
+            }
+            $meidaStyleDiv[$mediaKey]=$style['style'];
+        }
+        $class_name = self::css_name($mediaStyleGrid);
+        $class_name2 = self::css_name($meidaStyleDiv);
 
 
-        $class_name = self::css_name($style_1. $styleWithGridDiv);
-        $class_name2 = self::css_name($style['style'] ."border: 1px solid;");
+        // self::put_size($style_1 , $class_name , $child);
 
+        // self::put_size($style['style'] , $class_name2 , $child);
 
-        self::put_size($style_1 , $class_name , $child);
-
-        self::put_size($style['style'] , $class_name2 , $child);
 
         $html = '<div class="'. $class_name .'">';
         $html .= '<div class="'. $class_name2 .'">';
-
         if (isset($style['children']) and is_array($style['children']) and count($style['children']) > 0) {
             foreach ($style['children'] as $child) {
                 $html .= RenderElement::render($child);
@@ -148,10 +160,12 @@ class Json2HtmlUnit
 
 
 
-    public static function shaps($childElement,&$collection)
+    public static function shaps(&$childElement,&$collection,$propsName='props')
     {
+       
         $type = $childElement['type']['resolvedName'];
-        $props = $childElement['props'];
+        
+        $props = $childElement[$propsName];
         //get fonts
         if ($type == 'TextLayer' and isset($props['fonts']) and count($props['fonts']) > 0) {
             foreach ($props['fonts'] as $font) {
@@ -185,9 +199,9 @@ class Json2HtmlUnit
             'LineLayer' =>   LineLayer::rander($props),
             default => '',
         };
-        if(isset($childElement['child'])){
-
+        if(isset($childElement['child'])&&!isset($childElement['props']['grid_template'])){
             $style['style'] = $style['style'].GridUnit::rander($childElement,$collection);
+                        
         }
         return $style;
     }

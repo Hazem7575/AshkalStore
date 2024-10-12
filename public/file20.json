@@ -7,7 +7,7 @@
                 },
                 "props": {
                     "boxSize": {
-                        "width": 786,
+                        "width": 1640,
                         "height": 924
                     },
                     "position": {
@@ -20,22 +20,66 @@
                 },
                 "locked": false,
                 "child": [
-                    "dbbf49c0-7227-464b-9475-936079f7625b",
-                    "92f8d571-a4fb-4b22-85d9-32c71e674b47",
-                    "04149511-0329-4b9d-bc2f-0669565faed9",
-                    "b6b9dc39-40b1-4af1-8f15-ad44fb8f2638"
+                    "e5f211e7-5084-4e34-a527-d05e3125b38c",
+                    "4e8d2a5e-a013-42c3-8cfa-effdf1e12c65",
+                    "126f78d5-1b25-4b91-9eaa-2e2060ef5d76",
+                    "6fb18bb2-320b-4af3-b67a-8a1f80a022bf",
+                    "5f4f6c77-43e9-4bdc-865b-f458691f9fc9",
+                    "38e0c425-b735-4320-9613-58c44a3dff24"
                 ],
                 "parent": null
             },
-            "dbbf49c0-7227-464b-9475-936079f7625b": {
+            "e5f211e7-5084-4e34-a527-d05e3125b38c": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;font-size: 42px;color: rgb(0, 151, 178);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(0, 151, 178);\">Blue 2</span></strong></p>",
+                    "position": {
+                        "x": 554.6080554779551,
+                        "y": 33.033345633217486
+                    },
+                    "boxSize": {
+                        "width": 536.3009995574356,
+                        "height": 98.32149307645994,
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875
+                    },
+                    "scale": 1.6664659843467788,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(0, 151, 178)"
+                    ],
+                    "fontSizes": [
+                        42
+                    ]
+                },
+               
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "4e8d2a5e-a013-42c3-8cfa-effdf1e12c65": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
                     "text": "<p style=\"font-family: Oswald; color: rgb(0, 0, 0); font-size: 18px; text-transform: uppercase; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>DEVELOPED WITH REACTJS</strong></p>",
                     "position": {
-                        "x": 660.2715231788078,
-                        "y": 440.2251655629139
+                        "x": 680.6189177197507,
+                        "y": 519.5800042725913
                     },
                     "boxSize": {
                         "width": 261.91666666666606,
@@ -75,21 +119,21 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "92f8d571-a4fb-4b22-85d9-32c71e674b47": {
+            "126f78d5-1b25-4b91-9eaa-2e2060ef5d76": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
-                    "text": "<p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0em;\"><strong>LIQUID</strong></p><p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>DESIGN EDITOR</strong></p>",
+                    "text": "<p style=\"text-align: center;font-family: Chewy;font-size: 42px;color: rgb(255, 49, 49);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(255, 49, 49);\">RED 1</span></strong></p>",
                     "position": {
-                        "x": 64.23584704123047,
-                        "y": 214.07845732562674
+                        "x": 44.182006424756096,
+                        "y": 33.03334563321749
                     },
                     "boxSize": {
                         "width": 536.3009995574356,
-                        "height": 196.6429861529199,
-                        "x": 523.1390728476821,
-                        "y": 259.9867549668875
+                        "height": 98.32149307645994,
+                        "x": 44.182006424756096,
+                        "y": 33.03334563321749
                     },
                     "scale": 1.6664659843467788,
                     "rotate": 0,
@@ -106,7 +150,7 @@
                         }
                     ],
                     "colors": [
-                        "rgb(0, 0, 0)"
+                        "rgb(255, 49, 49)"
                     ],
                     "fontSizes": [
                         42
@@ -116,19 +160,19 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "04149511-0329-4b9d-bc2f-0669565faed9": {
+            "6fb18bb2-320b-4af3-b67a-8a1f80a022bf": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
-                    "text": "<p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0em;\"><strong>LIQUID</strong></p><p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>DESIGN EDITOR</strong></p>",
+                    "text": "<p style=\"text-align: center;font-family: Chewy;font-size: 42px;color: rgb(0, 191, 98);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(0, 191, 98);\">Green 3</span></strong></p>",
                     "position": {
-                        "x": 614.9264232982052,
-                        "y": 214.07845732562674
+                        "x": 1061.5517334719025,
+                        "y": 33.03334563321749
                     },
                     "boxSize": {
                         "width": 536.3009995574356,
-                        "height": 196.6429861529199,
+                        "height": 98.32149307645994,
                         "x": 523.1390728476821,
                         "y": 259.9867549668875
                     },
@@ -147,7 +191,7 @@
                         }
                     ],
                     "colors": [
-                        "rgb(0, 0, 0)"
+                        "rgb(0, 191, 98)"
                     ],
                     "fontSizes": [
                         42
@@ -157,19 +201,19 @@
                 "child": [],
                 "parent": "ROOT"
             },
-            "b6b9dc39-40b1-4af1-8f15-ad44fb8f2638": {
+            "5f4f6c77-43e9-4bdc-865b-f458691f9fc9": {
                 "type": {
                     "resolvedName": "TextLayer"
                 },
                 "props": {
-                    "text": "<p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0em;\"><strong>LIQUID</strong></p><p style=\"font-family: Chewy; color: rgb(0, 0, 0); font-size: 42px; text-align: center; line-height: 1.4; letter-spacing: 0;\"><strong>DESIGN EDITOR</strong></p>",
+                    "text": "<p style=\"text-align: center;font-family: Chewy;font-size: 42px;color: rgb(84, 84, 84);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(84, 84, 84);\">Gray 4</span></strong></p>",
                     "position": {
-                        "x": 1120.559177640637,
-                        "y": 214.07845732562672
+                        "x": 44.18200642475608,
+                        "y": 256.082179409994
                     },
                     "boxSize": {
                         "width": 536.3009995574356,
-                        "height": 196.6429861529199,
+                        "height": 98.32149307645994,
                         "x": 523.1390728476821,
                         "y": 259.9867549668875
                     },
@@ -188,7 +232,48 @@
                         }
                     ],
                     "colors": [
-                        "rgb(0, 0, 0)"
+                        "rgb(84, 84, 84)"
+                    ],
+                    "fontSizes": [
+                        42
+                    ]
+                },
+                "locked": false,
+                "child": [],
+                "parent": "ROOT"
+            },
+            "38e0c425-b735-4320-9613-58c44a3dff24": {
+                "type": {
+                    "resolvedName": "TextLayer"
+                },
+                "props": {
+                    "text": "<p style=\"text-align: center;font-family: Chewy;font-size: 42px;color: rgb(84, 84, 84);line-height: 1.4;letter-spacing: 0em;\"><strong><span style=\"color: rgb(84, 84, 84);\">Gray 5</span></strong></p>",
+                    "position": {
+                        "x": 1079.482254563714,
+                        "y": 256.082179409994
+                    },
+                    "boxSize": {
+                        "width": 536.3009995574356,
+                        "height": 98.32149307645994,
+                        "x": 523.1390728476821,
+                        "y": 259.9867549668875
+                    },
+                    "scale": 1.6664659843467788,
+                    "rotate": 0,
+                    "fonts": [
+                        {
+                            "name": "Chewy",
+                            "fonts": [
+                                {
+                                    "urls": [
+                                        "https://lidojs-fonts.s3.us-east-2.amazonaws.com/Chewy/Chewy-Regular.woff2"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "colors": [
+                        "rgb(84, 84, 84)"
                     ],
                     "fontSizes": [
                         42
